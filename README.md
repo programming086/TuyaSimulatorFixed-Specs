@@ -37,6 +37,10 @@ Then run:
 pod install
 ```
 
+## Swift Package Manager
+
+Prefer SPM? Check out: https://github.com/programming086/TuyaSimulatorFixed-SPM
+
 ## Repository Structure
 
 ```
