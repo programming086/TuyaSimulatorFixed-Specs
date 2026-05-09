@@ -8,8 +8,8 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "git": "https://github.com/programming086/TuyaSimulatorFixed-Binaries.git",
-    "tag": "TRCTCameraViewMotionManager-1.0.3-anonymize.3"
+    "http": "https://github.com/programming086/TuyaSimulatorFixed-Binaries/releases/download/TRCTCameraViewMotionManager-1.0.3-anonymize.3/TRCTCameraViewMotionManager.xcframework.zip",
+    "type": "zip"
   },
   "platforms": {
     "ios": "9.0"

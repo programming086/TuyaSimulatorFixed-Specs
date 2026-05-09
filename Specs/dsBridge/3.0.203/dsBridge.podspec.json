@@ -12,8 +12,8 @@
     "ios": "8.0"
   },
   "source": {
-    "git": "https://github.com/programming086/TuyaSimulatorFixed-Binaries.git",
-    "tag": "dsBridge-3.0.203"
+    "http": "https://github.com/programming086/TuyaSimulatorFixed-Binaries/releases/download/dsBridge-3.0.203/dsBridge.xcframework.zip",
+    "type": "zip"
   },
   "summary": "An ios bridge for calling functions synchronously and asynchronously between JavaScript and Object-C in WKWebView/UIWebView",
   "vendored_frameworks": [

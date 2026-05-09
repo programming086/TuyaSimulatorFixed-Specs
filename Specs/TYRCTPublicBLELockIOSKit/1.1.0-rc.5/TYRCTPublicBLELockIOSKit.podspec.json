@@ -32,8 +32,8 @@
   },
   "prefix_header_file": "TYRCTPublicBLELockIOSKit/Classes/TYRCTPublicBLELockIOSKitPrefix.pch",
   "source": {
-    "git": "https://github.com/programming086/TuyaSimulatorFixed-Binaries.git",
-    "tag": "TYRCTPublicBLELockIOSKit-1.1.0-rc.5"
+    "http": "https://github.com/programming086/TuyaSimulatorFixed-Binaries/releases/download/TYRCTPublicBLELockIOSKit-1.1.0-rc.5/TYRCTPublicBLELockIOSKit.xcframework.zip",
+    "type": "zip"
   },
   "summary": "A short description of TYRCTPublicBLELockIOSKit.",
   "user_target_xcconfig": {

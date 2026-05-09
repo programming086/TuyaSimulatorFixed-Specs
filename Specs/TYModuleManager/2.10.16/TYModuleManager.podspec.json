@@ -21,8 +21,8 @@
     "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
   },
   "source": {
-    "git": "https://github.com/programming086/TuyaSimulatorFixed-Binaries.git",
-    "tag": "TYModuleManager-2.10.16"
+    "http": "https://github.com/programming086/TuyaSimulatorFixed-Binaries/releases/download/TYModuleManager-2.10.16/TYModuleManager.xcframework.zip",
+    "type": "zip"
   },
   "summary": "A Module Manager From Tuya",
   "user_target_xcconfig": {

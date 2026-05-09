@@ -26,8 +26,8 @@
     "Build/GZLMiniAppTab_iOS.xcframework/ios-arm64/GZLMiniAppTab_iOS.framework/CustomResources/Bundles/*"
   ],
   "source": {
-    "git": "https://github.com/programming086/TuyaSimulatorFixed-Binaries.git",
-    "tag": "GZLMiniAppTab_iOS-3.10.1"
+    "http": "https://github.com/programming086/TuyaSimulatorFixed-Binaries/releases/download/GZLMiniAppTab_iOS-3.10.1/GZLMiniAppTab_iOS.xcframework.zip",
+    "type": "zip"
   },
   "summary": "A short description of GZLMiniAppTab_iOS.",
   "vendored_frameworks": [

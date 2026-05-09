@@ -13,8 +13,8 @@
     "watchos": "2.0"
   },
   "source": {
-    "git": "https://github.com/programming086/TuyaSimulatorFixed-Binaries.git",
-    "tag": "MMKVCore-101.2.14.1"
+    "http": "https://github.com/programming086/TuyaSimulatorFixed-Binaries/releases/download/MMKVCore-101.2.14.1/MMKVCore.xcframework.zip",
+    "type": "zip"
   },
   "compiler_flags": "-x objective-c++",
   "requires_arc": [

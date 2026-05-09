@@ -23,8 +23,8 @@
   },
   "pod_target_xcconfig": {},
   "source": {
-    "git": "https://github.com/programming086/TuyaSimulatorFixed-Binaries.git",
-    "tag": "ThingFoundationKit-1.18.12-opensetting.1"
+    "http": "https://github.com/programming086/TuyaSimulatorFixed-Binaries/releases/download/ThingFoundationKit-1.18.12-opensetting.1/ThingFoundationKit.xcframework.zip",
+    "type": "zip"
   },
   "summary": "A FoundationKit Powered By ThingInc",
   "vendored_frameworks": [

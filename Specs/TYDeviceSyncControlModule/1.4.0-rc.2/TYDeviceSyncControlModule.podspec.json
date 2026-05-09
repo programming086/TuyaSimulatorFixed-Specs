@@ -24,8 +24,8 @@
     "ios": "9.0"
   },
   "source": {
-    "git": "https://github.com/programming086/TuyaSimulatorFixed-Binaries.git",
-    "tag": "TYDeviceSyncControlModule-1.4.0-rc.2"
+    "http": "https://github.com/programming086/TuyaSimulatorFixed-Binaries/releases/download/TYDeviceSyncControlModule-1.4.0-rc.2/TYDeviceSyncControlModule.xcframework.zip",
+    "type": "zip"
   },
   "summary": "A short description of TYDeviceSyncControlModule.",
   "vendored_frameworks": [

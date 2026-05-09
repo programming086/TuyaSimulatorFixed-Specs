@@ -15,8 +15,8 @@
     "ios": "9.0"
   },
   "source": {
-    "git": "https://github.com/programming086/TuyaSimulatorFixed-Binaries.git",
-    "tag": "TYRCTBluetoothUtilManager-1.1.8"
+    "http": "https://github.com/programming086/TuyaSimulatorFixed-Binaries/releases/download/TYRCTBluetoothUtilManager-1.1.8/TYRCTBluetoothUtilManager.xcframework.zip",
+    "type": "zip"
   },
   "summary": "A short description of TYRCTBluetoothUtilManager.",
   "vendored_frameworks": [

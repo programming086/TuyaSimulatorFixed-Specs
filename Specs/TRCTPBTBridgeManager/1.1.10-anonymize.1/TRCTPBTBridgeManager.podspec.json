@@ -21,8 +21,8 @@
     "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
   },
   "source": {
-    "git": "https://github.com/programming086/TuyaSimulatorFixed-Binaries.git",
-    "tag": "TRCTPBTBridgeManager-1.1.10-anonymize.1"
+    "http": "https://github.com/programming086/TuyaSimulatorFixed-Binaries/releases/download/TRCTPBTBridgeManager-1.1.10-anonymize.1/TRCTPBTBridgeManager.xcframework.zip",
+    "type": "zip"
   },
   "summary": "A short description of TRCTPBTBridgeManager.",
   "user_target_xcconfig": {

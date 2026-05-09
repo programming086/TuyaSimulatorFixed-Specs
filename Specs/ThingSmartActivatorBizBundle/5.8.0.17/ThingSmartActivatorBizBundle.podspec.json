@@ -394,8 +394,8 @@
     "ThingSmartActivatorBizBundle": "ThingSmartActivatorBizBundle/Assets/**/*"
   },
   "source": {
-    "git": "https://github.com/programming086/TuyaSimulatorFixed-Binaries.git",
-    "tag": "ThingSmartActivatorBizBundle-5.8.0.17"
+    "http": "https://github.com/programming086/TuyaSimulatorFixed-Binaries/releases/download/ThingSmartActivatorBizBundle-5.8.0.17/ThingSmartActivatorBizBundle.xcframework.zip",
+    "type": "zip"
   },
   "summary": "A short description of ThingSmartActivatorBizBundle.",
   "vendored_frameworks": [

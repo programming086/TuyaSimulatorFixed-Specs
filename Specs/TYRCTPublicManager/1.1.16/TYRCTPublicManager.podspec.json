@@ -27,8 +27,8 @@
     "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
   },
   "source": {
-    "git": "https://github.com/programming086/TuyaSimulatorFixed-Binaries.git",
-    "tag": "TYRCTPublicManager-1.1.16"
+    "http": "https://github.com/programming086/TuyaSimulatorFixed-Binaries/releases/download/TYRCTPublicManager-1.1.16/TYRCTPublicManager.xcframework.zip",
+    "type": "zip"
   },
   "summary": "A short description of TYRCTPublicManager.",
   "user_target_xcconfig": {

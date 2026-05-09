@@ -214,8 +214,8 @@
     ]
   },
   "source": {
-    "git": "https://github.com/programming086/TuyaSimulatorFixed-Binaries.git",
-    "tag": "TuyaSmartMessageBizBundle-4.0.0.11"
+    "http": "https://github.com/programming086/TuyaSimulatorFixed-Binaries/releases/download/TuyaSmartMessageBizBundle-4.0.0.11/TuyaSmartMessageBizBundle.xcframework.zip",
+    "type": "zip"
   },
   "summary": "A short description of TuyaSmartMessageBizBundle.",
   "user_target_xcconfig": {

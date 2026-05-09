@@ -8,8 +8,8 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "git": "https://github.com/programming086/TuyaSimulatorFixed-Binaries.git",
-    "tag": "GodzillaMiniRatePlugin-1.0.1"
+    "http": "https://github.com/programming086/TuyaSimulatorFixed-Binaries/releases/download/GodzillaMiniRatePlugin-1.0.1/GodzillaMiniRatePlugin.xcframework.zip",
+    "type": "zip"
   },
   "platforms": {
     "ios": "11.0"

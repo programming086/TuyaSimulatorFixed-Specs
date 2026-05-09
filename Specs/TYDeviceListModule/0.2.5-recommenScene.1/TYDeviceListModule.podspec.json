@@ -58,8 +58,8 @@
     "TYDeviceListModule/Assets/*.{png,xib,plist,xcassets,bundle}"
   ],
   "source": {
-    "git": "https://github.com/programming086/TuyaSimulatorFixed-Binaries.git",
-    "tag": "TYDeviceListModule-0.2.5-recommenScene.1"
+    "http": "https://github.com/programming086/TuyaSimulatorFixed-Binaries/releases/download/TYDeviceListModule-0.2.5-recommenScene.1/TYDeviceListModule.xcframework.zip",
+    "type": "zip"
   },
   "summary": "\u8bbe\u5907\u5217\u8868",
   "user_target_xcconfig": {

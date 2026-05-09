@@ -8,8 +8,8 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "git": "https://github.com/programming086/TuyaSimulatorFixed-Binaries.git",
-    "tag": "TUNIPanelAgentManager-1.0.3"
+    "http": "https://github.com/programming086/TuyaSimulatorFixed-Binaries/releases/download/TUNIPanelAgentManager-1.0.3/TUNIPanelAgentManager.xcframework.zip",
+    "type": "zip"
   },
   "platforms": {
     "ios": "11.0"

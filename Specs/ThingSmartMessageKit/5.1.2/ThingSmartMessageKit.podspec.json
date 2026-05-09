@@ -10,8 +10,8 @@
     "Tuya": "developer@tuya.com"
   },
   "source": {
-    "git": "https://github.com/programming086/TuyaSimulatorFixed-Binaries.git",
-    "tag": "ThingSmartMessageKit-5.1.2"
+    "http": "https://github.com/programming086/TuyaSimulatorFixed-Binaries/releases/download/ThingSmartMessageKit-5.1.2/ThingSmartMessageKit.xcframework.zip",
+    "type": "zip"
   },
   "static_framework": true,
   "platforms": {

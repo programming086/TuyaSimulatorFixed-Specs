@@ -8,8 +8,8 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "git": "https://github.com/programming086/TuyaSimulatorFixed-Binaries.git",
-    "tag": "ThingBlockKit-0.3.0"
+    "http": "https://github.com/programming086/TuyaSimulatorFixed-Binaries/releases/download/ThingBlockKit-0.3.0/BlocksKit.xcframework.zip",
+    "type": "zip"
   },
   "platforms": {
     "ios": "8.0"

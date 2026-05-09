@@ -21,8 +21,8 @@
   },
   "prefix_header_contents": "#import <ThingLogMacro/ThingLogMacro.h>\n\n#undef ThingLogDebug\n#define ThingLogDebug(...) ThingLogger(0, @\"TRCTVisionMap\", ##__VA_ARGS__)\n\n#undef ThingLogInfo\n#define ThingLogInfo(...)  ThingLogger(1,  @\"TRCTVisionMap\", ##__VA_ARGS__)\n\n#undef ThingLogWarn\n#define ThingLogWarn(...)  ThingLogger(2,  @\"TRCTVisionMap\", ##__VA_ARGS__)\n\n#undef ThingLogError\n#define ThingLogError(...) ThingLogger(3, @\"TRCTVisionMap\", ##__VA_ARGS__)",
   "source": {
-    "git": "https://github.com/programming086/TuyaSimulatorFixed-Binaries.git",
-    "tag": "TRCTVisionMap-1.1.2-anonymize.2"
+    "http": "https://github.com/programming086/TuyaSimulatorFixed-Binaries/releases/download/TRCTVisionMap-1.1.2-anonymize.2/TRCTVisionMap.xcframework.zip",
+    "type": "zip"
   },
   "summary": "A short description of TRCTVisionMap.",
   "user_target_xcconfig": {

@@ -29,8 +29,8 @@
     ]
   },
   "source": {
-    "git": "https://github.com/programming086/TuyaSimulatorFixed-Binaries.git",
-    "tag": "TUNIDiffLayerManager-3.0.0-rc.1"
+    "http": "https://github.com/programming086/TuyaSimulatorFixed-Binaries/releases/download/TUNIDiffLayerManager-3.0.0-rc.1/TUNIDiffLayerManager.xcframework.zip",
+    "type": "zip"
   },
   "summary": "A short description of TUNIDiffLayerManager.",
   "user_target_xcconfig": {

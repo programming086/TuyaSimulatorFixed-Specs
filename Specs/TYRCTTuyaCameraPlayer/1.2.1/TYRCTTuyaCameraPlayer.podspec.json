@@ -17,8 +17,8 @@
     "ios": "9.0"
   },
   "source": {
-    "git": "https://github.com/programming086/TuyaSimulatorFixed-Binaries.git",
-    "tag": "TYRCTTuyaCameraPlayer-1.2.1"
+    "http": "https://github.com/programming086/TuyaSimulatorFixed-Binaries/releases/download/TYRCTTuyaCameraPlayer-1.2.1/TYRCTTuyaCameraPlayer.xcframework.zip",
+    "type": "zip"
   },
   "summary": "A short description of TYRCTTuyaCameraPlayer.",
   "vendored_frameworks": [

@@ -17,8 +17,8 @@
     "ios": "9.0"
   },
   "source": {
-    "git": "https://github.com/programming086/TuyaSimulatorFixed-Binaries.git",
-    "tag": "ThingBusinessDeviceDetailEditLink-1.1.0"
+    "http": "https://github.com/programming086/TuyaSimulatorFixed-Binaries/releases/download/ThingBusinessDeviceDetailEditLink-1.1.0/ThingBusinessDeviceDetailEditLink.xcframework.zip",
+    "type": "zip"
   },
   "summary": "A short description of ThingBusinessDeviceDetailEditLink.",
   "vendored_frameworks": [

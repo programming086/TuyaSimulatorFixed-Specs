@@ -16,8 +16,8 @@
     "TuyaIntentKit/Assets/*.{png,xib,plist,xcassets,bundle,intentdefinition}"
   ],
   "source": {
-    "git": "https://github.com/programming086/TuyaSimulatorFixed-Binaries.git",
-    "tag": "TuyaIntentKit-1.0.0"
+    "http": "https://github.com/programming086/TuyaSimulatorFixed-Binaries/releases/download/TuyaIntentKit-1.0.0/TuyaIntentKit.xcframework.zip",
+    "type": "zip"
   },
   "summary": "TuyaIntentKit",
   "vendored_frameworks": [

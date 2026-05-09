@@ -12,8 +12,8 @@
     "tencent": "weixin-open@qq.com"
   },
   "source": {
-    "git": "https://github.com/programming086/TuyaSimulatorFixed-Binaries.git",
-    "tag": "WechatOpenSDK-1.8.6.1.NoPay"
+    "http": "https://github.com/programming086/TuyaSimulatorFixed-Binaries/releases/download/WechatOpenSDK-1.8.6.1.NoPay/WechatOpenSDK.xcframework.zip",
+    "type": "zip"
   },
   "platforms": {
     "ios": "9.0"

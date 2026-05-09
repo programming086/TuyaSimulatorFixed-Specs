@@ -500,8 +500,8 @@
     "ThingSmartSceneBizBundle": "ThingSmartSceneBizBundle/Assets/**/*"
   },
   "source": {
-    "git": "https://github.com/programming086/TuyaSimulatorFixed-Binaries.git",
-    "tag": "ThingSmartSceneBizBundle-5.8.0.17"
+    "http": "https://github.com/programming086/TuyaSimulatorFixed-Binaries/releases/download/ThingSmartSceneBizBundle-5.8.0.17/ThingSmartSceneBizBundle.xcframework.zip",
+    "type": "zip"
   },
   "summary": "Scene Component Powered By Tuya",
   "user_target_xcconfig": {

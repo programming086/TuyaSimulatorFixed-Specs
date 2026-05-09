@@ -11,8 +11,8 @@
     "ios": "11.0"
   },
   "source": {
-    "git": "https://github.com/programming086/TuyaSimulatorFixed-Binaries.git",
-    "tag": "TUNIAIStreamKit-1.0.6"
+    "http": "https://github.com/programming086/TuyaSimulatorFixed-Binaries/releases/download/TUNIAIStreamKit-1.0.6/TUNIAIStreamKit.xcframework.zip",
+    "type": "zip"
   },
   "resource_bundles": {
     "TUNIAIStreamKit": [

@@ -63,8 +63,8 @@
     "TYActivatorModule/Assets/*.{png,xib,plist,xcassets,bundle}"
   ],
   "source": {
-    "git": "https://github.com/programming086/TuyaSimulatorFixed-Binaries.git",
-    "tag": "TYActivatorModule-4.0.0-v4.0.0-tybizbundle.1"
+    "http": "https://github.com/programming086/TuyaSimulatorFixed-Binaries/releases/download/TYActivatorModule-4.0.0-v4.0.0-tybizbundle.1/TYActivatorModule.xcframework.zip",
+    "type": "zip"
   },
   "static_framework": true,
   "summary": "\u6d82\u9e26\u914d\u7f51\u6a21\u5757",

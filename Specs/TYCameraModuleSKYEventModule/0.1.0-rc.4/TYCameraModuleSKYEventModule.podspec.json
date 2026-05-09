@@ -18,8 +18,8 @@
     "ios": "9.0"
   },
   "source": {
-    "git": "https://github.com/programming086/TuyaSimulatorFixed-Binaries.git",
-    "tag": "TYCameraModuleSKYEventModule-0.1.0-rc.4"
+    "http": "https://github.com/programming086/TuyaSimulatorFixed-Binaries/releases/download/TYCameraModuleSKYEventModule-0.1.0-rc.4/TYCameraModuleSKYEventModule.xcframework.zip",
+    "type": "zip"
   },
   "summary": "A short description of TYCameraModuleSKYEventModule.",
   "vendored_frameworks": [

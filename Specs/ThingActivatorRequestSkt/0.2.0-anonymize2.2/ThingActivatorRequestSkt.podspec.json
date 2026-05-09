@@ -17,8 +17,8 @@
     "ios": "9.0"
   },
   "source": {
-    "git": "https://github.com/programming086/TuyaSimulatorFixed-Binaries.git",
-    "tag": "ThingActivatorRequestSkt-0.2.0-anonymize2.2"
+    "http": "https://github.com/programming086/TuyaSimulatorFixed-Binaries/releases/download/ThingActivatorRequestSkt-0.2.0-anonymize2.2/ThingActivatorRequestSkt.xcframework.zip",
+    "type": "zip"
   },
   "summary": "A short description of ThingActivatorRequestSkt.",
   "vendored_frameworks": [

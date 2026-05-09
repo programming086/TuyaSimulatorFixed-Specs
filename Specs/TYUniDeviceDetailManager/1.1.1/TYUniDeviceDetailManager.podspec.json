@@ -30,8 +30,8 @@
     ]
   },
   "source": {
-    "git": "https://github.com/programming086/TuyaSimulatorFixed-Binaries.git",
-    "tag": "TYUniDeviceDetailManager-1.1.1"
+    "http": "https://github.com/programming086/TuyaSimulatorFixed-Binaries/releases/download/TYUniDeviceDetailManager-1.1.1/TYUniDeviceDetailManager.xcframework.zip",
+    "type": "zip"
   },
   "summary": "A short description of TYUniDeviceDetailManager.",
   "user_target_xcconfig": {

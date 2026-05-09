@@ -273,8 +273,8 @@
     ]
   },
   "source": {
-    "git": "https://github.com/programming086/TuyaSimulatorFixed-Binaries.git",
-    "tag": "ThingSmartSweeperKitBizBundle-5.8.0.17"
+    "http": "https://github.com/programming086/TuyaSimulatorFixed-Binaries/releases/download/ThingSmartSweeperKitBizBundle-5.8.0.17/ThingSmartSweeperKitBizBundle.xcframework.zip",
+    "type": "zip"
   },
   "summary": "A short description of ThingSmartSweeperKitBizBundle.",
   "vendored_frameworks": [

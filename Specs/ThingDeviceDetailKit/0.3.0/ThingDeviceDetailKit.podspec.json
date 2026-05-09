@@ -8,8 +8,8 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "git": "https://github.com/programming086/TuyaSimulatorFixed-Binaries.git",
-    "tag": "ThingDeviceDetailKit-0.3.0"
+    "http": "https://github.com/programming086/TuyaSimulatorFixed-Binaries/releases/download/ThingDeviceDetailKit-0.3.0/ThingDeviceDetailKit.xcframework.zip",
+    "type": "zip"
   },
   "platforms": {
     "ios": "10.0"

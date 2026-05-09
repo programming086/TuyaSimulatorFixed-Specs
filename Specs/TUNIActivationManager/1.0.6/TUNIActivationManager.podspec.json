@@ -32,8 +32,8 @@
     ]
   },
   "source": {
-    "git": "https://github.com/programming086/TuyaSimulatorFixed-Binaries.git",
-    "tag": "TUNIActivationManager-1.0.6"
+    "http": "https://github.com/programming086/TuyaSimulatorFixed-Binaries/releases/download/TUNIActivationManager-1.0.6/TUNIActivationManager.xcframework.zip",
+    "type": "zip"
   },
   "summary": "A short description of TUNIActivationManager.",
   "user_target_xcconfig": {

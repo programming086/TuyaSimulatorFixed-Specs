@@ -8,8 +8,8 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "git": "https://github.com/programming086/TuyaSimulatorFixed-Binaries.git",
-    "tag": "GZLMiniAppInterceptor_iOS-3.40.1"
+    "http": "https://github.com/programming086/TuyaSimulatorFixed-Binaries/releases/download/GZLMiniAppInterceptor_iOS-3.40.1/GZLMiniAppInterceptor_iOS.xcframework.zip",
+    "type": "zip"
   },
   "platforms": {
     "ios": "11.0"

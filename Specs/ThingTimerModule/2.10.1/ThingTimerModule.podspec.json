@@ -37,8 +37,8 @@
     "ThingTimerModule/Assets/**/*.{png,bundle}"
   ],
   "source": {
-    "git": "https://github.com/programming086/TuyaSimulatorFixed-Binaries.git",
-    "tag": "ThingTimerModule-2.10.1"
+    "http": "https://github.com/programming086/TuyaSimulatorFixed-Binaries/releases/download/ThingTimerModule-2.10.1/ThingTimerModule.xcframework.zip",
+    "type": "zip"
   },
   "summary": "A short description of ThingTimerModule.",
   "user_target_xcconfig": {

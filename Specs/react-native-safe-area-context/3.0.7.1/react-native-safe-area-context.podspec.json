@@ -11,8 +11,8 @@
     "ios": "9.0"
   },
   "source": {
-    "git": "https://github.com/programming086/TuyaSimulatorFixed-Binaries.git",
-    "tag": "react-native-safe-area-context-3.0.7.1"
+    "http": "https://github.com/programming086/TuyaSimulatorFixed-Binaries/releases/download/react-native-safe-area-context-3.0.7.1/react_native_safe_area_context.xcframework.zip",
+    "type": "zip"
   },
   "dependencies": {
     "React": []

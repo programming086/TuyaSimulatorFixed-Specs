@@ -8,8 +8,8 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "git": "https://github.com/programming086/TuyaSimulatorFixed-Binaries.git",
-    "tag": "ThingAPMService-0.3.1"
+    "http": "https://github.com/programming086/TuyaSimulatorFixed-Binaries/releases/download/ThingAPMService-0.3.1/ThingAPMService.xcframework.zip",
+    "type": "zip"
   },
   "platforms": {
     "ios": "11.0"

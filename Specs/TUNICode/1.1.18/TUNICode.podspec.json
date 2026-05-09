@@ -8,8 +8,8 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "git": "https://github.com/programming086/TuyaSimulatorFixed-Binaries.git",
-    "tag": "TUNICode-1.1.18"
+    "http": "https://github.com/programming086/TuyaSimulatorFixed-Binaries/releases/download/TUNICode-1.1.18/TUNICode.xcframework.zip",
+    "type": "zip"
   },
   "platforms": {
     "ios": "9.0"

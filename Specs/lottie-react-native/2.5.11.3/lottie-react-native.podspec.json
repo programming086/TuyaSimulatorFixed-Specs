@@ -11,8 +11,8 @@
     "ios": "10.0"
   },
   "source": {
-    "git": "https://github.com/programming086/TuyaSimulatorFixed-Binaries.git",
-    "tag": "lottie-react-native-2.5.11.3"
+    "http": "https://github.com/programming086/TuyaSimulatorFixed-Binaries/releases/download/lottie-react-native-2.5.11.3/lottie_react_native.xcframework.zip",
+    "type": "zip"
   },
   "dependencies": {
     "React": [],

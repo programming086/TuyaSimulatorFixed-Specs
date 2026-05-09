@@ -42,8 +42,8 @@
     "ThingGroupHandleModule/Assets/**/*.{png,bundle}"
   ],
   "source": {
-    "git": "https://github.com/programming086/TuyaSimulatorFixed-Binaries.git",
-    "tag": "ThingGroupHandleModule-2.7.4-sdk.2"
+    "http": "https://github.com/programming086/TuyaSimulatorFixed-Binaries/releases/download/ThingGroupHandleModule-2.7.4-sdk.2/ThingGroupHandleModule.xcframework.zip",
+    "type": "zip"
   },
   "summary": "A short description of ThingGroupHandleModule.",
   "user_target_xcconfig": {

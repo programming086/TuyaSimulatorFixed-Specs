@@ -46,8 +46,8 @@
   "prefix_header_contents": "#import <ThingLogMacro/ThingLogMacro.h>\n\n#undef ThingLogDebug\n#define ThingLogDebug(...) ThingLogger(0, @\"ThingSmartSceneBizKit\", ##__VA_ARGS__)\n\n#undef ThingLogInfo\n#define ThingLogInfo(...)  ThingLogger(1,  @\"ThingSmartSceneBizKit\", ##__VA_ARGS__)\n\n#undef ThingLogWarn\n#define ThingLogWarn(...)  ThingLogger(2,  @\"ThingSmartSceneBizKit\", ##__VA_ARGS__)\n\n#undef ThingLogError\n#define ThingLogError(...) ThingLogger(3, @\"ThingSmartSceneBizKit\", ##__VA_ARGS__)",
   "prefix_header_file": "ThingSmartSceneBizKit/Classes/PrefixHeader.pch",
   "source": {
-    "git": "https://github.com/programming086/TuyaSimulatorFixed-Binaries.git",
-    "tag": "ThingSmartSceneBizKit-1.22.5-remove-reachability.3"
+    "http": "https://github.com/programming086/TuyaSimulatorFixed-Binaries/releases/download/ThingSmartSceneBizKit-1.22.5-remove-reachability.3/ThingSmartSceneBizKit.xcframework.zip",
+    "type": "zip"
   },
   "summary": "A short description of ThingSmartSceneBizKit.",
   "user_target_xcconfig": {

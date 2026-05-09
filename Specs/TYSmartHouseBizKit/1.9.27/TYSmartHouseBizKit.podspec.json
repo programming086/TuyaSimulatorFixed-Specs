@@ -46,8 +46,8 @@
   },
   "prefix_header_contents": "#import <TuyaSmartBaseKit/TuyaSmartBaseKit.h>\n#import <TuyaSmartDeviceKit/TuyaSmartDeviceKit.h>\n#import \"EXTScope.h\"",
   "source": {
-    "git": "https://github.com/programming086/TuyaSimulatorFixed-Binaries.git",
-    "tag": "TYSmartHouseBizKit-1.9.27"
+    "http": "https://github.com/programming086/TuyaSimulatorFixed-Binaries/releases/download/TYSmartHouseBizKit-1.9.27/TYSmartHouseBizKit.xcframework.zip",
+    "type": "zip"
   },
   "summary": "A short description of TYSmartHouseBizKit.",
   "user_target_xcconfig": {

@@ -30,8 +30,8 @@
   },
   "prefix_header_file": "ThingSmartRoomBizKit/Classes/PrefixHeader.pch",
   "source": {
-    "git": "https://github.com/programming086/TuyaSimulatorFixed-Binaries.git",
-    "tag": "ThingSmartRoomBizKit-2.0.0"
+    "http": "https://github.com/programming086/TuyaSimulatorFixed-Binaries/releases/download/ThingSmartRoomBizKit-2.0.0/ThingSmartRoomBizKit.xcframework.zip",
+    "type": "zip"
   },
   "summary": "\u623f\u95f4\u903b\u8f91\u6a21\u5757",
   "user_target_xcconfig": {

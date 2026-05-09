@@ -9,8 +9,8 @@
     "Tuya": "developer@tuya.com"
   },
   "source": {
-    "git": "https://github.com/programming086/TuyaSimulatorFixed-Binaries.git",
-    "tag": "ThingLampModuleServices-2.5.0"
+    "http": "https://github.com/programming086/TuyaSimulatorFixed-Binaries/releases/download/ThingLampModuleServices-2.5.0/ThingLampModuleServices.xcframework.zip",
+    "type": "zip"
   },
   "platforms": {
     "ios": "9.0"

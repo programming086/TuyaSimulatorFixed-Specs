@@ -33,8 +33,8 @@
     "TYSmartGeofenceModule/Assets/*.{png,xib,plist,xcassets,bundle}"
   ],
   "source": {
-    "git": "https://github.com/programming086/TuyaSimulatorFixed-Binaries.git",
-    "tag": "TYSmartGeofenceModule-0.2.1"
+    "http": "https://github.com/programming086/TuyaSimulatorFixed-Binaries/releases/download/TYSmartGeofenceModule-0.2.1/TYSmartGeofenceModule.xcframework.zip",
+    "type": "zip"
   },
   "summary": "\u5904\u7406\u573a\u666f\u5730\u7406\u56f4\u680f\u76f8\u5173\u7684\u4e1a\u52a1\uff0c\u4e3a\u4e86\u505a\u88c1\u526a\u6240\u4ee5\u72ec\u7acb\u6210\u7ec4\u4ef6",
   "user_target_xcconfig": {

@@ -23,8 +23,8 @@
     "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
   },
   "source": {
-    "git": "https://github.com/programming086/TuyaSimulatorFixed-Binaries.git",
-    "tag": "TYRCTScenePanelManager-1.6.24"
+    "http": "https://github.com/programming086/TuyaSimulatorFixed-Binaries/releases/download/TYRCTScenePanelManager-1.6.24/TYRCTScenePanelManager.xcframework.zip",
+    "type": "zip"
   },
   "summary": "A short description of TYRCTScenePanelManager.",
   "user_target_xcconfig": {

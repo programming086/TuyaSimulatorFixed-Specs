@@ -17,8 +17,8 @@
     "ios": "9.0"
   },
   "source": {
-    "git": "https://github.com/programming086/TuyaSimulatorFixed-Binaries.git",
-    "tag": "TYBleGatewayService-0.0.4"
+    "http": "https://github.com/programming086/TuyaSimulatorFixed-Binaries/releases/download/TYBleGatewayService-0.0.4/TYBleGatewayService.xcframework.zip",
+    "type": "zip"
   },
   "summary": "A short description of TYBleGatewayService.",
   "vendored_frameworks": [

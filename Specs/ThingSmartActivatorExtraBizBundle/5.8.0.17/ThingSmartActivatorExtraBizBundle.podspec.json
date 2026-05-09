@@ -268,8 +268,8 @@
     ]
   },
   "source": {
-    "git": "https://github.com/programming086/TuyaSimulatorFixed-Binaries.git",
-    "tag": "ThingSmartActivatorExtraBizBundle-5.8.0.17"
+    "http": "https://github.com/programming086/TuyaSimulatorFixed-Binaries/releases/download/ThingSmartActivatorExtraBizBundle-5.8.0.17/ThingSmartActivatorExtraBizBundle.xcframework.zip",
+    "type": "zip"
   },
   "summary": "A short description of ThingSmartActivatorExtraBizBundle.",
   "user_target_xcconfig": {

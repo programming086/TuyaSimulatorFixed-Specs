@@ -11,8 +11,8 @@
     "ios": "9.0"
   },
   "source": {
-    "git": "https://github.com/programming086/TuyaSimulatorFixed-Binaries.git",
-    "tag": "TYLightScenePlugAPI-0.0.2"
+    "http": "https://github.com/programming086/TuyaSimulatorFixed-Binaries/releases/download/TYLightScenePlugAPI-0.0.2/TYLightScenePlugAPI.xcframework.zip",
+    "type": "zip"
   },
   "summary": "A short description of TYLightScenePlugAPI.",
   "vendored_frameworks": [

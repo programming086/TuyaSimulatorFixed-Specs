@@ -15,8 +15,8 @@
     "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
   },
   "source": {
-    "git": "https://github.com/programming086/TuyaSimulatorFixed-Binaries.git",
-    "tag": "TYDeviceMigrateSktAPI-1.0.1"
+    "http": "https://github.com/programming086/TuyaSimulatorFixed-Binaries/releases/download/TYDeviceMigrateSktAPI-1.0.1/TYDeviceMigrateSktAPI.xcframework.zip",
+    "type": "zip"
   },
   "summary": "A short description of TYDeviceMigrateSktAPI.",
   "user_target_xcconfig": {

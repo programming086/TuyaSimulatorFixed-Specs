@@ -317,8 +317,8 @@
     ]
   },
   "source": {
-    "git": "https://github.com/programming086/TuyaSimulatorFixed-Binaries.git",
-    "tag": "ThingSmartMapKitBizBundle-5.8.0.17"
+    "http": "https://github.com/programming086/TuyaSimulatorFixed-Binaries/releases/download/ThingSmartMapKitBizBundle-5.8.0.17/ThingSmartMapKitBizBundle.xcframework.zip",
+    "type": "zip"
   },
   "summary": "A short description of ThingSmartMapKitBizBundle.",
   "vendored_frameworks": [

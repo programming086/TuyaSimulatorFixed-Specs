@@ -34,8 +34,8 @@
     ]
   },
   "source": {
-    "git": "https://github.com/programming086/TuyaSimulatorFixed-Binaries.git",
-    "tag": "TYMapKit-1.0.14"
+    "http": "https://github.com/programming086/TuyaSimulatorFixed-Binaries/releases/download/TYMapKit-1.0.14/TYMapKit.xcframework.zip",
+    "type": "zip"
   },
   "summary": "A short description of TYMapKit.",
   "user_target_xcconfig": {

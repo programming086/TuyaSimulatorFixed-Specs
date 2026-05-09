@@ -8,8 +8,8 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "git": "https://github.com/programming086/TuyaSimulatorFixed-Binaries.git",
-    "tag": "TRCTTypeMapManager-6.4.0"
+    "http": "https://github.com/programming086/TuyaSimulatorFixed-Binaries/releases/download/TRCTTypeMapManager-6.4.0/TRCTTypeMapManager.xcframework.zip",
+    "type": "zip"
   },
   "platforms": {
     "ios": "11.0"

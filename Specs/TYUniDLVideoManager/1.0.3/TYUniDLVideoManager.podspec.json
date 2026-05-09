@@ -29,8 +29,8 @@
     ]
   },
   "source": {
-    "git": "https://github.com/programming086/TuyaSimulatorFixed-Binaries.git",
-    "tag": "TYUniDLVideoManager-1.0.3"
+    "http": "https://github.com/programming086/TuyaSimulatorFixed-Binaries/releases/download/TYUniDLVideoManager-1.0.3/TYUniDLVideoManager.xcframework.zip",
+    "type": "zip"
   },
   "summary": "A short description of TYUniDLVideoManager.",
   "user_target_xcconfig": {

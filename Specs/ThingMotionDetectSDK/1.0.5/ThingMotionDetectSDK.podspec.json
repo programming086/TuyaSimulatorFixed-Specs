@@ -8,8 +8,8 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "git": "https://github.com/programming086/TuyaSimulatorFixed-Binaries.git",
-    "tag": "ThingMotionDetectSDK-1.0.5"
+    "http": "https://github.com/programming086/TuyaSimulatorFixed-Binaries/releases/download/ThingMotionDetectSDK-1.0.5/ThingMotionDetectSDK.xcframework.zip",
+    "type": "zip"
   },
   "platforms": {
     "ios": "9.0"

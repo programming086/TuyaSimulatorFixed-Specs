@@ -332,8 +332,8 @@
     ]
   },
   "source": {
-    "git": "https://github.com/programming086/TuyaSimulatorFixed-Binaries.git",
-    "tag": "TuyaSmartDeviceDetailBizBundle-4.0.1.7"
+    "http": "https://github.com/programming086/TuyaSimulatorFixed-Binaries/releases/download/TuyaSmartDeviceDetailBizBundle-4.0.1.7/TuyaSmartDeviceDetailBizBundle.xcframework.zip",
+    "type": "zip"
   },
   "summary": "A short description of TuyaSmartDeviceDetailBizBundle.",
   "user_target_xcconfig": {

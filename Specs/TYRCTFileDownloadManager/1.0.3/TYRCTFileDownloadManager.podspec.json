@@ -19,8 +19,8 @@
     "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
   },
   "source": {
-    "git": "https://github.com/programming086/TuyaSimulatorFixed-Binaries.git",
-    "tag": "TYRCTFileDownloadManager-1.0.3"
+    "http": "https://github.com/programming086/TuyaSimulatorFixed-Binaries/releases/download/TYRCTFileDownloadManager-1.0.3/TYRCTFileDownloadManager.xcframework.zip",
+    "type": "zip"
   },
   "summary": "A short description of TYRCTFileDownloadManager.",
   "user_target_xcconfig": {

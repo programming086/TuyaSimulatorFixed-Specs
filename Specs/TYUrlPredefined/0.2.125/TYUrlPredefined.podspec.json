@@ -21,8 +21,8 @@
     "TYUrlPredefined/Assets/*.json"
   ],
   "source": {
-    "git": "https://github.com/programming086/TuyaSimulatorFixed-Binaries.git",
-    "tag": "TYUrlPredefined-0.2.125"
+    "http": "https://github.com/programming086/TuyaSimulatorFixed-Binaries/releases/download/TYUrlPredefined-0.2.125/TYUrlPredefined.xcframework.zip",
+    "type": "zip"
   },
   "summary": "A short description of TYUrlPredefined.",
   "user_target_xcconfig": {

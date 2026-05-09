@@ -21,8 +21,8 @@
     "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
   },
   "source": {
-    "git": "https://github.com/programming086/TuyaSimulatorFixed-Binaries.git",
-    "tag": "ThingBluetoothAuthManager-0.1.15-anonymize.1"
+    "http": "https://github.com/programming086/TuyaSimulatorFixed-Binaries/releases/download/ThingBluetoothAuthManager-0.1.15-anonymize.1/ThingBluetoothAuthManager.xcframework.zip",
+    "type": "zip"
   },
   "summary": "A short description of ThingBluetoothAuthManager.",
   "user_target_xcconfig": {

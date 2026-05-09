@@ -12,8 +12,8 @@
     "Tuya": "developer@tuya.com"
   },
   "source": {
-    "git": "https://github.com/programming086/TuyaSimulatorFixed-Binaries.git",
-    "tag": "TYMbedtls-2.25.2"
+    "http": "https://github.com/programming086/TuyaSimulatorFixed-Binaries/releases/download/TYMbedtls-2.25.2/TYMbedtls.xcframework.zip",
+    "type": "zip"
   },
   "platforms": {
     "ios": "9.0"

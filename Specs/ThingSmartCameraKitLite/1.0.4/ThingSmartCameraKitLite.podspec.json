@@ -12,8 +12,8 @@
     "Tuya": "developer@tuya.com"
   },
   "source": {
-    "git": "https://github.com/programming086/TuyaSimulatorFixed-Binaries.git",
-    "tag": "ThingSmartCameraKitLite-1.0.4"
+    "http": "https://github.com/programming086/TuyaSimulatorFixed-Binaries/releases/download/ThingSmartCameraKitLite-1.0.4/ThingSmartCameraKitLite.xcframework.zip",
+    "type": "zip"
   },
   "platforms": {
     "ios": "11.0"

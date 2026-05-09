@@ -8,8 +8,8 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "git": "https://github.com/programming086/TuyaSimulatorFixed-Binaries.git",
-    "tag": "ThingAIImageClassifyAPI-1.1.2"
+    "http": "https://github.com/programming086/TuyaSimulatorFixed-Binaries/releases/download/ThingAIImageClassifyAPI-1.1.2/ThingAIImageClassifyAPI.xcframework.zip",
+    "type": "zip"
   },
   "platforms": {
     "ios": "10.0"

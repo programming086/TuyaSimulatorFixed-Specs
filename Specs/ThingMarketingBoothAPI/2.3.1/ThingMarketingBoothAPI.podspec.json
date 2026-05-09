@@ -8,8 +8,8 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "git": "https://github.com/programming086/TuyaSimulatorFixed-Binaries.git",
-    "tag": "ThingMarketingBoothAPI-2.3.1"
+    "http": "https://github.com/programming086/TuyaSimulatorFixed-Binaries/releases/download/ThingMarketingBoothAPI-2.3.1/ThingMarketingBoothAPI.xcframework.zip",
+    "type": "zip"
   },
   "platforms": {
     "ios": "9.0"

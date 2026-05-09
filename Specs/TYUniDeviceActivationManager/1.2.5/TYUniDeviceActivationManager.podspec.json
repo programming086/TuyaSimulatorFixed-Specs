@@ -30,8 +30,8 @@
     ]
   },
   "source": {
-    "git": "https://github.com/programming086/TuyaSimulatorFixed-Binaries.git",
-    "tag": "TYUniDeviceActivationManager-1.2.5"
+    "http": "https://github.com/programming086/TuyaSimulatorFixed-Binaries/releases/download/TYUniDeviceActivationManager-1.2.5/TYUniDeviceActivationManager.xcframework.zip",
+    "type": "zip"
   },
   "summary": "A short description of TYUniDeviceActivationManager.",
   "user_target_xcconfig": {

@@ -25,8 +25,8 @@
     "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
   },
   "source": {
-    "git": "https://github.com/programming086/TuyaSimulatorFixed-Binaries.git",
-    "tag": "TYLightLampHomeBizKit-2.3.10-device-cache.2"
+    "http": "https://github.com/programming086/TuyaSimulatorFixed-Binaries/releases/download/TYLightLampHomeBizKit-2.3.10-device-cache.2/TYLightLampHomeBizKit.xcframework.zip",
+    "type": "zip"
   },
   "summary": "A short description of TYLightLampHomeBizKit.",
   "user_target_xcconfig": {

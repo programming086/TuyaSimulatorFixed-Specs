@@ -8,8 +8,8 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "git": "https://github.com/programming086/TuyaSimulatorFixed-Binaries.git",
-    "tag": "ThingCloudStorageSignatureTools-1.2.1"
+    "http": "https://github.com/programming086/TuyaSimulatorFixed-Binaries/releases/download/ThingCloudStorageSignatureTools-1.2.1/ThingCloudStorageSignatureTools.xcframework.zip",
+    "type": "zip"
   },
   "platforms": {
     "ios": "9.0"

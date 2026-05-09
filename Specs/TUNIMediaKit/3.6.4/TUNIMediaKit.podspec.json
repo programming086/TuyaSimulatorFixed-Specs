@@ -11,8 +11,8 @@
     "ios": "12.0"
   },
   "source": {
-    "git": "https://github.com/programming086/TuyaSimulatorFixed-Binaries.git",
-    "tag": "TUNIMediaKit-3.6.4"
+    "http": "https://github.com/programming086/TuyaSimulatorFixed-Binaries/releases/download/TUNIMediaKit-3.6.4/TUNIMediaKit.xcframework.zip",
+    "type": "zip"
   },
   "resource_bundles": {
     "TUNIMediaKit": [

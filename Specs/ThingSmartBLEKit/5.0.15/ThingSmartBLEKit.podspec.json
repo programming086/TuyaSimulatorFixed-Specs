@@ -10,8 +10,8 @@
     "Tuya": "developer@tuya.com"
   },
   "source": {
-    "git": "https://github.com/programming086/TuyaSimulatorFixed-Binaries.git",
-    "tag": "ThingSmartBLEKit-5.0.15"
+    "http": "https://github.com/programming086/TuyaSimulatorFixed-Binaries/releases/download/ThingSmartBLEKit-5.0.15/ThingSmartBLEKit.xcframework.zip",
+    "type": "zip"
   },
   "static_framework": true,
   "platforms": {

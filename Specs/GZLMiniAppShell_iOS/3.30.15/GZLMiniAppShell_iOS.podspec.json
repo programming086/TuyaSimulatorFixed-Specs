@@ -11,8 +11,8 @@
     "ios": "11.0"
   },
   "source": {
-    "git": "https://github.com/programming086/TuyaSimulatorFixed-Binaries.git",
-    "tag": "GZLMiniAppShell_iOS-3.30.15"
+    "http": "https://github.com/programming086/TuyaSimulatorFixed-Binaries/releases/download/GZLMiniAppShell_iOS-3.30.15/GZLMiniAppShell_iOS.xcframework.zip",
+    "type": "zip"
   },
   "dependencies": {
     "GodzillaMiniBaseKit": [

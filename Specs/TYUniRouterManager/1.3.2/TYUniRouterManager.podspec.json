@@ -27,8 +27,8 @@
     ]
   },
   "source": {
-    "git": "https://github.com/programming086/TuyaSimulatorFixed-Binaries.git",
-    "tag": "TYUniRouterManager-1.3.2"
+    "http": "https://github.com/programming086/TuyaSimulatorFixed-Binaries/releases/download/TYUniRouterManager-1.3.2/TYUniRouterManager.xcframework.zip",
+    "type": "zip"
   },
   "summary": "A short description of TYUniRouterManager.",
   "user_target_xcconfig": {

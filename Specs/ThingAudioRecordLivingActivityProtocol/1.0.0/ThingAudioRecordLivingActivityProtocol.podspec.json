@@ -8,8 +8,8 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "git": "https://github.com/programming086/TuyaSimulatorFixed-Binaries.git",
-    "tag": "ThingAudioRecordLivingActivityProtocol-1.0.0"
+    "http": "https://github.com/programming086/TuyaSimulatorFixed-Binaries/releases/download/ThingAudioRecordLivingActivityProtocol-1.0.0/ThingAudioRecordLivingActivityProtocol.xcframework.zip",
+    "type": "zip"
   },
   "platforms": {
     "ios": "12.0"

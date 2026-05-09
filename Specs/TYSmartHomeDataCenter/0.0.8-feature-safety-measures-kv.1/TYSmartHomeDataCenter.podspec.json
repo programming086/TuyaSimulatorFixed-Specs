@@ -21,8 +21,8 @@
     "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
   },
   "source": {
-    "git": "https://github.com/programming086/TuyaSimulatorFixed-Binaries.git",
-    "tag": "TYSmartHomeDataCenter-0.0.8-feature-safety-measures-kv.1"
+    "http": "https://github.com/programming086/TuyaSimulatorFixed-Binaries/releases/download/TYSmartHomeDataCenter-0.0.8-feature-safety-measures-kv.1/TYSmartHomeDataCenter.xcframework.zip",
+    "type": "zip"
   },
   "summary": "A short description of TYSmartHomeDataCenter.",
   "user_target_xcconfig": {

@@ -15,8 +15,8 @@
     "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
   },
   "source": {
-    "git": "https://github.com/programming086/TuyaSimulatorFixed-Binaries.git",
-    "tag": "ThingSwipeView-1.0.2-anonymize.1"
+    "http": "https://github.com/programming086/TuyaSimulatorFixed-Binaries/releases/download/ThingSwipeView-1.0.2-anonymize.1/ThingSwipeView.xcframework.zip",
+    "type": "zip"
   },
   "summary": "A short description of ThingSwipeView.",
   "user_target_xcconfig": {

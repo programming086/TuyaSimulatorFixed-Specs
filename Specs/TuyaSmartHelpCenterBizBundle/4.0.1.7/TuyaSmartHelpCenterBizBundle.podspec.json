@@ -233,8 +233,8 @@
     "TuyaSmartHelpCenterBizBundle": "TuyaSmartHelpCenterBizBundle/Assets/**/*"
   },
   "source": {
-    "git": "https://github.com/programming086/TuyaSimulatorFixed-Binaries.git",
-    "tag": "TuyaSmartHelpCenterBizBundle-4.0.1.7"
+    "http": "https://github.com/programming086/TuyaSimulatorFixed-Binaries/releases/download/TuyaSmartHelpCenterBizBundle-4.0.1.7/TuyaSmartHelpCenterBizBundle.xcframework.zip",
+    "type": "zip"
   },
   "summary": "A short description of TuyaSmartHelpCenterBizBundle.",
   "user_target_xcconfig": {

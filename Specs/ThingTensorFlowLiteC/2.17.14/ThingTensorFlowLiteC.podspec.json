@@ -8,8 +8,8 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "git": "https://github.com/programming086/TuyaSimulatorFixed-Binaries.git",
-    "tag": "ThingTensorFlowLiteC-2.17.14"
+    "http": "https://github.com/programming086/TuyaSimulatorFixed-Binaries/releases/download/ThingTensorFlowLiteC-2.17.14/ThingTensorFlowLiteC.xcframework.zip",
+    "type": "zip"
   },
   "platforms": {
     "ios": "9.0"

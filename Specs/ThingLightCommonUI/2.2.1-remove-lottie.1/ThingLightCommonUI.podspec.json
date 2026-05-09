@@ -33,8 +33,8 @@
     "ThingLightCommonUI/Assets/*.{png,xib,plist,bundle}"
   ],
   "source": {
-    "git": "https://github.com/programming086/TuyaSimulatorFixed-Binaries.git",
-    "tag": "ThingLightCommonUI-2.2.1-remove-lottie.1"
+    "http": "https://github.com/programming086/TuyaSimulatorFixed-Binaries/releases/download/ThingLightCommonUI-2.2.1-remove-lottie.1/ThingLightCommonUI.xcframework.zip",
+    "type": "zip"
   },
   "summary": "ui only for light project.",
   "user_target_xcconfig": {

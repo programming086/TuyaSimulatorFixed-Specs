@@ -8,8 +8,8 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "git": "https://github.com/programming086/TuyaSimulatorFixed-Binaries.git",
-    "tag": "ThingSmartAVBaseKit-2.3.9"
+    "http": "https://github.com/programming086/TuyaSimulatorFixed-Binaries/releases/download/ThingSmartAVBaseKit-2.3.9/ThingSmartAVBaseKit.xcframework.zip",
+    "type": "zip"
   },
   "platforms": {
     "ios": "9.0"

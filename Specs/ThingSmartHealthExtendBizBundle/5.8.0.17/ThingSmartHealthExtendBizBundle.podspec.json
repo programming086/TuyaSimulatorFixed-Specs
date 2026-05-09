@@ -290,8 +290,8 @@
     "ThingSmartHealthExtendBizBundle": "ThingSmartHealthExtendBizBundle/Assets/**/*"
   },
   "source": {
-    "git": "https://github.com/programming086/TuyaSimulatorFixed-Binaries.git",
-    "tag": "ThingSmartHealthExtendBizBundle-5.8.0.17"
+    "http": "https://github.com/programming086/TuyaSimulatorFixed-Binaries/releases/download/ThingSmartHealthExtendBizBundle-5.8.0.17/ThingSmartHealthExtendBizBundle.xcframework.zip",
+    "type": "zip"
   },
   "summary": "A short description of ThingSmartHealthExtendBizBundle.",
   "user_target_xcconfig": {

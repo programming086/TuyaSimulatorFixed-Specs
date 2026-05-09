@@ -8,8 +8,8 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "git": "https://github.com/programming086/TuyaSimulatorFixed-Binaries.git",
-    "tag": "glog-100.0.3.6"
+    "http": "https://github.com/programming086/TuyaSimulatorFixed-Binaries/releases/download/glog-100.0.3.6/glog.xcframework.zip",
+    "type": "zip"
   },
   "module_name": "glog",
   "header_dir": "glog",

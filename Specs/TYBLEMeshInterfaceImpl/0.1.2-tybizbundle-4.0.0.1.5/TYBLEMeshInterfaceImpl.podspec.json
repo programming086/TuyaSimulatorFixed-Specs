@@ -134,8 +134,8 @@
     "TUYA_PRIVACY_USAGE_DESCRIPTION": "NSBluetoothAlwaysUsageDescription NSBluetoothPeripheralUsageDescription"
   },
   "source": {
-    "git": "https://github.com/programming086/TuyaSimulatorFixed-Binaries.git",
-    "tag": "TYBLEMeshInterfaceImpl-0.1.2-tybizbundle-4.0.0.1.5"
+    "http": "https://github.com/programming086/TuyaSimulatorFixed-Binaries/releases/download/TYBLEMeshInterfaceImpl-0.1.2-tybizbundle-4.0.0.1.5/TYBLEMeshInterfaceImpl.xcframework.zip",
+    "type": "zip"
   },
   "summary": "A short description of TYBLEMeshInterface.",
   "user_target_xcconfig": {

@@ -38,8 +38,8 @@
     ]
   },
   "source": {
-    "git": "https://github.com/programming086/TuyaSimulatorFixed-Binaries.git",
-    "tag": "ThingSocialModule-5.0.1"
+    "http": "https://github.com/programming086/TuyaSimulatorFixed-Binaries/releases/download/ThingSocialModule-5.0.1/ThingSocialModule.xcframework.zip",
+    "type": "zip"
   },
   "summary": "\u96c6\u6210\u7b2c\u4e09\u65b9\u767b\u5f55\u3001\u5206\u4eab\u7ec4\u4ef6\u7684\u7edf\u4e00\u7ba1\u7406\u4e2d\u5fc3",
   "user_target_xcconfig": {

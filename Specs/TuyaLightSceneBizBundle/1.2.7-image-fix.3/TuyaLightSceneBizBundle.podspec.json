@@ -32,8 +32,8 @@
     "TuyaLightSceneBizBundle/Assets/*.{png,xib,plist,xcassets,bundle}"
   ],
   "source": {
-    "git": "https://github.com/programming086/TuyaSimulatorFixed-Binaries.git",
-    "tag": "TuyaLightSceneBizBundle-1.2.7-image-fix.3"
+    "http": "https://github.com/programming086/TuyaSimulatorFixed-Binaries/releases/download/TuyaLightSceneBizBundle-1.2.7-image-fix.3/TuyaLightSceneBizBundle.xcframework.zip",
+    "type": "zip"
   },
   "summary": "A short description of TuyaLightSceneBizBundle.",
   "user_target_xcconfig": {

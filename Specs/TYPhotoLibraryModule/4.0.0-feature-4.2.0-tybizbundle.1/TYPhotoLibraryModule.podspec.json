@@ -27,8 +27,8 @@
     ]
   },
   "source": {
-    "git": "https://github.com/programming086/TuyaSimulatorFixed-Binaries.git",
-    "tag": "TYPhotoLibraryModule-4.0.0-feature-4.2.0-tybizbundle.1"
+    "http": "https://github.com/programming086/TuyaSimulatorFixed-Binaries/releases/download/TYPhotoLibraryModule-4.0.0-feature-4.2.0-tybizbundle.1/TYPhotoLibraryModule.xcframework.zip",
+    "type": "zip"
   },
   "summary": "A short description of TYPhotoLibraryModule.",
   "user_target_xcconfig": {

@@ -8,8 +8,8 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "git": "https://github.com/programming086/TuyaSimulatorFixed-Binaries.git",
-    "tag": "TUNIRequestCacheManager-1.1.2"
+    "http": "https://github.com/programming086/TuyaSimulatorFixed-Binaries/releases/download/TUNIRequestCacheManager-1.1.2/TUNIRequestCacheManager.xcframework.zip",
+    "type": "zip"
   },
   "platforms": {
     "ios": "11.0"

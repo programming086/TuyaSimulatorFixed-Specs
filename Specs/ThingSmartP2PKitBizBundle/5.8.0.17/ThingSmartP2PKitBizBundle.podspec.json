@@ -268,8 +268,8 @@
     ]
   },
   "source": {
-    "git": "https://github.com/programming086/TuyaSimulatorFixed-Binaries.git",
-    "tag": "ThingSmartP2PKitBizBundle-5.8.0.17"
+    "http": "https://github.com/programming086/TuyaSimulatorFixed-Binaries/releases/download/ThingSmartP2PKitBizBundle-5.8.0.17/ThingSmartP2PKitBizBundle.xcframework.zip",
+    "type": "zip"
   },
   "summary": "A short description of ThingSmartP2PKitBizBundle.",
   "vendored_frameworks": [

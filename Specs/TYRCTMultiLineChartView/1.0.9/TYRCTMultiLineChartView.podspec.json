@@ -15,8 +15,8 @@
     "ios": "9.0"
   },
   "source": {
-    "git": "https://github.com/programming086/TuyaSimulatorFixed-Binaries.git",
-    "tag": "TYRCTMultiLineChartView-1.0.9"
+    "http": "https://github.com/programming086/TuyaSimulatorFixed-Binaries/releases/download/TYRCTMultiLineChartView-1.0.9/TYRCTMultiLineChartView.xcframework.zip",
+    "type": "zip"
   },
   "summary": "A short description of TYRCTMultiLineChartView.",
   "vendored_frameworks": [

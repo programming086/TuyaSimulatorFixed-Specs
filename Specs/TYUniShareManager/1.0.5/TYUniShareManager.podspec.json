@@ -28,8 +28,8 @@
     ]
   },
   "source": {
-    "git": "https://github.com/programming086/TuyaSimulatorFixed-Binaries.git",
-    "tag": "TYUniShareManager-1.0.5"
+    "http": "https://github.com/programming086/TuyaSimulatorFixed-Binaries/releases/download/TYUniShareManager-1.0.5/TYUniShareManager.xcframework.zip",
+    "type": "zip"
   },
   "summary": "A short description of TYUniShareManager.",
   "user_target_xcconfig": {

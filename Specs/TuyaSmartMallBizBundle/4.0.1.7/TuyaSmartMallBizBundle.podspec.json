@@ -220,8 +220,8 @@
     "TuyaSmartMallBizBundle": "TuyaSmartMallBizBundle/Assets/**/*"
   },
   "source": {
-    "git": "https://github.com/programming086/TuyaSimulatorFixed-Binaries.git",
-    "tag": "TuyaSmartMallBizBundle-4.0.1.7"
+    "http": "https://github.com/programming086/TuyaSimulatorFixed-Binaries/releases/download/TuyaSmartMallBizBundle-4.0.1.7/TuyaSmartMallBizBundle.xcframework.zip",
+    "type": "zip"
   },
   "summary": "A short description of TuyaSmartMallBizBundle.",
   "user_target_xcconfig": {

@@ -8,8 +8,8 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "git": "https://github.com/programming086/TuyaSimulatorFixed-Binaries.git",
-    "tag": "yoga-0.59.10"
+    "http": "https://github.com/programming086/TuyaSimulatorFixed-Binaries/releases/download/yoga-0.59.10/yoga.xcframework.zip",
+    "type": "zip"
   },
   "module_name": "yoga",
   "requires_arc": false,

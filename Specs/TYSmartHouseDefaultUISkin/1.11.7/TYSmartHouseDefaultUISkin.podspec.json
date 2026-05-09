@@ -41,8 +41,8 @@
     ]
   },
   "source": {
-    "git": "https://github.com/programming086/TuyaSimulatorFixed-Binaries.git",
-    "tag": "TYSmartHouseDefaultUISkin-1.11.7"
+    "http": "https://github.com/programming086/TuyaSimulatorFixed-Binaries/releases/download/TYSmartHouseDefaultUISkin-1.11.7/TYSmartHouseDefaultUISkin.xcframework.zip",
+    "type": "zip"
   },
   "summary": "A short description of TYSmartHouseDefaultUISkin.",
   "user_target_xcconfig": {

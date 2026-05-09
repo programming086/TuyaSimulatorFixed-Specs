@@ -26,8 +26,8 @@
     ]
   },
   "source": {
-    "git": "https://github.com/programming086/TuyaSimulatorFixed-Binaries.git",
-    "tag": "TYUniLocalizationManager-1.4.1"
+    "http": "https://github.com/programming086/TuyaSimulatorFixed-Binaries/releases/download/TYUniLocalizationManager-1.4.1/TYUniLocalizationManager.xcframework.zip",
+    "type": "zip"
   },
   "summary": "A short description of TYUniLocalizationManager.",
   "user_target_xcconfig": {

@@ -8,8 +8,8 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "git": "https://github.com/programming086/TuyaSimulatorFixed-Binaries.git",
-    "tag": "ThingActivatorModule-5.15.5-v6.0.0-fix.6"
+    "http": "https://github.com/programming086/TuyaSimulatorFixed-Binaries/releases/download/ThingActivatorModule-5.15.5-v6.0.0-fix.6/ThingActivatorModule.xcframework.zip",
+    "type": "zip"
   },
   "static_framework": true,
   "platforms": {

@@ -184,8 +184,8 @@
     "TuyaSmartOTABizBundle": "TuyaSmartOTABizBundle/Assets/**/*"
   },
   "source": {
-    "git": "https://github.com/programming086/TuyaSimulatorFixed-Binaries.git",
-    "tag": "TuyaSmartOTABizBundle-4.0.0.11"
+    "http": "https://github.com/programming086/TuyaSimulatorFixed-Binaries/releases/download/TuyaSmartOTABizBundle-4.0.0.11/TuyaSmartOTABizBundle.xcframework.zip",
+    "type": "zip"
   },
   "summary": "A short description of TuyaSmartOTABizBundle.",
   "user_target_xcconfig": {

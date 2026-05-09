@@ -21,8 +21,8 @@
     "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
   },
   "source": {
-    "git": "https://github.com/programming086/TuyaSimulatorFixed-Binaries.git",
-    "tag": "TYBluetoothInterface-1.10.5"
+    "http": "https://github.com/programming086/TuyaSimulatorFixed-Binaries/releases/download/TYBluetoothInterface-1.10.5/TYBluetoothInterface.xcframework.zip",
+    "type": "zip"
   },
   "summary": "A short description of TYBluetoothInterface.",
   "user_target_xcconfig": {

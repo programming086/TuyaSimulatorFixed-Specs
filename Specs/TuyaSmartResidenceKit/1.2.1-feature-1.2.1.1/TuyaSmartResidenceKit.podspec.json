@@ -12,8 +12,8 @@
     "Tuya": "developer@tuya.com"
   },
   "source": {
-    "git": "https://github.com/programming086/TuyaSimulatorFixed-Binaries.git",
-    "tag": "TuyaSmartResidenceKit-1.2.1-feature-1.2.1.1"
+    "http": "https://github.com/programming086/TuyaSimulatorFixed-Binaries/releases/download/TuyaSmartResidenceKit-1.2.1-feature-1.2.1.1/TuyaSmartResidenceKit.xcframework.zip",
+    "type": "zip"
   },
   "platforms": {
     "ios": "9.0"

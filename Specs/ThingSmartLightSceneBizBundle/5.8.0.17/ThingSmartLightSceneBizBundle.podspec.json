@@ -390,8 +390,8 @@
     ]
   },
   "source": {
-    "git": "https://github.com/programming086/TuyaSimulatorFixed-Binaries.git",
-    "tag": "ThingSmartLightSceneBizBundle-5.8.0.17"
+    "http": "https://github.com/programming086/TuyaSimulatorFixed-Binaries/releases/download/ThingSmartLightSceneBizBundle-5.8.0.17/ThingSmartLightSceneBizBundle.xcframework.zip",
+    "type": "zip"
   },
   "summary": "A short description of ThingSmartLightSceneBizBundle.",
   "user_target_xcconfig": {

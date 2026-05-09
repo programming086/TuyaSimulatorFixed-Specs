@@ -22,8 +22,8 @@
     "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
   },
   "source": {
-    "git": "https://github.com/programming086/TuyaSimulatorFixed-Binaries.git",
-    "tag": "TYRCTCameraMessageManager-1.9.0-rc.8"
+    "http": "https://github.com/programming086/TuyaSimulatorFixed-Binaries/releases/download/TYRCTCameraMessageManager-1.9.0-rc.8/TYRCTCameraMessageManager.xcframework.zip",
+    "type": "zip"
   },
   "summary": "A short description of TYRCTCameraMessageManager.",
   "user_target_xcconfig": {

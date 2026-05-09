@@ -21,8 +21,8 @@
     "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
   },
   "source": {
-    "git": "https://github.com/programming086/TuyaSimulatorFixed-Binaries.git",
-    "tag": "TYRCTRouteGatewayManager-1.0.44"
+    "http": "https://github.com/programming086/TuyaSimulatorFixed-Binaries/releases/download/TYRCTRouteGatewayManager-1.0.44/TYRCTRouteGatewayManager.xcframework.zip",
+    "type": "zip"
   },
   "summary": "A short description of TYRCTRouteGatewayManager.",
   "user_target_xcconfig": {

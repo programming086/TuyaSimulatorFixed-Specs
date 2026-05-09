@@ -16,8 +16,8 @@
     "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
   },
   "source": {
-    "git": "https://github.com/programming086/TuyaSimulatorFixed-Binaries.git",
-    "tag": "TYSmartEventPredefined_illumination-0.0.3-bizbundle.1"
+    "http": "https://github.com/programming086/TuyaSimulatorFixed-Binaries/releases/download/TYSmartEventPredefined_illumination-0.0.3-bizbundle.1/TYSmartEventPredefined_illumination.xcframework.zip",
+    "type": "zip"
   },
   "summary": "A short description of TYSmartEventPredefined_illumination.",
   "user_target_xcconfig": {

@@ -44,8 +44,8 @@
     ]
   },
   "source": {
-    "git": "https://github.com/programming086/TuyaSimulatorFixed-Binaries.git",
-    "tag": "TYSmartSceneDefaultUISkin-1.20.3"
+    "http": "https://github.com/programming086/TuyaSimulatorFixed-Binaries/releases/download/TYSmartSceneDefaultUISkin-1.20.3/TYSmartSceneDefaultUISkin.xcframework.zip",
+    "type": "zip"
   },
   "summary": "Smart scene default Skin",
   "user_target_xcconfig": {

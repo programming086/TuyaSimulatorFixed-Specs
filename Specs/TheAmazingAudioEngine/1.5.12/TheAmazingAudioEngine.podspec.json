@@ -8,8 +8,8 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "git": "https://github.com/programming086/TuyaSimulatorFixed-Binaries.git",
-    "tag": "TheAmazingAudioEngine-1.5.12"
+    "http": "https://github.com/programming086/TuyaSimulatorFixed-Binaries/releases/download/TheAmazingAudioEngine-1.5.12/TheAmazingAudioEngine.xcframework.zip",
+    "type": "zip"
   },
   "deprecated": true,
   "platforms": {

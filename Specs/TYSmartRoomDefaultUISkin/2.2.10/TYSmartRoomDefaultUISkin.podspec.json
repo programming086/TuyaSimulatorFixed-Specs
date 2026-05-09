@@ -36,8 +36,8 @@
     "TYSmartRoomDefaultUISkin/Assets/*.{png,xib,plist,xcassets,bundle}"
   ],
   "source": {
-    "git": "https://github.com/programming086/TuyaSimulatorFixed-Binaries.git",
-    "tag": "TYSmartRoomDefaultUISkin-2.2.10"
+    "http": "https://github.com/programming086/TuyaSimulatorFixed-Binaries/releases/download/TYSmartRoomDefaultUISkin-2.2.10/TYSmartRoomDefaultUISkin.xcframework.zip",
+    "type": "zip"
   },
   "summary": "\u623f\u95f4\u6a21\u5757\u9ed8\u8ba4\u76ae\u80a4",
   "user_target_xcconfig": {

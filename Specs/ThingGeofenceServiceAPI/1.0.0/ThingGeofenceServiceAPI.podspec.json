@@ -11,8 +11,8 @@
     "ios": "10.0"
   },
   "source": {
-    "git": "https://github.com/programming086/TuyaSimulatorFixed-Binaries.git",
-    "tag": "ThingGeofenceServiceAPI-1.0.0"
+    "http": "https://github.com/programming086/TuyaSimulatorFixed-Binaries/releases/download/ThingGeofenceServiceAPI-1.0.0/ThingGeofenceServiceAPI.xcframework.zip",
+    "type": "zip"
   },
   "summary": "A short description of ThingGeofenceServiceAPI.",
   "vendored_frameworks": [

@@ -7,8 +7,8 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "git": "https://github.com/programming086/TuyaSimulatorFixed-Binaries.git",
-    "tag": "ThingSweeperLZ4-0.2.1"
+    "http": "https://github.com/programming086/TuyaSimulatorFixed-Binaries/releases/download/ThingSweeperLZ4-0.2.1/ThingSweeperLZ4.xcframework.zip",
+    "type": "zip"
   },
   "platforms": {
     "ios": "8.0"

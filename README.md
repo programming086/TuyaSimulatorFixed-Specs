@@ -1,15 +1,15 @@
-# Tuya Smart Home iOS SDK - Specs (arm64 Simulator Support)
+# Tuya Smart Home iOS SDK - CocoaPods Specs (arm64 Simulator Support)
 
 This repository contains CocoaPods specifications for Tuya Smart Home iOS SDK with arm64 simulator support.
 
-## What's Different?
+## ✨ What's Different?
 
 - ✅ **arm64 simulator support** (Apple Silicon Macs)
 - ✅ All original functionality preserved
 - ✅ Same API as official SDK
-- ✅ Updated for iOS 11.0+
+- ✅ Fast installation via direct HTTP downloads
 
-## Installation
+## 🚀 Installation
 
 Add this to your `Podfile`:
 
@@ -21,13 +21,7 @@ platform :ios, '11.0'
 
 target 'YourApp' do
   use_frameworks!
-  
-  # Main activation kit (includes device pairing, network config, etc)
   pod 'TuyaSmartActivatorKit'
-  
-  # Or use specific modules
-  # pod 'TuyaSmartDeviceKit'
-  # pod 'TuyaSmartBaseKit'
 end
 ```
 
@@ -37,48 +31,19 @@ Then run:
 pod install
 ```
 
-## Swift Package Manager
+## ⚡ Why is it Fast?
+
+Unlike the original Tuya specs that clone entire git repositories, our specs use **direct HTTP downloads** from GitHub Releases. This makes installation much faster!
+
+## 📦 Swift Package Manager
 
 Prefer SPM? Check out: https://github.com/programming086/TuyaSimulatorFixed-SPM
 
-## Repository Structure
-
-```
-Specs/
-├── TuyaSmartActivatorKit/
-│   └── 4.0.0/
-│       └── TuyaSmartActivatorKit.podspec.json
-├── TuyaSmartBaseKit/
-│   └── 4.0.0/
-│       └── TuyaSmartBaseKit.podspec.json
-└── ...
-```
-
-## Binaries Repository
-
-The actual XCFramework binaries are stored in a separate repository:
-https://github.com/programming086/TuyaSimulatorFixed-Binaries
-
-This separation keeps the specs repo lightweight for faster `pod install`.
-
-## Available Frameworks
+## 📚 Available Frameworks
 
 Check the `Specs/` directory for all available frameworks and their versions.
 
-## Updates
+## 🔗 Related Repositories
 
-To update to a new version of the official SDK:
-1. Run the patching scripts on the new version
-2. Update this specs repository
-3. Tag new versions in the binaries repository
-
-## Support
-
-For issues related to:
-- **arm64 simulator support**: Open an issue in this repository
-- **Tuya SDK functionality**: Check [official Tuya documentation](https://developer.tuya.com/en/docs/iot)
-
-## License
-
-The frameworks themselves are licensed by Tuya Inc.
-This repository only provides arm64 simulator patches.
+- **Binaries**: https://github.com/programming086/TuyaSimulatorFixed-Binaries (GitHub Releases with ZIPs)
+- **SPM**: https://github.com/programming086/TuyaSimulatorFixed-SPM (Swift Package Manager)

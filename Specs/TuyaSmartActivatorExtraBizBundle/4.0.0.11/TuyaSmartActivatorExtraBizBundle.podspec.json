@@ -177,8 +177,8 @@
     ]
   },
   "source": {
-    "git": "https://github.com/programming086/TuyaSimulatorFixed-Binaries.git",
-    "tag": "TuyaSmartActivatorExtraBizBundle-4.0.0.11"
+    "http": "https://github.com/programming086/TuyaSimulatorFixed-Binaries/releases/download/TuyaSmartActivatorExtraBizBundle-4.0.0.11/TuyaSmartActivatorExtraBizBundle.xcframework.zip",
+    "type": "zip"
   },
   "summary": "A short description of TuyaSmartActivatorExtraBizBundle.",
   "user_target_xcconfig": {

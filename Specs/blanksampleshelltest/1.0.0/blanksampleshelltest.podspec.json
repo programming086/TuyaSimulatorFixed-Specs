@@ -8,8 +8,8 @@
     "Tuya": "developer@tuya.com"
   },
   "source": {
-    "git": "https://github.com/programming086/TuyaSimulatorFixed-Binaries.git",
-    "tag": "blanksampleshelltest-1.0.0"
+    "http": "https://github.com/programming086/TuyaSimulatorFixed-Binaries/releases/download/blanksampleshelltest-1.0.0/blanksampleshelltest.xcframework.zip",
+    "type": "zip"
   },
   "platforms": {
     "ios": "9.0",

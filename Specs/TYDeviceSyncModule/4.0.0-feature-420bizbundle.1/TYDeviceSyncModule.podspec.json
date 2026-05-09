@@ -41,8 +41,8 @@
     "TYDeviceSyncModule/Assets/*.{png,xib,plist,xcassets,bundle}"
   ],
   "source": {
-    "git": "https://github.com/programming086/TuyaSimulatorFixed-Binaries.git",
-    "tag": "TYDeviceSyncModule-4.0.0-feature-420bizbundle.1"
+    "http": "https://github.com/programming086/TuyaSimulatorFixed-Binaries/releases/download/TYDeviceSyncModule-4.0.0-feature-420bizbundle.1/TYDeviceSyncModule.xcframework.zip",
+    "type": "zip"
   },
   "summary": "\u53cc\u63a7\u8bbe\u5907\u5173\u8054\u6a21\u5757",
   "user_target_xcconfig": {

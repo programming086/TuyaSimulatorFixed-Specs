@@ -29,8 +29,8 @@
     ]
   },
   "source": {
-    "git": "https://github.com/programming086/TuyaSimulatorFixed-Binaries.git",
-    "tag": "TYSocialWeChat-0.2.5"
+    "http": "https://github.com/programming086/TuyaSimulatorFixed-Binaries/releases/download/TYSocialWeChat-0.2.5/TYSocialWeChat.xcframework.zip",
+    "type": "zip"
   },
   "summary": "A short description of TYSocialWeChat.",
   "user_target_xcconfig": {

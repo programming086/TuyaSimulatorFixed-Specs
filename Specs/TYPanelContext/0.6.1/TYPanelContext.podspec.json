@@ -30,8 +30,8 @@
     ]
   },
   "source": {
-    "git": "https://github.com/programming086/TuyaSimulatorFixed-Binaries.git",
-    "tag": "TYPanelContext-0.6.1"
+    "http": "https://github.com/programming086/TuyaSimulatorFixed-Binaries/releases/download/TYPanelContext-0.6.1/TYPanelContext.xcframework.zip",
+    "type": "zip"
   },
   "summary": "\u6d82\u9e26\u9762\u677f\u4e0a\u4e0b\u6587\u4fe1\u606f\u6a21\u5757",
   "user_target_xcconfig": {

@@ -8,8 +8,8 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "git": "https://github.com/programming086/TuyaSimulatorFixed-Binaries.git",
-    "tag": "TRCTDigitalFunBitmapView-1.0.3-anonymize.1"
+    "http": "https://github.com/programming086/TuyaSimulatorFixed-Binaries/releases/download/TRCTDigitalFunBitmapView-1.0.3-anonymize.1/TRCTDigitalFunBitmapView.xcframework.zip",
+    "type": "zip"
   },
   "platforms": {
     "ios": "9.0"

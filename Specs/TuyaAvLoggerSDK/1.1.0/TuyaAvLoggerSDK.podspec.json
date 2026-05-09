@@ -38,8 +38,8 @@
     "OTHER_CFLAGS": "-DLINUX"
   },
   "source": {
-    "git": "https://github.com/programming086/TuyaSimulatorFixed-Binaries.git",
-    "tag": "TuyaAvLoggerSDK-1.1.0"
+    "http": "https://github.com/programming086/TuyaSimulatorFixed-Binaries/releases/download/TuyaAvLoggerSDK-1.1.0/TuyaAvLoggerSDK.xcframework.zip",
+    "type": "zip"
   },
   "summary": "TuyaAvLoggerSDK framework.",
   "user_target_xcconfig": {

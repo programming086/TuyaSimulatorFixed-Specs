@@ -8,8 +8,8 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "git": "https://github.com/programming086/TuyaSimulatorFixed-Binaries.git",
-    "tag": "ThingAlertPickerComponent-0.3.3-anonymize.1"
+    "http": "https://github.com/programming086/TuyaSimulatorFixed-Binaries/releases/download/ThingAlertPickerComponent-0.3.3-anonymize.1/ThingAlertPickerComponent.xcframework.zip",
+    "type": "zip"
   },
   "platforms": {
     "ios": "9.0"

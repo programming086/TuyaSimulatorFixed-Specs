@@ -29,8 +29,8 @@
   },
   "prefix_header_file": "TYCommonDebugger/Classes/PrefixHeader.pch",
   "source": {
-    "git": "https://github.com/programming086/TuyaSimulatorFixed-Binaries.git",
-    "tag": "TYCommonDebugger-0.4.1"
+    "http": "https://github.com/programming086/TuyaSimulatorFixed-Binaries/releases/download/TYCommonDebugger-0.4.1/TYCommonDebugger.xcframework.zip",
+    "type": "zip"
   },
   "summary": "A short description of TYCommonDebugger.",
   "vendored_frameworks": [

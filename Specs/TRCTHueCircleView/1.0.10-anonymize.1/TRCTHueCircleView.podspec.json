@@ -8,8 +8,8 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "git": "https://github.com/programming086/TuyaSimulatorFixed-Binaries.git",
-    "tag": "TRCTHueCircleView-1.0.10-anonymize.1"
+    "http": "https://github.com/programming086/TuyaSimulatorFixed-Binaries/releases/download/TRCTHueCircleView-1.0.10-anonymize.1/TRCTHueCircleView.xcframework.zip",
+    "type": "zip"
   },
   "platforms": {
     "ios": "9.0"

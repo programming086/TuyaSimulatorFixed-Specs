@@ -8,8 +8,8 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "git": "https://github.com/programming086/TuyaSimulatorFixed-Binaries.git",
-    "tag": "TRCTSpeakerManager-1.1.18-anonymize.2"
+    "http": "https://github.com/programming086/TuyaSimulatorFixed-Binaries/releases/download/TRCTSpeakerManager-1.1.18-anonymize.2/TRCTSpeakerManager.xcframework.zip",
+    "type": "zip"
   },
   "platforms": {
     "ios": "9.0"

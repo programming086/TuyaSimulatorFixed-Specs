@@ -18,8 +18,8 @@
     "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
   },
   "source": {
-    "git": "https://github.com/programming086/TuyaSimulatorFixed-Binaries.git",
-    "tag": "TYDeviceTimerPlugAPI-0.0.1"
+    "http": "https://github.com/programming086/TuyaSimulatorFixed-Binaries/releases/download/TYDeviceTimerPlugAPI-0.0.1/TYDeviceTimerPlugAPI.xcframework.zip",
+    "type": "zip"
   },
   "summary": "A short description of TYDeviceTimerPlugAPI.",
   "user_target_xcconfig": {

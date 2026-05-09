@@ -28,8 +28,8 @@
     ]
   },
   "source": {
-    "git": "https://github.com/programming086/TuyaSimulatorFixed-Binaries.git",
-    "tag": "TUNIMiniProgramManager-3.3.0"
+    "http": "https://github.com/programming086/TuyaSimulatorFixed-Binaries/releases/download/TUNIMiniProgramManager-3.3.0/TUNIMiniProgramManager.xcframework.zip",
+    "type": "zip"
   },
   "summary": "A short description of TUNIMiniProgramManager.",
   "user_target_xcconfig": {

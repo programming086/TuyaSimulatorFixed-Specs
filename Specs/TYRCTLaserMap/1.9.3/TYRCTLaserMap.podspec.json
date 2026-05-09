@@ -31,8 +31,8 @@
     ]
   },
   "source": {
-    "git": "https://github.com/programming086/TuyaSimulatorFixed-Binaries.git",
-    "tag": "TYRCTLaserMap-1.9.3"
+    "http": "https://github.com/programming086/TuyaSimulatorFixed-Binaries/releases/download/TYRCTLaserMap-1.9.3/TYRCTLaserMap.xcframework.zip",
+    "type": "zip"
   },
   "summary": "A short description of TYRCTLaserMap.",
   "user_target_xcconfig": {

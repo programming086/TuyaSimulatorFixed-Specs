@@ -10,8 +10,8 @@
   },
   "homepage": "https://developer.thing.com/",
   "source": {
-    "git": "https://github.com/programming086/TuyaSimulatorFixed-Binaries.git",
-    "tag": "ThingSmartUtil-5.9.1"
+    "http": "https://github.com/programming086/TuyaSimulatorFixed-Binaries/releases/download/ThingSmartUtil-5.9.1/ThingSmartUtil.xcframework.zip",
+    "type": "zip"
   },
   "platforms": {
     "ios": "9.0",

@@ -16,8 +16,8 @@
     "ios": "9.0"
   },
   "source": {
-    "git": "https://github.com/programming086/TuyaSimulatorFixed-Binaries.git",
-    "tag": "TYRCTUserManager-1.0.4"
+    "http": "https://github.com/programming086/TuyaSimulatorFixed-Binaries/releases/download/TYRCTUserManager-1.0.4/TYRCTUserManager.xcframework.zip",
+    "type": "zip"
   },
   "summary": "A short description of TYRCTUserManager.",
   "vendored_frameworks": [

@@ -11,8 +11,8 @@
     "ios": "12.0"
   },
   "source": {
-    "git": "https://github.com/programming086/TuyaSimulatorFixed-Binaries.git",
-    "tag": "TUNIWearKit-1.5.2"
+    "http": "https://github.com/programming086/TuyaSimulatorFixed-Binaries/releases/download/TUNIWearKit-1.5.2/TUNIWearKit.xcframework.zip",
+    "type": "zip"
   },
   "resource_bundles": {
     "TUNIWearKit": [

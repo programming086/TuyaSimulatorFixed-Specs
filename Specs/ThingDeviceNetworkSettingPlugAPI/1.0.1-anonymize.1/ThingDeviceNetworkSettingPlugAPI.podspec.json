@@ -11,8 +11,8 @@
     "ios": "9.0"
   },
   "source": {
-    "git": "https://github.com/programming086/TuyaSimulatorFixed-Binaries.git",
-    "tag": "ThingDeviceNetworkSettingPlugAPI-1.0.1-anonymize.1"
+    "http": "https://github.com/programming086/TuyaSimulatorFixed-Binaries/releases/download/ThingDeviceNetworkSettingPlugAPI-1.0.1-anonymize.1/ThingDeviceNetworkSettingPlugAPI.xcframework.zip",
+    "type": "zip"
   },
   "summary": "A short description of ThingDeviceNetworkSettingPlugAPI.",
   "vendored_frameworks": [

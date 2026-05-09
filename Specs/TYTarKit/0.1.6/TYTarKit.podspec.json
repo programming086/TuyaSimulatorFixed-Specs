@@ -12,8 +12,8 @@
   },
   "requires_arc": true,
   "source": {
-    "git": "https://github.com/programming086/TuyaSimulatorFixed-Binaries.git",
-    "tag": "TYTarKit-0.1.6"
+    "http": "https://github.com/programming086/TuyaSimulatorFixed-Binaries/releases/download/TYTarKit-0.1.6/TYTarKit.xcframework.zip",
+    "type": "zip"
   },
   "summary": "untar and tar files on iOS and OS X. Also supports gzip tars.",
   "vendored_frameworks": [

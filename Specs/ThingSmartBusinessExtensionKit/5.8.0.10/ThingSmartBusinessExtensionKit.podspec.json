@@ -77,8 +77,8 @@
     ]
   },
   "source": {
-    "git": "https://github.com/programming086/TuyaSimulatorFixed-Binaries.git",
-    "tag": "ThingSmartBusinessExtensionKit-5.8.0.10"
+    "http": "https://github.com/programming086/TuyaSimulatorFixed-Binaries/releases/download/ThingSmartBusinessExtensionKit-5.8.0.10/ThingSmartBusinessExtensionKit.xcframework.zip",
+    "type": "zip"
   },
   "summary": "A short description of ThingSmartBusinessExtensionKit.",
   "vendored_frameworks": [

@@ -26,8 +26,8 @@
     ]
   },
   "source": {
-    "git": "https://github.com/programming086/TuyaSimulatorFixed-Binaries.git",
-    "tag": "TYUniOpenExtApiManager-1.0.0-rc.5"
+    "http": "https://github.com/programming086/TuyaSimulatorFixed-Binaries/releases/download/TYUniOpenExtApiManager-1.0.0-rc.5/TYUniOpenExtApiManager.xcframework.zip",
+    "type": "zip"
   },
   "summary": "A short description of TYUniOpenExtApiManager.",
   "user_target_xcconfig": {

@@ -29,8 +29,8 @@
     ]
   },
   "source": {
-    "git": "https://github.com/programming086/TuyaSimulatorFixed-Binaries.git",
-    "tag": "TYUniDLMapManager-1.0.2"
+    "http": "https://github.com/programming086/TuyaSimulatorFixed-Binaries/releases/download/TYUniDLMapManager-1.0.2/TYUniDLMapManager.xcframework.zip",
+    "type": "zip"
   },
   "summary": "A short description of TYUniDLMapManager.",
   "user_target_xcconfig": {

@@ -28,8 +28,8 @@
     "TuyaSmartBizCore/Assets/TuyaSmartBizCore.bundle"
   ],
   "source": {
-    "git": "https://github.com/programming086/TuyaSimulatorFixed-Binaries.git",
-    "tag": "TuyaSmartBizCore-4.0.6"
+    "http": "https://github.com/programming086/TuyaSimulatorFixed-Binaries/releases/download/TuyaSmartBizCore-4.0.6/TuyaSmartBizCore.xcframework.zip",
+    "type": "zip"
   },
   "summary": "A short description of TuyaSmartBizCore.",
   "user_target_xcconfig": {

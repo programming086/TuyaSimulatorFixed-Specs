@@ -31,8 +31,8 @@
     ]
   },
   "source": {
-    "git": "https://github.com/programming086/TuyaSimulatorFixed-Binaries.git",
-    "tag": "TYDeviceDetailEdit-1.0.1"
+    "http": "https://github.com/programming086/TuyaSimulatorFixed-Binaries/releases/download/TYDeviceDetailEdit-1.0.1/TYDeviceDetailEdit.xcframework.zip",
+    "type": "zip"
   },
   "summary": "A short description of TYDeviceDetailEdit.",
   "vendored_frameworks": [

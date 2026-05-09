@@ -12,8 +12,8 @@
     "Tuya": "developer@tuya.com"
   },
   "source": {
-    "git": "https://github.com/programming086/TuyaSimulatorFixed-Binaries.git",
-    "tag": "ThingSmartCameraExtSDK-1.0.0"
+    "http": "https://github.com/programming086/TuyaSimulatorFixed-Binaries/releases/download/ThingSmartCameraExtSDK-1.0.0/ThingSmartCameraExtSDK.xcframework.zip",
+    "type": "zip"
   },
   "platforms": {
     "ios": "10.0"

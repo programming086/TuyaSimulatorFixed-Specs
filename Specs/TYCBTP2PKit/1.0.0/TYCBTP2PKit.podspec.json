@@ -21,8 +21,8 @@
     ]
   },
   "source": {
-    "git": "https://github.com/programming086/TuyaSimulatorFixed-Binaries.git",
-    "tag": "TYCBTP2PKit-1.0.0"
+    "http": "https://github.com/programming086/TuyaSimulatorFixed-Binaries/releases/download/TYCBTP2PKit-1.0.0/TYCBTP2PKit.xcframework.zip",
+    "type": "zip"
   },
   "summary": "\u6d82\u9e26TTT(Tuya Tied Things ) group \u63d2\u4ef6\u96c6\u5408",
   "vendored_frameworks": [

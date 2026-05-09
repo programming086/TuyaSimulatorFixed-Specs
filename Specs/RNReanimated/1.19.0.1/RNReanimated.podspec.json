@@ -11,8 +11,8 @@
     "ios": "9.0"
   },
   "source": {
-    "git": "https://github.com/programming086/TuyaSimulatorFixed-Binaries.git",
-    "tag": "RNReanimated-1.19.0.1"
+    "http": "https://github.com/programming086/TuyaSimulatorFixed-Binaries/releases/download/RNReanimated-1.19.0.1/RNReanimated.xcframework.zip",
+    "type": "zip"
   },
   "requires_arc": true,
   "dependencies": {

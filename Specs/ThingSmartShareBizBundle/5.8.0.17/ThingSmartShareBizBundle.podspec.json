@@ -264,8 +264,8 @@
     ]
   },
   "source": {
-    "git": "https://github.com/programming086/TuyaSimulatorFixed-Binaries.git",
-    "tag": "ThingSmartShareBizBundle-5.8.0.17"
+    "http": "https://github.com/programming086/TuyaSimulatorFixed-Binaries/releases/download/ThingSmartShareBizBundle-5.8.0.17/ThingSmartShareBizBundle.xcframework.zip",
+    "type": "zip"
   },
   "summary": "A short description of ThingSmartShareBizBundle.",
   "user_target_xcconfig": {

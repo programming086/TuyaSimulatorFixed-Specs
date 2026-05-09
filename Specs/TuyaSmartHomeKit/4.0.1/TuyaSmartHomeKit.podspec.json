@@ -10,8 +10,8 @@
     "Tuya": "developer@tuya.com"
   },
   "source": {
-    "git": "https://github.com/programming086/TuyaSimulatorFixed-Binaries.git",
-    "tag": "TuyaSmartHomeKit-4.0.1"
+    "http": "https://github.com/programming086/TuyaSimulatorFixed-Binaries/releases/download/TuyaSmartHomeKit-4.0.1/TuyaSmartHomeKit.xcframework.zip",
+    "type": "zip"
   },
   "platforms": {
     "ios": "9.0",

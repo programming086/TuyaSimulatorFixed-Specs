@@ -11,8 +11,8 @@
     "ios": "8.0"
   },
   "source": {
-    "git": "https://github.com/programming086/TuyaSimulatorFixed-Binaries.git",
-    "tag": "RNViewShot-2.3.0.5"
+    "http": "https://github.com/programming086/TuyaSimulatorFixed-Binaries/releases/download/RNViewShot-2.3.0.5/RNViewShot.xcframework.zip",
+    "type": "zip"
   },
   "preserve_paths": "**/*.js",
   "frameworks": [

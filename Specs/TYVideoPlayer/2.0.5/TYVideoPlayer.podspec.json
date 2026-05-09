@@ -43,8 +43,8 @@
     "Build/TYVideoPlayer.xcframework/ios-arm64_armv7/TYVideoPlayer.framework/CustomResources/Bundles/*"
   ],
   "source": {
-    "git": "https://github.com/programming086/TuyaSimulatorFixed-Binaries.git",
-    "tag": "TYVideoPlayer-2.0.5"
+    "http": "https://github.com/programming086/TuyaSimulatorFixed-Binaries/releases/download/TYVideoPlayer-2.0.5/TYVideoPlayer.xcframework.zip",
+    "type": "zip"
   },
   "summary": "A short description of TYVideoPlayer.",
   "vendored_frameworks": [

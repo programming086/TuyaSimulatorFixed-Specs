@@ -31,8 +31,8 @@
     ]
   },
   "source": {
-    "git": "https://github.com/programming086/TuyaSimulatorFixed-Binaries.git",
-    "tag": "TUNIDeviceActivationManager-1.4.0"
+    "http": "https://github.com/programming086/TuyaSimulatorFixed-Binaries/releases/download/TUNIDeviceActivationManager-1.4.0/TUNIDeviceActivationManager.xcframework.zip",
+    "type": "zip"
   },
   "summary": "A short description of TUNIDeviceActivationManager.",
   "user_target_xcconfig": {

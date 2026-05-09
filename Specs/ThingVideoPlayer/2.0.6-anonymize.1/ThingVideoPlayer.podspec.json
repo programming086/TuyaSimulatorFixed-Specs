@@ -49,8 +49,8 @@
     ]
   },
   "source": {
-    "git": "https://github.com/programming086/TuyaSimulatorFixed-Binaries.git",
-    "tag": "ThingVideoPlayer-2.0.6-anonymize.1"
+    "http": "https://github.com/programming086/TuyaSimulatorFixed-Binaries/releases/download/ThingVideoPlayer-2.0.6-anonymize.1/ThingVideoPlayer.xcframework.zip",
+    "type": "zip"
   },
   "summary": "A short description of ThingVideoPlayer.",
   "user_target_xcconfig": {

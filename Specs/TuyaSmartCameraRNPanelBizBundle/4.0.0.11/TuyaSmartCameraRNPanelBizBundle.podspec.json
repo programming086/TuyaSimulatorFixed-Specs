@@ -400,8 +400,8 @@
     ]
   },
   "source": {
-    "git": "https://github.com/programming086/TuyaSimulatorFixed-Binaries.git",
-    "tag": "TuyaSmartCameraRNPanelBizBundle-4.0.0.11"
+    "http": "https://github.com/programming086/TuyaSimulatorFixed-Binaries/releases/download/TuyaSmartCameraRNPanelBizBundle-4.0.0.11/TuyaSmartCameraRNPanelBizBundle.xcframework.zip",
+    "type": "zip"
   },
   "summary": "A short description of TuyaSmartCameraRNPanelBizBundle.",
   "user_target_xcconfig": {

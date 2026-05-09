@@ -27,8 +27,8 @@
     ]
   },
   "source": {
-    "git": "https://github.com/programming086/TuyaSimulatorFixed-Binaries.git",
-    "tag": "TYUniOTAManager-1.0.1"
+    "http": "https://github.com/programming086/TuyaSimulatorFixed-Binaries/releases/download/TYUniOTAManager-1.0.1/TYUniOTAManager.xcframework.zip",
+    "type": "zip"
   },
   "summary": "A short description of TYUniOTAManager.",
   "user_target_xcconfig": {

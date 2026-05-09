@@ -8,8 +8,8 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "git": "https://github.com/programming086/TuyaSimulatorFixed-Binaries.git",
-    "tag": "ThingSmartMatterInterfaceAPI-1.7.1"
+    "http": "https://github.com/programming086/TuyaSimulatorFixed-Binaries/releases/download/ThingSmartMatterInterfaceAPI-1.7.1/ThingSmartMatterInterfaceAPI.xcframework.zip",
+    "type": "zip"
   },
   "platforms": {
     "ios": "10.0"

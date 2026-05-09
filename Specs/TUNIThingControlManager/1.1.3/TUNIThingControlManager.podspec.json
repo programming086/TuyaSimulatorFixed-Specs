@@ -26,8 +26,8 @@
     ]
   },
   "source": {
-    "git": "https://github.com/programming086/TuyaSimulatorFixed-Binaries.git",
-    "tag": "TUNIThingControlManager-1.1.3"
+    "http": "https://github.com/programming086/TuyaSimulatorFixed-Binaries/releases/download/TUNIThingControlManager-1.1.3/TUNIThingControlManager.xcframework.zip",
+    "type": "zip"
   },
   "summary": "A short description of TUNIThingControlManager.",
   "user_target_xcconfig": {

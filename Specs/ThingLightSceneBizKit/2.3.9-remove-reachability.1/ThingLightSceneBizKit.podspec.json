@@ -34,8 +34,8 @@
   },
   "prefix_header_file": "ThingLightSceneBizKit/Classes/PrefixHeader.pch",
   "source": {
-    "git": "https://github.com/programming086/TuyaSimulatorFixed-Binaries.git",
-    "tag": "ThingLightSceneBizKit-2.3.9-remove-reachability.1"
+    "http": "https://github.com/programming086/TuyaSimulatorFixed-Binaries/releases/download/ThingLightSceneBizKit-2.3.9-remove-reachability.1/ThingLightSceneBizKit.xcframework.zip",
+    "type": "zip"
   },
   "summary": "A short description of ThingLightSceneBizKit.",
   "user_target_xcconfig": {

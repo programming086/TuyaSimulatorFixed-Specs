@@ -15,8 +15,8 @@
     "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
   },
   "source": {
-    "git": "https://github.com/programming086/TuyaSimulatorFixed-Binaries.git",
-    "tag": "TYDeviceSyncPlugAPI-1.0.0-feature-420bizbundle.2"
+    "http": "https://github.com/programming086/TuyaSimulatorFixed-Binaries/releases/download/TYDeviceSyncPlugAPI-1.0.0-feature-420bizbundle.2/TYDeviceSyncPlugAPI.xcframework.zip",
+    "type": "zip"
   },
   "summary": "A short description of TYDeviceSyncPlugAPI.",
   "user_target_xcconfig": {

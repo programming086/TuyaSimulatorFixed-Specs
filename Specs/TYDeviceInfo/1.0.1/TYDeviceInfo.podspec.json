@@ -24,8 +24,8 @@
     "ios": "9.0"
   },
   "source": {
-    "git": "https://github.com/programming086/TuyaSimulatorFixed-Binaries.git",
-    "tag": "TYDeviceInfo-1.0.1"
+    "http": "https://github.com/programming086/TuyaSimulatorFixed-Binaries/releases/download/TYDeviceInfo-1.0.1/TYDeviceInfo.xcframework.zip",
+    "type": "zip"
   },
   "summary": "A short description of TYDeviceInfo.",
   "vendored_frameworks": [

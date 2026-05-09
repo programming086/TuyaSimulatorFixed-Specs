@@ -39,8 +39,8 @@
     "ios": "9.0"
   },
   "source": {
-    "git": "https://github.com/programming086/TuyaSimulatorFixed-Binaries.git",
-    "tag": "TYAlertPickerComponent-0.3.2"
+    "http": "https://github.com/programming086/TuyaSimulatorFixed-Binaries/releases/download/TYAlertPickerComponent-0.3.2/TYAlertPickerComponent.xcframework.zip",
+    "type": "zip"
   },
   "summary": "A short description of TYAlertPickerComponent.",
   "vendored_frameworks": [

@@ -8,8 +8,8 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "git": "https://github.com/programming086/TuyaSimulatorFixed-Binaries.git",
-    "tag": "TRCTPicker-2.0.6-anonymize.1"
+    "http": "https://github.com/programming086/TuyaSimulatorFixed-Binaries/releases/download/TRCTPicker-2.0.6-anonymize.1/TRCTPicker.xcframework.zip",
+    "type": "zip"
   },
   "platforms": {
     "ios": "9.0"

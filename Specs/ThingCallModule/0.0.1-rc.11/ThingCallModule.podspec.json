@@ -28,8 +28,8 @@
     ]
   },
   "source": {
-    "git": "https://github.com/programming086/TuyaSimulatorFixed-Binaries.git",
-    "tag": "ThingCallModule-0.0.1-rc.11"
+    "http": "https://github.com/programming086/TuyaSimulatorFixed-Binaries/releases/download/ThingCallModule-0.0.1-rc.11/ThingCallModule.xcframework.zip",
+    "type": "zip"
   },
   "summary": "A short description of ThingCallModule.",
   "vendored_frameworks": [

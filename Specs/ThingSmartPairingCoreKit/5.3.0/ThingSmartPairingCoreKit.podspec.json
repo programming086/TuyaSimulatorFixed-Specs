@@ -12,8 +12,8 @@
     "Tuya": "developer@tuya.com"
   },
   "source": {
-    "git": "https://github.com/programming086/TuyaSimulatorFixed-Binaries.git",
-    "tag": "ThingSmartPairingCoreKit-5.3.0"
+    "http": "https://github.com/programming086/TuyaSimulatorFixed-Binaries/releases/download/ThingSmartPairingCoreKit-5.3.0/ThingSmartPairingCoreKit.xcframework.zip",
+    "type": "zip"
   },
   "platforms": {
     "ios": "9.0"

@@ -8,8 +8,8 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "git": "https://github.com/programming086/TuyaSimulatorFixed-Binaries.git",
-    "tag": "ThingSpaceInfoSktAPI-1.7.1"
+    "http": "https://github.com/programming086/TuyaSimulatorFixed-Binaries/releases/download/ThingSpaceInfoSktAPI-1.7.1/ThingSpaceInfoSktAPI.xcframework.zip",
+    "type": "zip"
   },
   "platforms": {
     "ios": "9.0"

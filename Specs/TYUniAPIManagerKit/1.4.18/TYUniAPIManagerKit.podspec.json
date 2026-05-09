@@ -26,8 +26,8 @@
     "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
   },
   "source": {
-    "git": "https://github.com/programming086/TuyaSimulatorFixed-Binaries.git",
-    "tag": "TYUniAPIManagerKit-1.4.18"
+    "http": "https://github.com/programming086/TuyaSimulatorFixed-Binaries/releases/download/TYUniAPIManagerKit-1.4.18/TYUniAPIManagerKit.xcframework.zip",
+    "type": "zip"
   },
   "summary": "A short description of TYUniAPIManagerKit.",
   "user_target_xcconfig": {

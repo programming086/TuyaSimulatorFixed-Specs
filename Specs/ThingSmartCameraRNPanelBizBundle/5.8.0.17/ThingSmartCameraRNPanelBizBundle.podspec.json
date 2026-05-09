@@ -475,8 +475,8 @@
     ]
   },
   "source": {
-    "git": "https://github.com/programming086/TuyaSimulatorFixed-Binaries.git",
-    "tag": "ThingSmartCameraRNPanelBizBundle-5.8.0.17"
+    "http": "https://github.com/programming086/TuyaSimulatorFixed-Binaries/releases/download/ThingSmartCameraRNPanelBizBundle-5.8.0.17/ThingSmartCameraRNPanelBizBundle.xcframework.zip",
+    "type": "zip"
   },
   "summary": "A short description of ThingSmartCameraRNPanelBizBundle.",
   "user_target_xcconfig": {

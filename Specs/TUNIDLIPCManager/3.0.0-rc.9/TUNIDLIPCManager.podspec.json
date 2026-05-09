@@ -32,8 +32,8 @@
     ]
   },
   "source": {
-    "git": "https://github.com/programming086/TuyaSimulatorFixed-Binaries.git",
-    "tag": "TUNIDLIPCManager-3.0.0-rc.9"
+    "http": "https://github.com/programming086/TuyaSimulatorFixed-Binaries/releases/download/TUNIDLIPCManager-3.0.0-rc.9/TUNIDLIPCManager.xcframework.zip",
+    "type": "zip"
   },
   "summary": "A short description of TUNIDLIPCManager.",
   "user_target_xcconfig": {

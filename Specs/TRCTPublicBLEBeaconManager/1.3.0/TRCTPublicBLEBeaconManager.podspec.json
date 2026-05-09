@@ -8,8 +8,8 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "git": "https://github.com/programming086/TuyaSimulatorFixed-Binaries.git",
-    "tag": "TRCTPublicBLEBeaconManager-1.3.0"
+    "http": "https://github.com/programming086/TuyaSimulatorFixed-Binaries/releases/download/TRCTPublicBLEBeaconManager-1.3.0/TRCTPublicBLEBeaconManager.xcframework.zip",
+    "type": "zip"
   },
   "platforms": {
     "ios": "9.0"

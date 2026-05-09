@@ -27,8 +27,8 @@
     "ios": "9.0"
   },
   "source": {
-    "git": "https://github.com/programming086/TuyaSimulatorFixed-Binaries.git",
-    "tag": "ThingDPCContainer-0.7.7-remove-lottie.1"
+    "http": "https://github.com/programming086/TuyaSimulatorFixed-Binaries/releases/download/ThingDPCContainer-0.7.7-remove-lottie.1/ThingDPCContainer.xcframework.zip",
+    "type": "zip"
   },
   "summary": "DPC: DataSource + Provider + Container",
   "vendored_frameworks": [
