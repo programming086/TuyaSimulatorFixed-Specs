@@ -1,0 +1,30 @@
+{
+  "name": "GZLMiniAppStorage",
+  "version": "3.3.0",
+  "summary": "A short description of GZLMiniAppStorage.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "git": "https://github.com/programming086/TuyaSimulatorFixed-Binaries.git",
+    "tag": "GZLMiniAppStorage-3.3.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "dependencies": {
+    "MMKV": [],
+    "GodzillaMiniBaseKit": []
+  },
+  "vendored_frameworks": [
+    "GZLMiniAppStorage.xcframework"
+  ],
+  "source_files": [
+    "GZLMiniAppStorage.xcframework/**/*.h"
+  ],
+  "resources": [
+    "Build/GZLMiniAppStorage.xcframework/ios-arm64/GZLMiniAppStorage.framework/CustomResources/Bundles/*"
+  ]
+}

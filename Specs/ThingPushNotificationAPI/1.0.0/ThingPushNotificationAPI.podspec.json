@@ -1,0 +1,21 @@
+{
+  "name": "ThingPushNotificationAPI",
+  "version": "1.0.0",
+  "summary": "A short description of ThingPushNotificationAPI.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "git": "https://github.com/programming086/TuyaSimulatorFixed-Binaries.git",
+    "tag": "ThingPushNotificationAPI-1.0.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "vendored_frameworks": [
+    "ThingPushNotificationAPI.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}
