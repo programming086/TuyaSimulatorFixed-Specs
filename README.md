@@ -39,6 +39,7 @@ pod install
 
 ## Repository Structure
 
+```
 Specs/
 ├── TuyaSmartActivatorKit/
 │   └── 4.0.0/
@@ -47,6 +48,7 @@ Specs/
 │   └── 4.0.0/
 │       └── TuyaSmartBaseKit.podspec.json
 └── ...
+```
 
 ## Binaries Repository
 
