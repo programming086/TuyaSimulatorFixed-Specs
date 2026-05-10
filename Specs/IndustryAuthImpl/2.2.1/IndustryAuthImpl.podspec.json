@@ -35,7 +35,7 @@
     "IndustryAuthImpl.xcframework"
   ],
   "source_files": [
-    "IndustryAuthImpl.xcframework/**/*.h"
+    "IndustryAuthImpl.xcframework/ios-arm64/IndustryAuthImpl.framework/Headers/*"
   ],
   "swift_version": "5.6"
 }

@@ -28,6 +28,6 @@
     "ThingSmartP2pChannelKit.xcframework"
   ],
   "source_files": [
-    "ThingSmartP2pChannelKit.xcframework/**/*.h"
+    "ThingSmartP2pChannelKit.xcframework/ios-arm64/ThingSmartP2pChannelKit.framework/Headers/*"
   ]
 }

@@ -49,6 +49,6 @@
     "ThingSmartFileTransCoreKit.xcframework"
   ],
   "source_files": [
-    "ThingSmartFileTransCoreKit.xcframework/**/*.h"
+    "ThingSmartFileTransCoreKit.xcframework/ios-arm64/ThingSmartFileTransCoreKit.framework/Headers/*"
   ]
 }

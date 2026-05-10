@@ -36,7 +36,7 @@
     "IndustryMQTTKit.xcframework"
   ],
   "source_files": [
-    "IndustryMQTTKit.xcframework/**/*.h"
+    "IndustryMQTTKit.xcframework/ios-arm64/IndustryMQTTKit.framework/Headers/*"
   ],
   "swift_version": "5.6"
 }

@@ -18,6 +18,6 @@
     "ThingSmartMediaServices.xcframework"
   ],
   "source_files": [
-    "ThingSmartMediaServices.xcframework/**/*.h"
+    "ThingSmartMediaServices.xcframework/ios-arm64/ThingSmartMediaServices.framework/Headers/*"
   ]
 }

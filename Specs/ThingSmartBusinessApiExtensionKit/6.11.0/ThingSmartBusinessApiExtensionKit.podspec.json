@@ -21,6 +21,6 @@
     "ThingSmartBusinessApiExtensionKit.xcframework"
   ],
   "source_files": [
-    "ThingSmartBusinessApiExtensionKit.xcframework/**/*.h"
+    "ThingSmartBusinessApiExtensionKit.xcframework/ios-arm64/ThingSmartBusinessApiExtensionKit.framework/Headers/*"
   ]
 }

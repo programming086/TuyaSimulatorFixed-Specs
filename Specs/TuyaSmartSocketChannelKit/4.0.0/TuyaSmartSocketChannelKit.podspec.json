@@ -38,6 +38,6 @@
     "TuyaSmartSocketChannelKit.xcframework"
   ],
   "source_files": [
-    "TuyaSmartSocketChannelKit.xcframework/**/*.h"
+    "TuyaSmartSocketChannelKit.xcframework/ios-arm64_armv7/TuyaSmartSocketChannelKit.framework/Headers/*"
   ]
 }

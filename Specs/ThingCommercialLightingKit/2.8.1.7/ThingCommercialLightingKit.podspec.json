@@ -39,6 +39,6 @@
     "ThingCommercialLightingKit.xcframework"
   ],
   "source_files": [
-    "ThingCommercialLightingKit.xcframework/**/*.h"
+    "ThingCommercialLightingKit.xcframework/ios-arm64/ThingCommercialLightingKit.framework/Headers/*"
   ]
 }

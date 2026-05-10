@@ -50,6 +50,6 @@
     "ThingMP3CodecSDK.xcframework"
   ],
   "source_files": [
-    "ThingMP3CodecSDK.xcframework/**/*.h"
+    "ThingMP3CodecSDK.xcframework/ios-arm64/ThingMP3CodecSDK.framework/Headers/*"
   ]
 }

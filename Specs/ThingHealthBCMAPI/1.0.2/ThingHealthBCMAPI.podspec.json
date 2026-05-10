@@ -18,6 +18,6 @@
     "ThingHealthBCMAPI.xcframework"
   ],
   "source_files": [
-    "ThingHealthBCMAPI.xcframework/**/*.h"
+    "ThingHealthBCMAPI.xcframework/ios-arm64/ThingHealthBCMAPI.framework/Headers/*"
   ]
 }

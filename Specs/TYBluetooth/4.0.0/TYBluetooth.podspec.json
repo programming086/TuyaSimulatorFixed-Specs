@@ -39,6 +39,6 @@
     "TYBluetooth.xcframework"
   ],
   "source_files": [
-    "TYBluetooth.xcframework/**/*.h"
+    "TYBluetooth.xcframework/ios-arm64_armv7/TYBluetooth.framework/Headers/*"
   ]
 }

@@ -49,6 +49,6 @@
     "ThingLibevent.xcframework"
   ],
   "source_files": [
-    "ThingLibevent.xcframework/**/*.h"
+    "ThingLibevent.xcframework/ios-arm64/ThingLibevent.framework/Headers/*"
   ]
 }

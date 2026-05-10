@@ -49,6 +49,6 @@
     "ThingMotionDetectSDK.xcframework"
   ],
   "source_files": [
-    "ThingMotionDetectSDK.xcframework/**/*.h"
+    "ThingMotionDetectSDK.xcframework/ios-arm64/ThingMotionDetectSDK.framework/Headers/*"
   ]
 }

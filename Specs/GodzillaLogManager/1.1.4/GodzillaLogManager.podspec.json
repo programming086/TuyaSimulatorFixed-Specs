@@ -33,6 +33,6 @@
     "GodzillaLogManager.xcframework"
   ],
   "source_files": [
-    "GodzillaLogManager.xcframework/**/*.h"
+    "GodzillaLogManager.xcframework/ios-arm64/GodzillaLogManager.framework/Headers/*"
   ]
 }

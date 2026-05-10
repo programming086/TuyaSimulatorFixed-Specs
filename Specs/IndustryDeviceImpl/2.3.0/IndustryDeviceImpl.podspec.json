@@ -35,6 +35,6 @@
     "IndustryDeviceImpl.xcframework"
   ],
   "source_files": [
-    "IndustryDeviceImpl.xcframework/**/*.h"
+    "IndustryDeviceImpl.xcframework/ios-arm64/IndustryDeviceImpl.framework/Headers/*"
   ]
 }

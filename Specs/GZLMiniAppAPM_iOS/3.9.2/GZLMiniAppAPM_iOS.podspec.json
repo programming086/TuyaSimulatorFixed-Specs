@@ -1,0 +1,32 @@
+{
+  "name": "GZLMiniAppAPM_iOS",
+  "version": "3.9.2",
+  "summary": "A short description of GZLMiniAppAPM_iOS.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://github.com/programming086/TuyaSimulatorFixed-Binaries/releases/download/GZLMiniAppAPM_iOS-3.9.2/GZLMiniAppAPM_iOS.xcframework.zip",
+    "type": "zip"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES": "YES",
+    "DEFINES_MODULE": "YES"
+  },
+  "dependencies": {
+    "GZLMiniProgramAdapterAPI_iOS": [],
+    "GodzillaMiniBaseKit": []
+  },
+  "vendored_frameworks": [
+    "GZLMiniAppAPM_iOS.xcframework"
+  ],
+  "source_files": [
+    "GZLMiniAppAPM_iOS.xcframework/ios-arm64/GZLMiniAppAPM_iOS.framework/Headers/*"
+  ]
+}

@@ -26,6 +26,6 @@
     "TuyaSmartLogger.xcframework"
   ],
   "source_files": [
-    "TuyaSmartLogger.xcframework/**/*.h"
+    "TuyaSmartLogger.xcframework/ios-arm64/TuyaSmartLogger.framework/Headers/*"
   ]
 }

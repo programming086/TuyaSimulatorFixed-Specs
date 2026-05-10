@@ -22,6 +22,6 @@
     "ThingSmartResidenceBasicKit.xcframework"
   ],
   "source_files": [
-    "ThingSmartResidenceBasicKit.xcframework/**/*.h"
+    "ThingSmartResidenceBasicKit.xcframework/ios-arm64/ThingSmartResidenceBasicKit.framework/Headers/*"
   ]
 }

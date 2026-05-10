@@ -28,7 +28,7 @@
     "ThingCloudStorageDebugger.xcframework"
   ],
   "source_files": [
-    "ThingCloudStorageDebugger.xcframework/**/*.h"
+    "ThingCloudStorageDebugger.xcframework/ios-arm64/ThingCloudStorageDebugger.framework/Headers/*"
   ],
   "resources": [
     "Build/ThingCloudStorageDebugger.xcframework/ios-arm64/ThingCloudStorageDebugger.framework/CustomResources/Bundles/*"

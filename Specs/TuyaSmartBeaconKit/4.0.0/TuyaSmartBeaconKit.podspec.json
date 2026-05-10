@@ -41,6 +41,6 @@
     "TuyaSmartBeaconKit.xcframework"
   ],
   "source_files": [
-    "TuyaSmartBeaconKit.xcframework/**/*.h"
+    "TuyaSmartBeaconKit.xcframework/ios-arm64_armv7/TuyaSmartBeaconKit.framework/Headers/*"
   ]
 }

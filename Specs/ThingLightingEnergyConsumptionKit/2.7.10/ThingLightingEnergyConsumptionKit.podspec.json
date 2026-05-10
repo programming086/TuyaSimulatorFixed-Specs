@@ -32,6 +32,6 @@
     "ThingLightingEnergyConsumptionKit.xcframework"
   ],
   "source_files": [
-    "ThingLightingEnergyConsumptionKit.xcframework/**/*.h"
+    "ThingLightingEnergyConsumptionKit.xcframework/ios-arm64/ThingLightingEnergyConsumptionKit.framework/Headers/*"
   ]
 }

@@ -34,7 +34,7 @@
     "ThingIoTNetworkKit.xcframework"
   ],
   "source_files": [
-    "ThingIoTNetworkKit.xcframework/**/*.h"
+    "ThingIoTNetworkKit.xcframework/ios-arm64/ThingIoTNetworkKit.framework/Headers/*"
   ],
   "swift_version": "5.6"
 }

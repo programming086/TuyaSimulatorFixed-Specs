@@ -33,6 +33,6 @@
     "TuyaSmartActivatorKit.xcframework"
   ],
   "source_files": [
-    "TuyaSmartActivatorKit.xcframework/**/*.h"
+    "TuyaSmartActivatorKit.xcframework/ios-arm64_armv7/TuyaSmartActivatorKit.framework/Headers/*"
   ]
 }

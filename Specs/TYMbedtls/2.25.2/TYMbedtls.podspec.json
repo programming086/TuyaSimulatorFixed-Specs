@@ -32,6 +32,6 @@
     "TYMbedtls.xcframework"
   ],
   "source_files": [
-    "TYMbedtls.xcframework/**/*.h"
+    "TYMbedtls.xcframework/ios-arm64_armv7/TYMbedtls.framework/Headers/*"
   ]
 }

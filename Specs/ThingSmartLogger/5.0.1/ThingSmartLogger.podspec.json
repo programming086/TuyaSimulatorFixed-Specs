@@ -26,6 +26,6 @@
     "ThingSmartLogger.xcframework"
   ],
   "source_files": [
-    "ThingSmartLogger.xcframework/**/*.h"
+    "ThingSmartLogger.xcframework/ios-arm64/ThingSmartLogger.framework/Headers/*"
   ]
 }

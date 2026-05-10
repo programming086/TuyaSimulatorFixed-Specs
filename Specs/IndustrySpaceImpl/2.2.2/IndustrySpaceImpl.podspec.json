@@ -35,6 +35,6 @@
     "IndustrySpaceImpl.xcframework"
   ],
   "source_files": [
-    "IndustrySpaceImpl.xcframework/**/*.h"
+    "IndustrySpaceImpl.xcframework/ios-arm64/IndustrySpaceImpl.framework/Headers/*"
   ]
 }

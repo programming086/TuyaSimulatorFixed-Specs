@@ -46,6 +46,6 @@
     "ThingAudioCodecSDK.xcframework"
   ],
   "source_files": [
-    "ThingAudioCodecSDK.xcframework/**/*.h"
+    "ThingAudioCodecSDK.xcframework/ios-arm64/ThingAudioCodecSDK.framework/Headers/*"
   ]
 }

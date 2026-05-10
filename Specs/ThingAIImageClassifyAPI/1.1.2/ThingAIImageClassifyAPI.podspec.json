@@ -18,6 +18,6 @@
     "ThingAIImageClassifyAPI.xcframework"
   ],
   "source_files": [
-    "ThingAIImageClassifyAPI.xcframework/**/*.h"
+    "ThingAIImageClassifyAPI.xcframework/ios-arm64/ThingAIImageClassifyAPI.framework/Headers/*"
   ]
 }

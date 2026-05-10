@@ -42,6 +42,6 @@
     "ThingSmartFileTransferKit.xcframework"
   ],
   "source_files": [
-    "ThingSmartFileTransferKit.xcframework/**/*.h"
+    "ThingSmartFileTransferKit.xcframework/ios-arm64/ThingSmartFileTransferKit.framework/Headers/*"
   ]
 }

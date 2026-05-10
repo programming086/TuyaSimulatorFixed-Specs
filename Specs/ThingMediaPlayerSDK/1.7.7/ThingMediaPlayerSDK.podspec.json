@@ -56,6 +56,6 @@
     "ThingMediaPlayerSDK.xcframework"
   ],
   "source_files": [
-    "ThingMediaPlayerSDK.xcframework/**/*.h"
+    "ThingMediaPlayerSDK.xcframework/ios-arm64/ThingMediaPlayerSDK.framework/Headers/*"
   ]
 }

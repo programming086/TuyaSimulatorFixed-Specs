@@ -35,7 +35,7 @@
     "IndustryAuthKit.xcframework"
   ],
   "source_files": [
-    "IndustryAuthKit.xcframework/**/*.h"
+    "IndustryAuthKit.xcframework/ios-arm64/IndustryAuthKit.framework/Headers/*"
   ],
   "swift_version": "5.6"
 }

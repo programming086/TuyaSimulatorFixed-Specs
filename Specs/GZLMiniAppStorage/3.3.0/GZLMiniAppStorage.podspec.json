@@ -22,7 +22,7 @@
     "GZLMiniAppStorage.xcframework"
   ],
   "source_files": [
-    "GZLMiniAppStorage.xcframework/**/*.h"
+    "GZLMiniAppStorage.xcframework/ios-arm64/GZLMiniAppStorage.framework/Headers/*"
   ],
   "resources": [
     "Build/GZLMiniAppStorage.xcframework/ios-arm64/GZLMiniAppStorage.framework/CustomResources/Bundles/*"

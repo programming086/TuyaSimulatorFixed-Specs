@@ -21,6 +21,6 @@
     "ThingCommonAnimation.xcframework"
   ],
   "source_files": [
-    "ThingCommonAnimation.xcframework/**/*.h"
+    "ThingCommonAnimation.xcframework/ios-arm64/ThingCommonAnimation.framework/Headers/*"
   ]
 }

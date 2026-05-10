@@ -32,7 +32,7 @@
     "IndustryErrorKit.xcframework"
   ],
   "source_files": [
-    "IndustryErrorKit.xcframework/**/*.h"
+    "IndustryErrorKit.xcframework/ios-arm64/IndustryErrorKit.framework/Headers/*"
   ],
   "swift_version": "5.6"
 }

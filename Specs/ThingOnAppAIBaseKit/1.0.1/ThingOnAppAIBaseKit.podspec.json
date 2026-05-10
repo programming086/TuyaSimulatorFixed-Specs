@@ -22,6 +22,6 @@
     "ThingOnAppAIBaseKit.xcframework"
   ],
   "source_files": [
-    "ThingOnAppAIBaseKit.xcframework/**/*.h"
+    "ThingOnAppAIBaseKit.xcframework/ios-arm64/ThingOnAppAIBaseKit.framework/Headers/*"
   ]
 }

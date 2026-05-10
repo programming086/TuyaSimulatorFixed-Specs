@@ -54,6 +54,6 @@
     "TheAmazingAudioEngine.xcframework"
   ],
   "source_files": [
-    "TheAmazingAudioEngine.xcframework/**/*.h"
+    "TheAmazingAudioEngine.xcframework/ios-arm64_armv7/TheAmazingAudioEngine.framework/Headers/*"
   ]
 }

@@ -1,0 +1,35 @@
+{
+  "name": "GZLMiniApp_iOS",
+  "version": "2.6.2",
+  "summary": "A short description of GZLMiniApp_iOS.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://github.com/programming086/TuyaSimulatorFixed-Binaries/releases/download/GZLMiniApp_iOS-2.6.2/GZLMiniApp_iOS.xcframework.zip",
+    "type": "zip"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES": "YES",
+    "DEFINES_MODULE": "YES"
+  },
+  "frameworks": [
+    "UIKit",
+    "JavaScriptCore"
+  ],
+  "dependencies": {
+    "GZLMiniAppCore_iOS": []
+  },
+  "vendored_frameworks": [
+    "GZLMiniApp_iOS.xcframework"
+  ],
+  "source_files": [
+    "GZLMiniApp_iOS.xcframework/ios-arm64_armv7/GZLMiniApp_iOS.framework/Headers/*"
+  ]
+}

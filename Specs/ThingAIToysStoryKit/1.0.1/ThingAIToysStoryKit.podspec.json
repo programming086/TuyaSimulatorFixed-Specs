@@ -33,6 +33,6 @@
     "ThingAIToysStoryKit.xcframework"
   ],
   "source_files": [
-    "ThingAIToysStoryKit.xcframework/**/*.h"
+    "ThingAIToysStoryKit.xcframework/ios-arm64/ThingAIToysStoryKit.framework/Headers/*"
   ]
 }

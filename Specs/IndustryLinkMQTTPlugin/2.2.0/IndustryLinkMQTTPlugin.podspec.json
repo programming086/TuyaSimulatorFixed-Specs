@@ -37,6 +37,6 @@
     "IndustryLinkMQTTPlugin.xcframework"
   ],
   "source_files": [
-    "IndustryLinkMQTTPlugin.xcframework/**/*.h"
+    "IndustryLinkMQTTPlugin.xcframework/ios-arm64/IndustryLinkMQTTPlugin.framework/Headers/*"
   ]
 }

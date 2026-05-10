@@ -34,6 +34,6 @@
     "IndustryMQTTImpl.xcframework"
   ],
   "source_files": [
-    "IndustryMQTTImpl.xcframework/**/*.h"
+    "IndustryMQTTImpl.xcframework/ios-arm64/IndustryMQTTImpl.framework/Headers/*"
   ]
 }

@@ -37,7 +37,7 @@
     "IndustryActivatorKit.xcframework"
   ],
   "source_files": [
-    "IndustryActivatorKit.xcframework/**/*.h"
+    "IndustryActivatorKit.xcframework/ios-arm64/IndustryActivatorKit.framework/Headers/*"
   ],
   "swift_version": "5.6"
 }

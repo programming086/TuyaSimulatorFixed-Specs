@@ -35,6 +35,6 @@
     "ThingSmartUserToBKit.xcframework"
   ],
   "source_files": [
-    "ThingSmartUserToBKit.xcframework/**/*.h"
+    "ThingSmartUserToBKit.xcframework/ios-arm64/ThingSmartUserToBKit.framework/Headers/*"
   ]
 }

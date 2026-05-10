@@ -1,0 +1,30 @@
+{
+  "name": "ThingSmartMatterInterface",
+  "version": "1.7.0",
+  "summary": "A short description of ThingSmartMatterInterface.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://github.com/programming086/TuyaSimulatorFixed-Binaries/releases/download/ThingSmartMatterInterface-1.7.0/ThingSmartMatterInterface.xcframework.zip",
+    "type": "zip"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "dependencies": {
+    "ThingModuleManager": [],
+    "ThingSmartMatterKit": [],
+    "ThingSmartMatterInterfaceAPI": [],
+    "ThingKVStorageLibrary": [],
+    "ThingBlockKit": [],
+    "YYModel": []
+  },
+  "preserve_paths": [],
+  "vendored_frameworks": [
+    "ThingSmartMatterInterface.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

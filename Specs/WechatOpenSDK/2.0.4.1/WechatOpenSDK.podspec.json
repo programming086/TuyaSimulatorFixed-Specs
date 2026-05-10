@@ -1,0 +1,39 @@
+{
+  "name": "WechatOpenSDK",
+  "version": "2.0.4.1",
+  "summary": "Includes the following WeChat features: Share to Moments, Log In via WeChat, Save to Favorites, WeChat Pay, etc.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://github.com/programming086/TuyaSimulatorFixed-Binaries/releases/download/WechatOpenSDK-2.0.4.1/WechatOpenSDK.xcframework.zip",
+    "type": "zip"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "static_framework": true,
+  "requires_arc": false,
+  "vendored_libraries": [
+    "Build/VendorsLibrary/libWeChatSDK.a"
+  ],
+  "libraries": [
+    "z",
+    "c++",
+    "sqlite3.0"
+  ],
+  "frameworks": [
+    "Security",
+    "UIKit",
+    "CoreGraphics",
+    "WebKit"
+  ],
+  "vendored_frameworks": [
+    "WechatOpenSDK.xcframework"
+  ],
+  "source_files": [
+    "WechatOpenSDK.xcframework/ios-arm64/WechatOpenSDK.framework/Headers/*"
+  ]
+}

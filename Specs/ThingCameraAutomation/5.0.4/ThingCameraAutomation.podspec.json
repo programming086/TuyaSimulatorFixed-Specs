@@ -46,7 +46,7 @@
     "ThingCameraAutomation.xcframework"
   ],
   "source_files": [
-    "ThingCameraAutomation.xcframework/**/*.h"
+    "ThingCameraAutomation.xcframework/ios-arm64/ThingCameraAutomation.framework/Headers/*"
   ],
   "resources": [
     "Build/ThingCameraAutomation.xcframework/ios-arm64/ThingCameraAutomation.framework/CustomResources/Assets/*"

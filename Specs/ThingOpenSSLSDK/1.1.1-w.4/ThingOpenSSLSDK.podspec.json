@@ -1,0 +1,54 @@
+{
+  "name": "ThingOpenSSLSDK",
+  "version": "1.1.1-w.4",
+  "summary": "thing openssl sdk .",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://github.com/programming086/TuyaSimulatorFixed-Binaries/releases/download/ThingOpenSSLSDK-1.1.1-w.4/ThingOpenSSLSDK.xcframework.zip",
+    "type": "zip"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "exclude_files": [
+    "ThingOpenSSLSDK/libs/Android/*",
+    "ThingOpenSSLSDK/Platforms/Android/*"
+  ],
+  "ios": {},
+  "libraries": [
+    "c++",
+    "z",
+    "iconv",
+    "bz2",
+    "resolv"
+  ],
+  "frameworks": [
+    "Foundation",
+    "AVFoundation",
+    "Foundation"
+  ],
+  "pod_target_xcconfig": {
+    "OTHER_CFLAGS": "-DLINUX",
+    "OTHER_LDFLAGS": "-ObjC -all_load",
+    "GCC_PREPROCESSOR_DEFINITIONS": "WEBRTC_POSIX $(inherited)",
+    "HEADER_SEARCH_PATHS": "$(PODS_TARGET_SRCROOT)/ThingOpenSSLSDK $(PODS_TARGET_SRCROOT)/ThingOpenSSLSDK/Platforms/iOS",
+    "ENABLE_BITCODE": "NO",
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64"
+  },
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64"
+  },
+  "vendored_frameworks": [
+    "ThingOpenSSLSDK.xcframework"
+  ],
+  "source_files": [
+    "ThingOpenSSLSDK.xcframework/ios-arm64/ThingOpenSSLSDK.framework/Headers/*"
+  ],
+  "resources": [
+    "Build/ThingOpenSSLSDK.xcframework/ios-arm64/ThingOpenSSLSDK.framework/*.bundle"
+  ]
+}

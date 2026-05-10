@@ -33,13 +33,13 @@
       "OTHER_CFLAGS": "-fembed-bitcode -Qunused-arguments"
     },
     "source_files": [
-      "Build/TuyaSmartTimerKit.xcframework/watchos-arm64_32_armv7k/TuyaSmartTimerKit.framework/Headers/*"
+      "TuyaSmartTimerKit.xcframework/watchos-arm64_32_armv7k/TuyaSmartTimerKit.framework/Headers/*"
     ]
   },
   "cocoapods_version": ">= 1.10",
   "ios": {
     "source_files": [
-      "Build/TuyaSmartTimerKit.xcframework/ios-arm64_armv7/TuyaSmartTimerKit.framework/Headers/*"
+      "TuyaSmartTimerKit.xcframework/ios-arm64_armv7/TuyaSmartTimerKit.framework/Headers/*"
     ]
   },
   "vendored_frameworks": [

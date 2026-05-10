@@ -35,7 +35,7 @@
     "IndustrySpaceKit.xcframework"
   ],
   "source_files": [
-    "IndustrySpaceKit.xcframework/**/*.h"
+    "IndustrySpaceKit.xcframework/ios-arm64/IndustrySpaceKit.framework/Headers/*"
   ],
   "swift_version": "5.6"
 }

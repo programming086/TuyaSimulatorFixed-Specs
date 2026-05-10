@@ -45,6 +45,6 @@
     "ThingOggPackerSDK.xcframework"
   ],
   "source_files": [
-    "ThingOggPackerSDK.xcframework/**/*.h"
+    "ThingOggPackerSDK.xcframework/ios-arm64/ThingOggPackerSDK.framework/Headers/*"
   ]
 }

@@ -56,6 +56,6 @@
     "TuyaSmartBLEMeshKit.xcframework"
   ],
   "source_files": [
-    "TuyaSmartBLEMeshKit.xcframework/**/*.h"
+    "TuyaSmartBLEMeshKit.xcframework/ios-arm64_armv7/TuyaSmartBLEMeshKit.framework/Headers/*"
   ]
 }

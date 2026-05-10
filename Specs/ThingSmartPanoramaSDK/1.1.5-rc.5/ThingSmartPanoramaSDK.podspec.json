@@ -51,6 +51,6 @@
     "ThingSmartPanoramaSDK.xcframework"
   ],
   "source_files": [
-    "ThingSmartPanoramaSDK.xcframework/**/*.h"
+    "ThingSmartPanoramaSDK.xcframework/ios-arm64/ThingSmartPanoramaSDK.framework/Headers/*"
   ]
 }

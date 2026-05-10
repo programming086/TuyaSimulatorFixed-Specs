@@ -24,6 +24,6 @@
     "GodzillaMiniRatePlugin.xcframework"
   ],
   "source_files": [
-    "GodzillaMiniRatePlugin.xcframework/**/*.h"
+    "GodzillaMiniRatePlugin.xcframework/ios-arm64/GodzillaMiniRatePlugin.framework/Headers/*"
   ]
 }

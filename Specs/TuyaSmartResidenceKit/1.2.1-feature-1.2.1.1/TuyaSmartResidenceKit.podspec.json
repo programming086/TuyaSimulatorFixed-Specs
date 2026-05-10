@@ -26,6 +26,6 @@
     "TuyaSmartResidenceKit.xcframework"
   ],
   "source_files": [
-    "TuyaSmartResidenceKit.xcframework/**/*.h"
+    "TuyaSmartResidenceKit.xcframework/ios-arm64/TuyaSmartResidenceKit.framework/Headers/*"
   ]
 }

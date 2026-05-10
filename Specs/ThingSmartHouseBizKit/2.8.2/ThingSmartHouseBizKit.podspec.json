@@ -1,0 +1,68 @@
+{
+  "name": "ThingSmartHouseBizKit",
+  "version": "2.8.2",
+  "summary": "A short description of ThingSmartHouseBizKit.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://github.com/programming086/TuyaSimulatorFixed-Binaries/releases/download/ThingSmartHouseBizKit-2.8.2/ThingSmartHouseBizKit.xcframework.zip",
+    "type": "zip"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "resources": [
+    "ThingSmartHouseBizKit/Assets/*.{png,xib,plist,xcassets,bundle,jif}"
+  ],
+  "prefix_header_file": "ThingSmartHouseBizKit/Classes/PrefixHeader.pch",
+  "dependencies": {
+    "ThingUIKit": [],
+    "ThingSmartBusinessLibrary": [],
+    "ThingBlockKit": [],
+    "ThingKVStorageLibrary": [],
+    "ThingStorageGroupInterface": [],
+    "ThingSmartDeviceKit": [],
+    "ThingSmartDeviceCoreKit": [],
+    "ThingSmartSceneCoreKit": [],
+    "ThingSmartEventPredefined": [],
+    "ThingSmartEventPredefined_Public": [],
+    "libextobjc": [],
+    "ThingBluetoothInterface": [],
+    "ThingBusinessDeviceCore": [],
+    "YYModel": [],
+    "ThingSmartSecurityModuleService": [],
+    "ThingOEMConfig": [],
+    "ThingBusinessService": [],
+    "ThingMainPageLink": [],
+    "ThingConfigHub": [],
+    "ThingDPCContainer": [],
+    "ThingStatisticsKit": [],
+    "ThingUrlPredefined": [],
+    "ThingDIYHomeInterface": [],
+    "ThingMachRegister": [],
+    "ThingModuleManager": [],
+    "ThingActivatorPlugAPI": [],
+    "ThingSmartIntelligenceApi": [],
+    "GodzillaMiniOpenAPI": [],
+    "GodzillaMiniIService": [],
+    "ThingHomePageSktAPI": []
+  },
+  "frameworks": [
+    "UIKit",
+    "AVFoundation",
+    "AddressBook",
+    "AddressBookUI",
+    "CoreTelephony",
+    "Contacts",
+    "ContactsUI",
+    "Foundation"
+  ],
+  "preserve_paths": [],
+  "vendored_frameworks": [
+    "ThingSmartHouseBizKit.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

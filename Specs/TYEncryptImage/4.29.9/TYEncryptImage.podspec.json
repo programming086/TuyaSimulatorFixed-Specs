@@ -30,7 +30,7 @@
       "MobileCoreServices"
     ],
     "source_files": [
-      "Build/TYEncryptImage.xcframework/ios-arm64_armv7/TYEncryptImage.framework/Headers/*"
+      "TYEncryptImage.xcframework/ios-arm64_armv7/TYEncryptImage.framework/Headers/*"
     ]
   },
   "watchos": {
@@ -45,7 +45,7 @@
       "USER_HEADER_SEARCH_PATHS": "$(inherited) $(SRCROOT)/libwebp/src"
     },
     "source_files": [
-      "Build/TYEncryptImage.xcframework/watchos-arm64_32_armv7k/TYEncryptImage.framework/Headers/*"
+      "TYEncryptImage.xcframework/watchos-arm64_32_armv7k/TYEncryptImage.framework/Headers/*"
     ]
   },
   "dependencies": {

@@ -39,12 +39,12 @@
       "OTHER_CFLAGS": "-fembed-bitcode -Qunused-arguments"
     },
     "source_files": [
-      "Build/TuyaSmartShareKit.xcframework/watchos-arm64_32_armv7k/TuyaSmartShareKit.framework/Headers/*"
+      "TuyaSmartShareKit.xcframework/watchos-arm64_32_armv7k/TuyaSmartShareKit.framework/Headers/*"
     ]
   },
   "ios": {
     "source_files": [
-      "Build/TuyaSmartShareKit.xcframework/ios-arm64_armv7/TuyaSmartShareKit.framework/Headers/*"
+      "TuyaSmartShareKit.xcframework/ios-arm64_armv7/TuyaSmartShareKit.framework/Headers/*"
     ]
   },
   "vendored_frameworks": [

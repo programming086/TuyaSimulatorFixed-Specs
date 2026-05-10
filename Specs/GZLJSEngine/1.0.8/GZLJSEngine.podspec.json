@@ -19,6 +19,6 @@
     "GZLJSEngine.xcframework"
   ],
   "source_files": [
-    "GZLJSEngine.xcframework/**/*.h"
+    "GZLJSEngine.xcframework/ios-arm64_armv7/GZLJSEngine.framework/Headers/*"
   ]
 }

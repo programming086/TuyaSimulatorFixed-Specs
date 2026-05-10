@@ -37,7 +37,7 @@
     "IndustryDeviceKit.xcframework"
   ],
   "source_files": [
-    "IndustryDeviceKit.xcframework/**/*.h"
+    "IndustryDeviceKit.xcframework/ios-arm64/IndustryDeviceKit.framework/Headers/*"
   ],
   "swift_version": "5.6"
 }

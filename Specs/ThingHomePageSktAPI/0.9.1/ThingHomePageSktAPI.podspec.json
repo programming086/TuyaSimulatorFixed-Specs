@@ -1,0 +1,24 @@
+{
+  "name": "ThingHomePageSktAPI",
+  "version": "0.9.1",
+  "summary": "App\u516c\u7248\u4e3b\u9875\u9762\u52a0\u8f7d\u7ec4\u4ef6 \u9875\u9762\u6570\u636e\u88c5\u8f7d&\u63a7\u5236",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://github.com/programming086/TuyaSimulatorFixed-Binaries/releases/download/ThingHomePageSktAPI-0.9.1/ThingHomePageSktAPI.xcframework.zip",
+    "type": "zip"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "preserve_paths": [
+    "weak_deps.json"
+  ],
+  "vendored_frameworks": [
+    "ThingHomePageSktAPI.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

@@ -34,6 +34,6 @@
     "IndustryUserImpl.xcframework"
   ],
   "source_files": [
-    "IndustryUserImpl.xcframework/**/*.h"
+    "IndustryUserImpl.xcframework/ios-arm64/IndustryUserImpl.framework/Headers/*"
   ]
 }

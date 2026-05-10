@@ -37,6 +37,6 @@
     "IndustryAssetImpl.xcframework"
   ],
   "source_files": [
-    "IndustryAssetImpl.xcframework/**/*.h"
+    "IndustryAssetImpl.xcframework/ios-arm64/IndustryAssetImpl.framework/Headers/*"
   ]
 }

@@ -32,12 +32,12 @@
       "OTHER_CFLAGS": "-fembed-bitcode -Qunused-arguments"
     },
     "source_files": [
-      "Build/TuyaSmartMessageKit.xcframework/watchos-arm64_32_armv7k/TuyaSmartMessageKit.framework/Headers/*"
+      "TuyaSmartMessageKit.xcframework/watchos-arm64_32_armv7k/TuyaSmartMessageKit.framework/Headers/*"
     ]
   },
   "ios": {
     "source_files": [
-      "Build/TuyaSmartMessageKit.xcframework/ios-arm64_armv7/TuyaSmartMessageKit.framework/Headers/*"
+      "TuyaSmartMessageKit.xcframework/ios-arm64_armv7/TuyaSmartMessageKit.framework/Headers/*"
     ]
   },
   "vendored_frameworks": [

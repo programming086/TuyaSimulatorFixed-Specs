@@ -38,6 +38,6 @@
     "IndustryActivatorImpl.xcframework"
   ],
   "source_files": [
-    "IndustryActivatorImpl.xcframework/**/*.h"
+    "IndustryActivatorImpl.xcframework/ios-arm64/IndustryActivatorImpl.framework/Headers/*"
   ]
 }

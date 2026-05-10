@@ -35,6 +35,6 @@
     "TuyaSmartMQTTChannelKit.xcframework"
   ],
   "source_files": [
-    "TuyaSmartMQTTChannelKit.xcframework/**/*.h"
+    "TuyaSmartMQTTChannelKit.xcframework/ios-arm64/TuyaSmartMQTTChannelKit.framework/Headers/*"
   ]
 }

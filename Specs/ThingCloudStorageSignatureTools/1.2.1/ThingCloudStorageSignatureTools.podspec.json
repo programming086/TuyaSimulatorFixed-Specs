@@ -56,6 +56,6 @@
     "ThingCloudStorageSignatureTools.xcframework"
   ],
   "source_files": [
-    "ThingCloudStorageSignatureTools.xcframework/**/*.h"
+    "ThingCloudStorageSignatureTools.xcframework/ios-arm64/ThingCloudStorageSignatureTools.framework/Headers/*"
   ]
 }
