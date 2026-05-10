@@ -1,0 +1,36 @@
+{
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "cocoapods_version": ">= 1.10",
+  "dependencies": {
+    "Masonry": [],
+    "TYOEMConfig": [],
+    "TYRealClass": [],
+    "TYUIKit": []
+  },
+  "description": "TODO: Add long description of the pod here.",
+  "frameworks": "UIKit",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "name": "TuyaNormalUI",
+  "platforms": {
+    "ios": "9.0"
+  },
+  "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "prefix_header_contents": "#import \"TuyaNormalUI.h\"",
+  "source": {
+    "http": "https://github.com/programming086/TuyaSimulatorFixed-Binaries/releases/download/TuyaNormalUI-0.2.10-fix-ios17-SDK400.1/TuyaNormalUI.xcframework.zip",
+    "type": "zip"
+  },
+  "summary": "A short description of TuyaNormalUI.",
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "vendored_frameworks": [
+    "TuyaNormalUI.xcframework"
+  ],
+  "version": "0.2.10-fix-ios17-SDK400.1"
+}

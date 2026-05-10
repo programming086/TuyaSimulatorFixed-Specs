@@ -1,0 +1,25 @@
+{
+  "authors": {
+    "tuya": "https://developer.tuya.com/"
+  },
+  "description": "TODO: Add long description of the pod here.",
+  "frameworks": [
+    "Security",
+    "SafariServices"
+  ],
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "name": "TYLoginWithAmzSDK",
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source": {
+    "http": "https://github.com/programming086/TuyaSimulatorFixed-Binaries/releases/download/TYLoginWithAmzSDK-0.0.1/TYLoginWithAmzSDK.xcframework.zip",
+    "type": "zip"
+  },
+  "summary": "A short description of TYLoginWithAmzSDK.",
+  "vendored_frameworks": [
+    "TYLoginWithAmzSDK.xcframework"
+  ],
+  "version": "0.0.1"
+}

@@ -1,0 +1,37 @@
+{
+  "name": "TUNIWidgetManager",
+  "version": "1.1.0",
+  "summary": "A short description of TUNIWidgetManager.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://github.com/programming086/TuyaSimulatorFixed-Binaries/releases/download/TUNIWidgetManager-1.1.0/TUNIWidgetManager.xcframework.zip",
+    "type": "zip"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "resource_bundles": {
+    "TUNIWidgetManager": [
+      "ios/TUNIWidgetManager/Assets/*",
+      "js/dist/index.js"
+    ]
+  },
+  "dependencies": {
+    "TUNIAPIManagerKit": [],
+    "YYModel": []
+  },
+  "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "vendored_frameworks": [
+    "TUNIWidgetManager.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

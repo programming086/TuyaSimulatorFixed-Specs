@@ -23,7 +23,6 @@
     "watchos": "2.0"
   },
   "pod_target_xcconfig": {
-    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
     "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
   },
   "source": {
@@ -32,7 +31,6 @@
   },
   "summary": "OEM\u6253\u5305\u914d\u7f6e\u9879",
   "user_target_xcconfig": {
-    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
     "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
   },
   "vendored_frameworks": [

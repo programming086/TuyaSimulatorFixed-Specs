@@ -18,7 +18,6 @@
   },
   "pod_target_xcconfig": {
     "DEFINES_MODULE": "YES",
-    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
     "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
   },
   "source": {
@@ -28,7 +27,6 @@
   "summary": "For Tuya sweeper map parse",
   "user_target_xcconfig": {
     "CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES": "YES",
-    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
     "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
   },
   "vendored_frameworks": [

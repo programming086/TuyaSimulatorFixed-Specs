@@ -46,12 +46,9 @@
     "OTHER_LDFLAGS": "-read_only_relocs suppress",
     "GCC_PREPROCESSOR_DEFINITIONS": "WEBRTC_POSIX $(inherited)",
     "HEADER_SEARCH_PATHS": "$(PODS_TARGET_SRCROOT)/ThingMediaPlayerSDK $(PODS_TARGET_SRCROOT)/ThingMediaPlayerSDK/Platforms/iOS $(PODS_TARGET_SRCROOT)/ThingMediaPlayerSDK/CAPI $(PODS_TARGET_SRCROOT)/ThingMediaPlayerSDK/LogManager $(PODS_TARGET_SRCROOT)/ThingMediaPlayerSDK/Modules $(PODS_TARGET_SRCROOT)/ThingMediaPlayerSDK/Modules/Utils $(PODS_TARGET_SRCROOT)/ThingMediaPlayerSDK/Modules/Encoder $(PODS_TARGET_SRCROOT)/ThingMediaPlayerSDK/Modules/Decoder $(PODS_TARGET_SRCROOT)/ThingMediaPlayerSDK/MediaPlayer $(PODS_TARGET_SRCROOT)/ThingMediaPlayerSDK/Include/ffmpeg $(PODS_TARGET_SRCROOT)/ThingMediaPlayerSDK/Include/openH264 $(PODS_TARGET_SRCROOT)/ThingMediaPlayerSDK/Include/ $(PODS_TARGET_SRCROOT)/ThingMediaPlayerSDK/Include/libyuv $(PODS_TARGET_SRCROOT)/ThingMediaPlayerSDK/Include/concurrentqueue $(PODS_TARGET_SRCROOT)/ThingMediaPlayerSDK/ThirdPart $(PODS_TARGET_SRCROOT)/ThingMediaPlayerSDK/ThirdPart/nlohmann",
-    "ENABLE_BITCODE": "NO",
-    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64"
+    "ENABLE_BITCODE": "NO"
   },
-  "user_target_xcconfig": {
-    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64"
-  },
+  "user_target_xcconfig": {},
   "vendored_frameworks": [
     "ThingMediaPlayerSDK.xcframework"
   ],

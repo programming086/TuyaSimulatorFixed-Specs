@@ -39,12 +39,9 @@
     "OTHER_CFLAGS": "-DLINUX",
     "GCC_PREPROCESSOR_DEFINITIONS": "WEBRTC_POSIX $(inherited)",
     "HEADER_SEARCH_PATHS": "$(PODS_TARGET_SRCROOT)/ThingMotionDetectSDK ",
-    "ENABLE_BITCODE": "NO",
-    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64"
+    "ENABLE_BITCODE": "NO"
   },
-  "user_target_xcconfig": {
-    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64"
-  },
+  "user_target_xcconfig": {},
   "vendored_frameworks": [
     "ThingMotionDetectSDK.xcframework"
   ],

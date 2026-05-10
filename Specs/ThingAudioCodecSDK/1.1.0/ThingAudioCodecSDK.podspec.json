@@ -36,12 +36,9 @@
   ],
   "pod_target_xcconfig": {
     "HEADER_SEARCH_PATHS": "$(PODS_TARGET_SRCROOT)/ThingAudioCodecSDK/Include/ffmpeg $(PODS_ROOT)/ThingFFmpegWrapper/ThingFFmpegWrapper",
-    "ENABLE_BITCODE": "NO",
-    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64"
+    "ENABLE_BITCODE": "NO"
   },
-  "user_target_xcconfig": {
-    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64"
-  },
+  "user_target_xcconfig": {},
   "vendored_frameworks": [
     "ThingAudioCodecSDK.xcframework"
   ],

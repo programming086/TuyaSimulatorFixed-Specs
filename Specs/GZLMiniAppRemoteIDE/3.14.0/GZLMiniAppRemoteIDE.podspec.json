@@ -1,0 +1,38 @@
+{
+  "name": "GZLMiniAppRemoteIDE",
+  "version": "3.14.0",
+  "summary": "A short description of GZLMiniAppRemoteIDE.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://github.com/programming086/TuyaSimulatorFixed-Binaries/releases/download/GZLMiniAppRemoteIDE-3.14.0/GZLMiniAppRemoteIDE.xcframework.zip",
+    "type": "zip"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "pod_target_xcconfig": {},
+  "dependencies": {
+    "GZLMiniAppCore_iOS": [],
+    "GZLMiniApp_iOS": [],
+    "ThingModuleManager": [],
+    "ThingSmartNetworkKit": [],
+    "GodzillaMiniWidgetKit": [],
+    "MJRefresh": [],
+    "GZLRNCompatProtocol": [],
+    "GZLMiniProgramAdapterAPI_iOS": [],
+    "SocketRocket": []
+  },
+  "vendored_frameworks": [
+    "GZLMiniAppRemoteIDE.xcframework"
+  ],
+  "source_files": [
+    "GZLMiniAppRemoteIDE.xcframework/ios-arm64/GZLMiniAppRemoteIDE.framework/Headers/*"
+  ],
+  "resources": [
+    "Build/GZLMiniAppRemoteIDE.xcframework/ios-arm64/GZLMiniAppRemoteIDE.framework/CustomResources/Assets/*"
+  ]
+}
