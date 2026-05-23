@@ -5,6 +5,7 @@ This repository contains CocoaPods specifications for Tuya Smart Home iOS SDK wi
 ## ✨ What's Different?
 
 - ✅ **arm64 simulator support** (Apple Silicon Macs)
+- ✅ **Bitcode stripped for modern Xcode compatibility**
 - ✅ All original functionality preserved
 - ✅ Same API as official SDK
 - ✅ Fast installation via direct HTTP downloads

@@ -1,0 +1,37 @@
+{
+  "name": "TYMbedtls",
+  "version": "2.25.2.1",
+  "summary": "tuya mbedtls framework. Because https://github.com/CocoaPods/Specs.git has original version 2.25.2",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://developer.tuya.com/",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Tuya": "developer@tuya.com"
+  },
+  "source": {
+    "http": "https://github.com/programming086/TuyaSimulatorFixed-Binaries/releases/download/TYMbedtls-2.25.2/TYMbedtls.xcframework.zip",
+    "type": "zip"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "user_target_xcconfig": {
+    "CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES": "YES",
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64"
+  },
+  "pod_target_xcconfig": {
+    "CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES": "YES",
+    "DEFINES_MODULE": "YES",
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "OTHER_LDFLAGS": "-all_load"
+  },
+  "vendored_frameworks": [
+    "TYMbedtls.xcframework"
+  ],
+  "source_files": [
+    "TYMbedtls.xcframework/ios-arm64_armv7/TYMbedtls.framework/Headers/*"
+  ]
+}
