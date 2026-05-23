@@ -14,7 +14,7 @@
   },
   "requires_arc": true,
   "resources": [
-    "Build/TYImagePickerController.xcframework/ios-arm64_armv7/TYImagePickerController.framework/CustomResources/Assets/*"
+    "TYImagePickerController.xcframework/ios-arm64_armv7/TYImagePickerController.framework/CustomResources/Assets/*"
   ],
   "source": {
     "http": "https://github.com/programming086/TuyaSimulatorFixed-Binaries/releases/download/TYImagePickerController-3.5.4/TYImagePickerController.xcframework.zip",

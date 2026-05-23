@@ -7,7 +7,7 @@
   "homepage": "https://github.com/tuya",
   "ios": {
     "resources": [
-      "Build/TYRealClass.xcframework/ios-arm64_armv7/TYRealClass.framework/CustomResources/Bundles/*"
+      "TYRealClass.xcframework/ios-arm64_armv7/TYRealClass.framework/CustomResources/Bundles/*"
     ]
   },
   "license": "none",
@@ -27,7 +27,7 @@
   "version": "0.1.0",
   "watchos": {
     "resources": [
-      "Build/TYRealClass.xcframework/watchos-arm64_32_armv7k/TYRealClass.framework/CustomResources/Bundles/*"
+      "TYRealClass.xcframework/watchos-arm64_32_armv7k/TYRealClass.framework/CustomResources/Bundles/*"
     ]
   }
 }

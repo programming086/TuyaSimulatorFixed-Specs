@@ -34,6 +34,6 @@
     "GZLMiniAppInject.xcframework/ios-arm64/GZLMiniAppInject.framework/Headers/*"
   ],
   "resources": [
-    "Build/GZLMiniAppInject.xcframework/ios-arm64/GZLMiniAppInject.framework/CustomResources/Assets/*"
+    "GZLMiniAppInject.xcframework/ios-arm64/GZLMiniAppInject.framework/CustomResources/Assets/*"
   ]
 }

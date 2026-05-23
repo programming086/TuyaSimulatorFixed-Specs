@@ -8,7 +8,7 @@
     "TuyaInc": "https://developer.tuya.com/"
   },
   "source": {
-    "http": "https://github.com/programming086/TuyaSimulatorFixed-Binaries/releases/download/Folly-2018.10.22.00/Folly.xcframework.zip",
+    "http": "https://github.com/programming086/TuyaSimulatorFixed-Binaries/releases/download/Folly-2018.10.22.00/folly.xcframework.zip",
     "type": "zip"
   },
   "module_name": "folly",
@@ -40,7 +40,7 @@
     "ios": "9.0"
   },
   "vendored_frameworks": [
-    "Folly.xcframework"
+    "folly.xcframework"
   ],
   "cocoapods_version": ">= 1.10"
 }

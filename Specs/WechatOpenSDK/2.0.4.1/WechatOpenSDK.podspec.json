@@ -17,7 +17,7 @@
   "static_framework": true,
   "requires_arc": false,
   "vendored_libraries": [
-    "Build/VendorsLibrary/libWeChatSDK.a"
+    "VendorsLibrary/libWeChatSDK.a"
   ],
   "libraries": [
     "z",

@@ -22,7 +22,7 @@
     "ios": "9.0"
   },
   "resources": [
-    "Build/TYVideoCipper.xcframework/ios-arm64_armv7/TYVideoCipper.framework/CustomResources/Bundles/*"
+    "TYVideoCipper.xcframework/ios-arm64_armv7/TYVideoCipper.framework/CustomResources/Bundles/*"
   ],
   "source": {
     "http": "https://github.com/programming086/TuyaSimulatorFixed-Binaries/releases/download/TYVideoCipper-1.0.2/TYVideoCipper.xcframework.zip",

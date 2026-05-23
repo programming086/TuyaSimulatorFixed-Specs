@@ -21,6 +21,7 @@
     "ios": "9.0"
   },
   "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
     "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
   },
   "prefix_header_file": "TuyaAVSKit/Classes/TuyaAVSKitPrefix.pch",
@@ -35,6 +36,7 @@
   },
   "summary": "A short description of TuyaAVSKit.",
   "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
     "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
   },
   "vendored_frameworks": [

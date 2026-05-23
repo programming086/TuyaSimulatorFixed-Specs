@@ -38,8 +38,8 @@
     "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64"
   },
   "resources": [
-    "Build/GZLMiniAppCore_iOS.xcframework/ios-arm64_armv7/GZLMiniAppCore_iOS.framework/CustomResources/Assets/*",
-    "Build/GZLMiniAppCore_iOS.xcframework/ios-arm64_armv7/GZLMiniAppCore_iOS.framework/CustomResources/Bundles/*"
+    "GZLMiniAppCore_iOS.xcframework/ios-arm64_armv7/GZLMiniAppCore_iOS.framework/CustomResources/Assets/*",
+    "GZLMiniAppCore_iOS.xcframework/ios-arm64_armv7/GZLMiniAppCore_iOS.framework/CustomResources/Bundles/*"
   ],
   "source": {
     "http": "https://github.com/programming086/TuyaSimulatorFixed-Binaries/releases/download/GZLMiniAppCore_iOS-3.7.11/GZLMiniAppCore_iOS.xcframework.zip",

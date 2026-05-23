@@ -25,6 +25,7 @@
     "ios": "9.0"
   },
   "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
     "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
   },
   "prefix_header_file": "ThingSmartRoomBizKit/Classes/PrefixHeader.pch",
@@ -34,6 +35,7 @@
   },
   "summary": "\u623f\u95f4\u903b\u8f91\u6a21\u5757",
   "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
     "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
   },
   "vendored_frameworks": [

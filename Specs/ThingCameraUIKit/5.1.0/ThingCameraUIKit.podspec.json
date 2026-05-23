@@ -29,6 +29,6 @@
     "ThingCameraUIKit.xcframework/ios-arm64/ThingCameraUIKit.framework/Headers/*"
   ],
   "resources": [
-    "Build/ThingCameraUIKit.xcframework/ios-arm64/ThingCameraUIKit.framework/CustomResources/Bundles/*"
+    "ThingCameraUIKit.xcframework/ios-arm64/ThingCameraUIKit.framework/CustomResources/Bundles/*"
   ]
 }

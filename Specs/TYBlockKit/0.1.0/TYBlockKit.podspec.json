@@ -13,12 +13,12 @@
     "ios": "8.0"
   },
   "source": {
-    "http": "https://github.com/programming086/TuyaSimulatorFixed-Binaries/releases/download/TYBlockKit-0.1.0/TYBlockKit.xcframework.zip",
+    "http": "https://github.com/programming086/TuyaSimulatorFixed-Binaries/releases/download/TYBlockKit-0.1.0/BlocksKit.xcframework.zip",
     "type": "zip"
   },
   "summary": "A short description of TYBlockKit.",
   "vendored_frameworks": [
-    "TYBlockKit.xcframework"
+    "BlocksKit.xcframework"
   ],
   "version": "0.1.0"
 }

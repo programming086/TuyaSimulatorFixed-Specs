@@ -381,6 +381,7 @@
     "ios": "11.0"
   },
   "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
     "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64",
     "Thing_PRIVACY_USAGE_DESCRIPTION": "NSLocalNetworkUsageDescription NSCameraUsageDescription NSLocationWhenInUseUsageDescription NSLocationAlwaysAndWhenInUseUsageDescription NSLocationAlwaysUsageDescription NSCameraUsageDescription NSBluetoothAlwaysUsageDescription NSBluetoothPeripheralUsageDescription",
     "Thing_PROVIDE_SERVICE": "ThingActivatorProtocol,ThingQRCodeProtocol",
@@ -397,6 +398,7 @@
   },
   "summary": "A short description of ThingCommercialLightingActivatorBizBundle.",
   "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
     "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
   },
   "vendored_frameworks": [

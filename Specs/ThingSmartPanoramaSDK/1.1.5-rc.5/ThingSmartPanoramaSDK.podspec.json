@@ -20,8 +20,8 @@
   ],
   "ios": {
     "vendored_libraries": [
-      "Build/ios/VendorsLibrary/libturbojpeg.a",
-      "Build/ios/VendorsLibrary/libbase_img_proc.a"
+      "ios/VendorsLibrary/libturbojpeg.a",
+      "ios/VendorsLibrary/libbase_img_proc.a"
     ]
   },
   "libraries": [
@@ -41,9 +41,12 @@
     "OTHER_LDFLAGS": "-read_only_relocs suppress",
     "GCC_PREPROCESSOR_DEFINITIONS": "WEBRTC_POSIX __STDC_CONSTANT_MACROS $(inherited)",
     "HEADER_SEARCH_PATHS": "$(PODS_TARGET_SRCROOT)/ThingSmartPanoramaSDK/inc $(PODS_TARGET_SRCROOT)/ThingSmartPanoramaSDK/jpeg $(PODS_TARGET_SRCROOT)/ThingSmartPanoramaSDK/jpeg/include",
-    "ENABLE_BITCODE": "NO"
+    "ENABLE_BITCODE": "NO",
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64"
   },
-  "user_target_xcconfig": {},
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64"
+  },
   "vendored_frameworks": [
     "ThingSmartPanoramaSDK.xcframework"
   ],

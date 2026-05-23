@@ -31,6 +31,6 @@
     "ThingCloudStorageDebugger.xcframework/ios-arm64/ThingCloudStorageDebugger.framework/Headers/*"
   ],
   "resources": [
-    "Build/ThingCloudStorageDebugger.xcframework/ios-arm64/ThingCloudStorageDebugger.framework/CustomResources/Bundles/*"
+    "ThingCloudStorageDebugger.xcframework/ios-arm64/ThingCloudStorageDebugger.framework/CustomResources/Bundles/*"
   ]
 }

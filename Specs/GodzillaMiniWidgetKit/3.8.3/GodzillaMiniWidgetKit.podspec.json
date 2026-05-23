@@ -24,7 +24,7 @@
     "ios": "9.0"
   },
   "resources": [
-    "Build/GodzillaMiniWidgetKit.xcframework/ios-arm64_armv7/GodzillaMiniWidgetKit.framework/CustomResources/Bundles/*"
+    "GodzillaMiniWidgetKit.xcframework/ios-arm64_armv7/GodzillaMiniWidgetKit.framework/CustomResources/Bundles/*"
   ],
   "source": {
     "http": "https://github.com/programming086/TuyaSimulatorFixed-Binaries/releases/download/GodzillaMiniWidgetKit-3.8.3/GodzillaMiniWidgetKit.xcframework.zip",

@@ -39,7 +39,7 @@
       "ThingSmartNetworkKit.xcframework/ios-arm64/ThingSmartNetworkKit.framework/Headers/*"
     ],
     "resources": [
-      "Build/ThingSmartNetworkKit.xcframework/ios-arm64/ThingSmartNetworkKit.framework/CustomResources/Assets/*"
+      "ThingSmartNetworkKit.xcframework/ios-arm64/ThingSmartNetworkKit.framework/CustomResources/Assets/*"
     ]
   },
   "watchos": {
@@ -47,7 +47,7 @@
       "ThingSmartNetworkKit.xcframework/watchos-arm64_arm64_32_armv7k/ThingSmartNetworkKit.framework/Headers/*"
     ],
     "resources": [
-      "Build/ThingSmartNetworkKit.xcframework/watchos-arm64_arm64_32_armv7k/ThingSmartNetworkKit.framework/CustomResources/Assets/*"
+      "ThingSmartNetworkKit.xcframework/watchos-arm64_arm64_32_armv7k/ThingSmartNetworkKit.framework/CustomResources/Assets/*"
     ]
   },
   "vendored_frameworks": [

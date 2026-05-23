@@ -55,6 +55,6 @@
     "GZLMiniProgramAdapterImpl_iOS.xcframework/ios-arm64/GZLMiniProgramAdapterImpl_iOS.framework/Headers/*"
   ],
   "resources": [
-    "Build/GZLMiniProgramAdapterImpl_iOS.xcframework/ios-arm64/GZLMiniProgramAdapterImpl_iOS.framework/CustomResources/Bundles/*"
+    "GZLMiniProgramAdapterImpl_iOS.xcframework/ios-arm64/GZLMiniProgramAdapterImpl_iOS.framework/CustomResources/Bundles/*"
   ]
 }

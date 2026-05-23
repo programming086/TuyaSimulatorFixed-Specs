@@ -23,6 +23,7 @@
     "ios": "9.0"
   },
   "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
     "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64",
     "TUYA_PRIVACY_USAGE_DESCRIPTION": "NSCameraUsageDescription NSMicrophoneUsageDescription NSPhotoLibraryUsageDescription"
   },
@@ -37,6 +38,7 @@
   },
   "summary": "\u89c6\u9891\u548c\u56fe\u7247\u5de5\u5177",
   "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
     "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
   },
   "vendored_frameworks": [

@@ -23,7 +23,7 @@
     "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64"
   },
   "resources": [
-    "Build/GZLMiniAppWebView_iOS.xcframework/ios-arm64/GZLMiniAppWebView_iOS.framework/CustomResources/Assets/*"
+    "GZLMiniAppWebView_iOS.xcframework/ios-arm64/GZLMiniAppWebView_iOS.framework/CustomResources/Assets/*"
   ],
   "source": {
     "http": "https://github.com/programming086/TuyaSimulatorFixed-Binaries/releases/download/GZLMiniAppWebView_iOS-3.8.15/GZLMiniAppWebView_iOS.xcframework.zip",

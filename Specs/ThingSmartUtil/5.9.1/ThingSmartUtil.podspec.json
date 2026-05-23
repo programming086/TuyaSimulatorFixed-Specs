@@ -24,7 +24,7 @@
       "SystemConfiguration",
       "UIKit"
     ],
-    "resources": "Build/ThingSmartUtil.xcframework/**/*.bundle",
+    "resources": "ThingSmartUtil.xcframework/**/*.bundle",
     "dependencies": {
       "ThingMbedtls": [
         "3.3.0"
@@ -36,17 +36,19 @@
   },
   "watchos": {
     "frameworks": "WatchKit",
-    "resources": "Build/ThingSmartUtil.xcframework/**/*.bundle"
+    "resources": "ThingSmartUtil.xcframework/**/*.bundle"
   },
   "vendored_frameworks": [
     "ThingSmartUtil.xcframework"
   ],
   "cocoapods_version": ">= 1.10",
   "user_target_xcconfig": {
-    "CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES": "YES"
+    "CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES": "YES",
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64"
   },
   "pod_target_xcconfig": {
     "CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES": "YES",
-    "DEFINES_MODULE": "YES"
+    "DEFINES_MODULE": "YES",
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64"
   }
 }

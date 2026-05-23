@@ -22,7 +22,7 @@
     "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64"
   },
   "resources": [
-    "Build/GZLMiniAppRemoteIDE.xcframework/ios-arm64/GZLMiniAppRemoteIDE.framework/CustomResources/Assets/*"
+    "GZLMiniAppRemoteIDE.xcframework/ios-arm64/GZLMiniAppRemoteIDE.framework/CustomResources/Assets/*"
   ],
   "source": {
     "http": "https://github.com/programming086/TuyaSimulatorFixed-Binaries/releases/download/GZLMiniAppRemoteIDE-3.8.0/GZLMiniAppRemoteIDE.xcframework.zip",

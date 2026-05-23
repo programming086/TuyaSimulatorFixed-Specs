@@ -46,7 +46,7 @@
       "TuyaSmartNetworkKit.xcframework/watchos-arm64_32_armv7k/TuyaSmartNetworkKit.framework/Headers/*"
     ],
     "resources": [
-      "Build/TuyaSmartNetworkKit.xcframework/watchos-arm64_32_armv7k/TuyaSmartNetworkKit.framework/CustomResources/Assets/*"
+      "TuyaSmartNetworkKit.xcframework/watchos-arm64_32_armv7k/TuyaSmartNetworkKit.framework/CustomResources/Assets/*"
     ]
   },
   "ios": {
@@ -54,7 +54,7 @@
       "TuyaSmartNetworkKit.xcframework/ios-arm64_armv7/TuyaSmartNetworkKit.framework/Headers/*"
     ],
     "resources": [
-      "Build/TuyaSmartNetworkKit.xcframework/ios-arm64_armv7/TuyaSmartNetworkKit.framework/CustomResources/Assets/*"
+      "TuyaSmartNetworkKit.xcframework/ios-arm64_armv7/TuyaSmartNetworkKit.framework/CustomResources/Assets/*"
     ]
   },
   "vendored_frameworks": [

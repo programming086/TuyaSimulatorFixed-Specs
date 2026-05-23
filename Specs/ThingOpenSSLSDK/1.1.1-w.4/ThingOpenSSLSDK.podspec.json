@@ -49,6 +49,6 @@
     "ThingOpenSSLSDK.xcframework/ios-arm64/ThingOpenSSLSDK.framework/Headers/*"
   ],
   "resources": [
-    "Build/ThingOpenSSLSDK.xcframework/ios-arm64/ThingOpenSSLSDK.framework/*.bundle"
+    "ThingOpenSSLSDK.xcframework/ios-arm64/ThingOpenSSLSDK.framework/*.bundle"
   ]
 }

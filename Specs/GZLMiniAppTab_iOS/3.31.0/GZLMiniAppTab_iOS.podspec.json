@@ -34,6 +34,6 @@
     "GZLMiniAppTab_iOS.xcframework/ios-arm64/GZLMiniAppTab_iOS.framework/Headers/*"
   ],
   "resources": [
-    "Build/GZLMiniAppTab_iOS.xcframework/ios-arm64/GZLMiniAppTab_iOS.framework/CustomResources/Bundles/*"
+    "GZLMiniAppTab_iOS.xcframework/ios-arm64/GZLMiniAppTab_iOS.framework/CustomResources/Bundles/*"
   ]
 }

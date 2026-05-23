@@ -37,6 +37,7 @@
     "ios": "9.0"
   },
   "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
     "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64",
     "TUYA_PRIVACY_USAGE_DESCRIPTION": "NSLocationAlwaysAndWhenInUseUsageDescription"
   },
@@ -53,6 +54,7 @@
   },
   "summary": "\u6d82\u9e26\u5bb6\u5ead\u6a21\u5757\u9ed8\u8ba4\u76ae\u80a4",
   "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
     "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
   },
   "vendored_frameworks": [
