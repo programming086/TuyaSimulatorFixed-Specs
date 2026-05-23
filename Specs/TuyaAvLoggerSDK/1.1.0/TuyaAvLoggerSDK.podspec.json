@@ -32,7 +32,6 @@
   },
   "pod_target_xcconfig": {
     "ENABLE_BITCODE": "NO",
-    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
     "GCC_PREPROCESSOR_DEFINITIONS": "WEBRTC_POSIX $(inherited)",
     "HEADER_SEARCH_PATHS": "$(PODS_TARGET_SRCROOT)/TuyaAvLoggerSDK/Utils $(PODS_TARGET_SRCROOT)/TuyaAvLoggerSDK/CAPI $(PODS_TARGET_SRCROOT)/TuyaAvLoggerSDK/av-logger $(PODS_TARGET_SRCROOT)/TuyaAvLoggerSDK/include/sdplog",
     "OTHER_CFLAGS": "-DLINUX"
@@ -42,9 +41,7 @@
     "type": "zip"
   },
   "summary": "TuyaAvLoggerSDK framework.",
-  "user_target_xcconfig": {
-    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64"
-  },
+  "user_target_xcconfig": {},
   "vendored_frameworks": [
     "TuyaAvLoggerSDK.xcframework"
   ],

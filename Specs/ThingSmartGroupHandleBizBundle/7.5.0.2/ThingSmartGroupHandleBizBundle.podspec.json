@@ -20,7 +20,6 @@
   "pod_target_xcconfig": {
     "THING_PROVIDE_SERVICE": "ThingGroupHandleProtocol",
     "THING_REQUIRE_SERVICE": "ThingGroupHandleProtocol,ThingBusinessGroupProtocol,ThingDomainQueryProtocol,ThingSmartHouseIndexProtocol,ThingFamilyProtocol",
-    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
     "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
   },
   "dependencies": {
@@ -533,7 +532,6 @@
     ]
   },
   "user_target_xcconfig": {
-    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
     "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
   },
   "preserve_paths": [],

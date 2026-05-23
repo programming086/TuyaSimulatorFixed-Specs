@@ -311,7 +311,6 @@
     "ios": "11.0"
   },
   "pod_target_xcconfig": {
-    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
     "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64",
     "TUYA_PROVIDE_SERVICE": "TYActivatorProtocol,TYQRCodeProtocol",
     "TUYA_REQUIRE_SERVICE": "TYActivatorProtocol,TYDomainQueryProtocol,TYFeedBackProtocol,TYHomeKitProtocol,TYHybridContainerProtocol,TYPanelProtocol,TYSmartHomeDataProtocol,TYSmartHouseIndexProtocol,TuyaSmartAPMEventProtocol,TuyaSmartAPMTrackProtocol,TuyaBusinessActivatorProtocol,TYHelpCenterProtocol"
@@ -325,7 +324,6 @@
   },
   "summary": "A short description of TuyaSmartActivatorBizBundle.",
   "user_target_xcconfig": {
-    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
     "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
   },
   "vendored_frameworks": [

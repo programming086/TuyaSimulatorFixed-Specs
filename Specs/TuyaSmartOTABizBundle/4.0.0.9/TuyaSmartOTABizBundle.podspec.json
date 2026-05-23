@@ -175,7 +175,6 @@
     "ios": "11.0"
   },
   "pod_target_xcconfig": {
-    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
     "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64",
     "TUYA_PROVIDE_SERVICE": "TYOTAGeneralProtocol",
     "TUYA_REQUIRE_SERVICE": "TuyaSmartAPMEventProtocol"
@@ -189,7 +188,6 @@
   },
   "summary": "A short description of TuyaSmartOTABizBundle.",
   "user_target_xcconfig": {
-    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
     "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
   },
   "vendored_frameworks": [

@@ -51,8 +51,7 @@
     "ThingSmartUtil": []
   },
   "pod_target_xcconfig": {
-    "USER_HEADER_SEARCH_PATHS": "$(inherited) $(SRCROOT)/libwebp/src",
-    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64"
+    "USER_HEADER_SEARCH_PATHS": "$(inherited) $(SRCROOT)/libwebp/src"
   },
   "vendored_frameworks": [
     "ThingEncryptImage.xcframework"

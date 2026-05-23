@@ -20,7 +20,6 @@
   },
   "pod_target_xcconfig": {
     "DEFINES_MODULE": "YES",
-    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
     "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
   },
   "prefix_header_contents": "#ifdef __OBJC__\n  #import <ThingSmartBaseKit/ThingSmartBaseKit.h>\n  #undef ThingLog\n  #undef ThingLogDebug\n  #undef ThingLogInfo\n  #undef ThingLogWarn\n  #undef ThingLogError\n  #define ThingLogDebug(...)         ThingSDKLog(0, @\"ThingSmartActivatorDiscoveryManager\", __FILE__, __PRETTY_FUNCTION__, __LINE__, ##__VA_ARGS__)\n  #define ThingLogInfo(...)         ThingSDKLog(1, @\"ThingSmartActivatorDiscoveryManager\", __FILE__, __PRETTY_FUNCTION__, __LINE__, ##__VA_ARGS__)\n  #define ThingLogWarn(...)         ThingSDKLog(2, @\"ThingSmartActivatorDiscoveryManager\", __FILE__, __PRETTY_FUNCTION__, __LINE__, ##__VA_ARGS__)\n  #define ThingLogError(...)         ThingSDKLog(3, @\"ThingSmartActivatorDiscoveryManager\", __FILE__, __PRETTY_FUNCTION__, __LINE__, ##__VA_ARGS__)\n#endif",
@@ -31,7 +30,6 @@
   "summary": "\u914d\u7f51\u81ea\u53d1\u73b0",
   "user_target_xcconfig": {
     "CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES": "YES",
-    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
     "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
   },
   "vendored_frameworks": [

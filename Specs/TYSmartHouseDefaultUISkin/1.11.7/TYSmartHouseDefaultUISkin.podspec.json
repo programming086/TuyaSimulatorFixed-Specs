@@ -31,7 +31,6 @@
     "ios": "9.0"
   },
   "pod_target_xcconfig": {
-    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
     "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
   },
   "prefix_header_contents": "#import <libextobjc/EXTScope.h>\n#import <TYFoundationKit/TYFoundationKit.h>\n#import \"UIImage+TYSmartHouseBundle.h\"\n#import <TYUIKit/TYUIKit.h>",
@@ -46,7 +45,6 @@
   },
   "summary": "A short description of TYSmartHouseDefaultUISkin.",
   "user_target_xcconfig": {
-    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
     "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
   },
   "vendored_frameworks": [

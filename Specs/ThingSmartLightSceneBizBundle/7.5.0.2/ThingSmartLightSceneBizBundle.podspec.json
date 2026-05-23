@@ -30,7 +30,6 @@
   "pod_target_xcconfig": {
     "THING_PROVIDE_SERVICE": "ThingLightScenePlugProtocol, ThingLightScenePlugSktProtocol",
     "THING_REQUIRE_SERVICE": "ThingFamilyProtocol",
-    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
     "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
   },
   "dependencies": {
@@ -532,7 +531,6 @@
     ]
   },
   "user_target_xcconfig": {
-    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
     "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
   },
   "preserve_paths": [],

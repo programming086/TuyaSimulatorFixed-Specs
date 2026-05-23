@@ -43,12 +43,9 @@
     "OTHER_CFLAGS": "-DLINUX",
     "GCC_PREPROCESSOR_DEFINITIONS": "WEBRTC_POSIX HAVE_STRLCPY $(inherited)",
     "HEADER_SEARCH_PATHS": "$(PODS_TARGET_SRCROOT)/ThingP2PSDK $(PODS_TARGET_SRCROOT)/ThingP2PSDK/Platforms/iOS $(PODS_TARGET_SRCROOT)/ThingP2PSDK/Utils $(PODS_TARGET_SRCROOT)/ThingP2PSDK/LogManager $(PODS_TARGET_SRCROOT)/ThingP2PSDK/CAPI $(PODS_TARGET_SRCROOT)/include/libuv/include $(PODS_TARGET_SRCROOT)/include/libsrtp/include $(PODS_TARGET_SRCROOT)/include/mbedtls/include",
-    "ENABLE_BITCODE": "NO",
-    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64"
+    "ENABLE_BITCODE": "NO"
   },
-  "user_target_xcconfig": {
-    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64"
-  },
+  "user_target_xcconfig": {},
   "vendored_frameworks": [
     "ThingP2PSDK.xcframework"
   ],

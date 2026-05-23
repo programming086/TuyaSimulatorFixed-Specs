@@ -43,12 +43,9 @@
     "OTHER_CFLAGS": "-DLINUX",
     "GCC_PREPROCESSOR_DEFINITIONS": "WEBRTC_POSIX $(inherited)",
     "HEADER_SEARCH_PATHS": "$(PODS_TARGET_SRCROOT)/ThingP2pFileTransSDK/Device $(PODS_TARGET_SRCROOT)/ThingP2pFileTransSDK/LogInterface $(PODS_TARGET_SRCROOT)/ThingP2pFileTransSDK/DownloadTask $(PODS_TARGET_SRCROOT)/ThingP2pFileTransSDK/P2PModule $(PODS_TARGET_SRCROOT)/ThingP2pFileTransSDK/PathManager $(PODS_TARGET_SRCROOT)/ThingP2pFileTransSDK/SessionGuard $(PODS_TARGET_SRCROOT)/ThingP2pFileTransSDK/ThingNetProtocol $(PODS_TARGET_SRCROOT)/ThingP2pFileTransSDK/Platforms/IOS $(PODS_TARGET_SRCROOT)/ThingP2pFileTransSDK/utils",
-    "ENABLE_BITCODE": "NO",
-    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64"
+    "ENABLE_BITCODE": "NO"
   },
-  "user_target_xcconfig": {
-    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64"
-  },
+  "user_target_xcconfig": {},
   "vendored_frameworks": [
     "ThingP2pFileTransSDK.xcframework"
   ],

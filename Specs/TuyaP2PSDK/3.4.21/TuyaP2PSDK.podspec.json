@@ -36,7 +36,6 @@
   },
   "pod_target_xcconfig": {
     "ENABLE_BITCODE": "NO",
-    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
     "GCC_PREPROCESSOR_DEFINITIONS": "WEBRTC_POSIX $(inherited)",
     "HEADER_SEARCH_PATHS": "$(PODS_TARGET_SRCROOT)/TuyaP2PSDK $(PODS_TARGET_SRCROOT)/TuyaP2PSDK/Platforms/iOS $(PODS_TARGET_SRCROOT)/TuyaP2PSDK/Utils $(PODS_TARGET_SRCROOT)/TuyaP2PSDK/LogManager $(PODS_TARGET_SRCROOT)/TuyaP2PSDK/CAPI",
     "OTHER_CFLAGS": "-DLINUX"
@@ -46,9 +45,7 @@
     "type": "zip"
   },
   "summary": "open SDK code for tuya p2p.",
-  "user_target_xcconfig": {
-    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64"
-  },
+  "user_target_xcconfig": {},
   "vendored_frameworks": [
     "TuyaP2PSDK.xcframework"
   ],

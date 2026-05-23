@@ -44,12 +44,9 @@
     "OTHER_CFLAGS": "-DLINUX",
     "GCC_PREPROCESSOR_DEFINITIONS": "WEBRTC_POSIX $(inherited)",
     "HEADER_SEARCH_PATHS": "$(PODS_TARGET_SRCROOT)/ThingAudioEngineSDK/include $(PODS_TARGET_SRCROOT)/ThingAudioEngineSDK/codec $(PODS_TARGET_SRCROOT)/ThingAudioEngineSDK/audio-engine $(PODS_TARGET_SRCROOT)/ThingAudioEngineSDK/audio-logger $(PODS_TARGET_SRCROOT)/ThingAudioEngineSDK/audio-player $(PODS_TARGET_SRCROOT)/ThingAudioEngineSDK/audio-processer  $(PODS_TARGET_SRCROOT)/ThingAudioEngineSDK/audio-recorder $(PODS_TARGET_SRCROOT)/ThingAudioEngineSDK $(PODS_TARGET_SRCROOT)/ThingAudioEngineSDK/include/tyap $(PODS_TARGET_SRCROOT)/ThingAudioEngineSDK/vad $(PODS_TARGET_SRCROOT)/ThingAudioEngineSDK/utils $(PODS_TARGET_SRCROOT)/ThingAudioEngineSDK/interface",
-    "ENABLE_BITCODE": "NO",
-    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64"
+    "ENABLE_BITCODE": "NO"
   },
-  "user_target_xcconfig": {
-    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64"
-  },
+  "user_target_xcconfig": {},
   "vendored_frameworks": [
     "ThingAudioEngineSDK.xcframework"
   ],

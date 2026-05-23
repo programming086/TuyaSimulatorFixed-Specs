@@ -69,8 +69,7 @@
     "CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES": "YES",
     "DEFINES_MODULE": "YES",
     "OTHER_LDFLAGS": "-ObjC",
-    "TUYA_CODE_SIGN_ENTITLEMENTS": "com.apple.developer.matter.allow-setup-payload",
-    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64"
+    "TUYA_CODE_SIGN_ENTITLEMENTS": "com.apple.developer.matter.allow-setup-payload"
   },
   "source_files": [
     "ThingSmartMatterKit.xcframework/ios-arm64/ThingSmartMatterKit.framework/Headers/*"

@@ -47,12 +47,9 @@
     "OTHER_CFLAGS": "-DLINUX",
     "GCC_PREPROCESSOR_DEFINITIONS": "WEBRTC_POSIX $(inherited)",
     "HEADER_SEARCH_PATHS": "$(PODS_TARGET_SRCROOT)/TuyaP2pFileTransSDK/Device $(PODS_TARGET_SRCROOT)/TuyaP2pFileTransSDK/LogInterface $(PODS_TARGET_SRCROOT)/TuyaP2pFileTransSDK/DownloadTask $(PODS_TARGET_SRCROOT)/TuyaP2pFileTransSDK/P2PModule $(PODS_TARGET_SRCROOT)/TuyaP2pFileTransSDK/PathManager $(PODS_TARGET_SRCROOT)/TuyaP2pFileTransSDK/SessionGuard $(PODS_TARGET_SRCROOT)/TuyaP2pFileTransSDK/TuyaNetProtocol $(PODS_TARGET_SRCROOT)/TuyaP2pFileTransSDK/Platforms/IOS $(PODS_TARGET_SRCROOT)/TuyaP2pFileTransSDK/utils",
-    "ENABLE_BITCODE": "NO",
-    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64"
+    "ENABLE_BITCODE": "NO"
   },
-  "user_target_xcconfig": {
-    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64"
-  },
+  "user_target_xcconfig": {},
   "vendored_frameworks": [
     "TuyaP2pFileTransSDK.xcframework"
   ],

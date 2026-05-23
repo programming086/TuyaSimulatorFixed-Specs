@@ -31,11 +31,9 @@
     "CLANG_CXX_LIBRARY": "libc++",
     "HEADER_SEARCH_PATHS": "\"${PODS_TARGET_SRCROOT}/ThingTensorFlowLiteC/Source\"",
     "GCC_PREPROCESSOR_DEFINITIONS": "__STDC_CONSTANT_MACROS TFLITE_GPU_BINARY_RELEASE=1 $(inherited)",
-    "ENABLE_BITCODE": "NO",
-    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64"
+    "ENABLE_BITCODE": "NO"
   },
   "user_target_xcconfig": {
-    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
     "GCC_PREPROCESSOR_DEFINITIONS": "TFLITE_GPU_BINARY_RELEASE=1 $(inherited)"
   },
   "vendored_frameworks": [

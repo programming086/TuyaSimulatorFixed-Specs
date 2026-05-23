@@ -640,11 +640,9 @@
   "pod_target_xcconfig": {
     "THING_PROVIDE_SERVICE": "ThingDeviceDetailProtocol",
     "THING_REQUIRE_SERVICE": "ThingOTAGeneralProtocol,ThingSmartHomeDataProtocol,ThingDomainQueryProtocol,ThingHelpCenterProtocol,ThingGroupHandleProtocol,ThingBusinessDeviceDetailProtocol,ThingBusinessHomeKitProtocol",
-    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
     "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
   },
   "user_target_xcconfig": {
-    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
     "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
   },
   "preserve_paths": [],

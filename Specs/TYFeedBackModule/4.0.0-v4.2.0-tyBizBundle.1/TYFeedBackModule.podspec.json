@@ -20,7 +20,6 @@
     "ios": "9.0"
   },
   "pod_target_xcconfig": {
-    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
     "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
   },
   "prefix_header_file": "TYFeedBackModule/Classes/PrefixHeader.pch",
@@ -33,7 +32,6 @@
   },
   "summary": "\u53cd\u9988\u6a21\u5757",
   "user_target_xcconfig": {
-    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
     "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
   },
   "vendored_frameworks": [

@@ -41,7 +41,6 @@
     "ios": "9.0"
   },
   "pod_target_xcconfig": {
-    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
     "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
   },
   "prefix_header_contents": "#import <TuyaSmartBaseKit/TuyaSmartBaseKit.h>\n#import <TuyaSmartDeviceKit/TuyaSmartDeviceKit.h>\n#import \"EXTScope.h\"",
@@ -51,7 +50,6 @@
   },
   "summary": "A short description of TYSmartHouseBizKit.",
   "user_target_xcconfig": {
-    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
     "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
   },
   "vendored_frameworks": [
