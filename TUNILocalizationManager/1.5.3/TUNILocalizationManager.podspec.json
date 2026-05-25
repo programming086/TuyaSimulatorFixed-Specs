@@ -1,0 +1,39 @@
+{
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "cocoapods_version": ">= 1.10",
+  "dependencies": {
+    "TUNIAPIManagerKit": [],
+    "ThingFoundationKit": [],
+    "ThingLogMacro": [],
+    "YYModel": []
+  },
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "name": "TUNILocalizationManager",
+  "platforms": {
+    "ios": "9.0"
+  },
+  "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "resource_bundles": {
+    "TUNILocalizationManager": [
+      "ios/tunilocalizationmanager/Assets/*"
+    ]
+  },
+  "source": {
+    "http": "https://github.com/programming086/TuyaSimulatorFixed-Binaries/releases/download/TUNILocalizationManager-1.5.3/TUNILocalizationManager.xcframework.zip",
+    "type": "zip"
+  },
+  "summary": "A short description of TUNILocalizationManager.",
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "vendored_frameworks": [
+    "TUNILocalizationManager.xcframework"
+  ],
+  "version": "1.5.3"
+}

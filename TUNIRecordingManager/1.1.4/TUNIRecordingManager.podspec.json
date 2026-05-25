@@ -1,0 +1,40 @@
+{
+  "name": "TUNIRecordingManager",
+  "version": "1.1.4",
+  "summary": "A short description of TUNIRecordingManager.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://github.com/programming086/TuyaSimulatorFixed-Binaries/releases/download/TUNIRecordingManager-1.1.4/TUNIRecordingManager.xcframework.zip",
+    "type": "zip"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "resource_bundles": {
+    "TUNIRecordingManager": [
+      "ios/TUNIRecordingManager/Assets/*",
+      "js/dist/index.js"
+    ]
+  },
+  "frameworks": "AVFoundation",
+  "dependencies": {
+    "TUNIAPIManagerKit": [],
+    "YYModel": [],
+    "EZAudio": []
+  },
+  "pod_target_xcconfig": {
+    "THING_PRIVACY_USAGE_DESCRIPTION": "NSMicrophoneUsageDescription",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "vendored_frameworks": [
+    "TUNIRecordingManager.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

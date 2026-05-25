@@ -1,0 +1,36 @@
+{
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "cocoapods_version": ">= 1.10",
+  "dependencies": {
+    "ThingBluetoothInterface": [],
+    "ThingFoundationKit": [],
+    "ThingSmartBaseKit": [],
+    "ThingSmartDeviceCoreKit": [],
+    "ThingSmartShareKit": [],
+    "YYModel": []
+  },
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "name": "ThingDeviceBusinessDataKit",
+  "platforms": {
+    "ios": "10.0"
+  },
+  "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "source": {
+    "http": "https://github.com/programming086/TuyaSimulatorFixed-Binaries/releases/download/ThingDeviceBusinessDataKit-1.1.0/ThingDeviceBusinessDataKit.xcframework.zip",
+    "type": "zip"
+  },
+  "summary": "A short description of ThingDeviceBusinessDataKit.",
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "vendored_frameworks": [
+    "ThingDeviceBusinessDataKit.xcframework"
+  ],
+  "version": "1.1.0"
+}

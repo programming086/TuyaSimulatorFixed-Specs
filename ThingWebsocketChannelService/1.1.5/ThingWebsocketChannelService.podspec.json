@@ -1,0 +1,22 @@
+{
+  "name": "ThingWebsocketChannelService",
+  "version": "1.1.5",
+  "summary": "A short description of ThingWebsocketChannelService.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://github.com/programming086/TuyaSimulatorFixed-Binaries/releases/download/ThingWebsocketChannelService-1.1.5/ThingWebsocketChannelService.xcframework.zip",
+    "type": "zip"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "preserve_paths": [],
+  "vendored_frameworks": [
+    "ThingWebsocketChannelService.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

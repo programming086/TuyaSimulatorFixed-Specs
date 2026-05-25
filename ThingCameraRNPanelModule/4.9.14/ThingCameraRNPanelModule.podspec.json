@@ -1,0 +1,40 @@
+{
+  "name": "ThingCameraRNPanelModule",
+  "version": "4.9.14",
+  "summary": "A short description of ThingCameraRNPanelModule.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://github.com/programming086/TuyaSimulatorFixed-Binaries/releases/download/ThingCameraRNPanelModule-4.9.14/ThingCameraRNPanelModule.xcframework.zip",
+    "type": "zip"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "dependencies": {
+    "ThingModuleManager": [],
+    "ThingModuleServices": [],
+    "ThingCameraRNPanelContext": [],
+    "ThingCameraModuleSKYEventModule": [],
+    "ThingBusinessService": [],
+    "ThingSmartCameraBizKit": [],
+    "ThingPanelContainer": [],
+    "ThingCameraUtil": [],
+    "ThingCameraSktAPI": [],
+    "ThingCameraAPI": []
+  },
+  "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "preserve_paths": [],
+  "vendored_frameworks": [
+    "ThingCameraRNPanelModule.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

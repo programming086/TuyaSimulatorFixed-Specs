@@ -1,0 +1,35 @@
+{
+  "name": "TUNIStorageManager",
+  "version": "1.1.3-anonymize.2",
+  "summary": "A short description of TUNIStorageManager.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://github.com/programming086/TuyaSimulatorFixed-Binaries/releases/download/TUNIStorageManager-1.1.3-anonymize.2/TUNIStorageManager.xcframework.zip",
+    "type": "zip"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "dependencies": {
+    "TUNIAPIManagerKit": [],
+    "YYModel": [],
+    "MMKV": [],
+    "ThingFoundationKit": [],
+    "ThingSmartBaseKit": [],
+    "TUNICode": []
+  },
+  "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "vendored_frameworks": [
+    "TUNIStorageManager.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

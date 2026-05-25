@@ -1,0 +1,52 @@
+{
+  "name": "ThingSmartSceneCoreKit",
+  "version": "5.12.0",
+  "summary": "A short description of ThingSmartSceneCoreKit.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://github.com/programming086/TuyaSimulatorFixed-Binaries/releases/download/ThingSmartSceneCoreKit-5.12.0/ThingSmartSceneCoreKit.xcframework.zip",
+    "type": "zip"
+  },
+  "platforms": {
+    "ios": "9.0",
+    "watchos": "2.0"
+  },
+  "dependencies": {
+    "ThingSmartBaseKit": [],
+    "ThingSmartDeviceCoreKit": [],
+    "YYModel": []
+  },
+  "prefix_header_contents": [
+    "#ifdef __OBJC__",
+    "#import <YYModel/YYModel.h>",
+    "#import \"ThingSmartSceneCoreKit.h\"",
+    "#endif"
+  ],
+  "user_target_xcconfig": {
+    "CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES": "YES"
+  },
+  "pod_target_xcconfig": {
+    "CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES": "YES"
+  },
+  "watchos": {
+    "pod_target_xcconfig": {
+      "ENABLE_BITCODE": "NO",
+      "OTHER_CFLAGS": "-fembed-bitcode -Qunused-arguments"
+    },
+    "source_files": [
+      "ThingSmartSceneCoreKit.xcframework/watchos-arm64_arm64_32_armv7k/ThingSmartSceneCoreKit.framework/Headers/*"
+    ]
+  },
+  "ios": {
+    "source_files": [
+      "ThingSmartSceneCoreKit.xcframework/ios-arm64/ThingSmartSceneCoreKit.framework/Headers/*"
+    ]
+  },
+  "vendored_frameworks": [
+    "ThingSmartSceneCoreKit.xcframework"
+  ]
+}

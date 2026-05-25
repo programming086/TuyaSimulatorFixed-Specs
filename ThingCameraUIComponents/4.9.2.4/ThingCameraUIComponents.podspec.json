@@ -1,0 +1,50 @@
+{
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "cocoapods_version": ">= 1.10",
+  "dependencies": {
+    "DACircularProgress": [],
+    "Masonry": [],
+    "ThingCameraUIKit": [],
+    "ThingEncryptImage": [],
+    "ThingFoundationKit": [],
+    "ThingLottie": [],
+    "ThingSmartBusinessLibrary": [],
+    "ThingSmartCameraBase": [],
+    "ThingSmartDeviceCoreKit": [],
+    "ThingUIKit": []
+  },
+  "description": "TODO: Add long description of the pod here.",
+  "frameworks": [
+    "UIKit",
+    "Foundation",
+    "AudioToolbox"
+  ],
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "name": "ThingCameraUIComponents",
+  "platforms": {
+    "ios": "9.0"
+  },
+  "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "resource_bundles": {
+    "ThingCameraUIComponents": [
+      "ThingCameraUIComponents/Assets/**/*"
+    ]
+  },
+  "source": {
+    "http": "https://github.com/programming086/TuyaSimulatorFixed-Binaries/releases/download/ThingCameraUIComponents-4.9.2.4/ThingCameraUIComponents.xcframework.zip",
+    "type": "zip"
+  },
+  "summary": "A short description of ThingCameraUIComponents.",
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "vendored_frameworks": [
+    "ThingCameraUIComponents.xcframework"
+  ],
+  "version": "4.9.2.4"
+}

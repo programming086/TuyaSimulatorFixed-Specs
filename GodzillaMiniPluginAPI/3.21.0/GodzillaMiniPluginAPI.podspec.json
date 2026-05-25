@@ -1,0 +1,33 @@
+{
+  "name": "GodzillaMiniPluginAPI",
+  "version": "3.21.0",
+  "summary": "A short description of GodzillaMiniPluginAPI.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://github.com/programming086/TuyaSimulatorFixed-Binaries/releases/download/GodzillaMiniPluginAPI-3.21.0/GodzillaMiniPluginAPI.xcframework.zip",
+    "type": "zip"
+  },
+  "pod_target_xcconfig": {
+    "CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES": "YES",
+    "DEFINES_MODULE": "YES"
+  },
+  "user_target_xcconfig": {
+    "CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES": "YES"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "dependencies": {
+    "TUNIAPIManagerKit": []
+  },
+  "vendored_frameworks": [
+    "GodzillaMiniPluginAPI.xcframework"
+  ],
+  "source_files": [
+    "GodzillaMiniPluginAPI.xcframework/ios-arm64/GodzillaMiniPluginAPI.framework/Headers/*"
+  ]
+}

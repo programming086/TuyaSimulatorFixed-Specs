@@ -1,0 +1,25 @@
+{
+  "name": "ThingSmartCameraSettingConfigModule",
+  "version": "5.0.0",
+  "summary": "A short description of ThingSmartCameraSettingConfigModule.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://github.com/programming086/TuyaSimulatorFixed-Binaries/releases/download/ThingSmartCameraSettingConfigModule-5.0.0/ThingSmartCameraSettingConfigModule.xcframework.zip",
+    "type": "zip"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "dependencies": {
+    "ThingModuleServices": []
+  },
+  "preserve_paths": [],
+  "vendored_frameworks": [
+    "ThingSmartCameraSettingConfigModule.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

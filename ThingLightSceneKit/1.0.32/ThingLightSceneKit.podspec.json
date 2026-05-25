@@ -1,0 +1,38 @@
+{
+  "name": "ThingLightSceneKit",
+  "version": "1.0.32",
+  "summary": "A short description of ThingLightSceneKit.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://github.com/programming086/TuyaSimulatorFixed-Binaries/releases/download/ThingLightSceneKit-1.0.32/ThingLightSceneKit.xcframework.zip",
+    "type": "zip"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "dependencies": {
+    "YYModel": [],
+    "ThingSmartBaseKit": [],
+    "ThingSmartDeviceCoreKit": [],
+    "ThingSmartUtil": [],
+    "ThingSmartSceneCoreKit": [],
+    "ThingProgressHUD": [],
+    "ThingUIKit": []
+  },
+  "user_target_xcconfig": {
+    "CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES": "YES"
+  },
+  "pod_target_xcconfig": {
+    "CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES": "YES"
+  },
+  "vendored_frameworks": [
+    "ThingLightSceneKit.xcframework"
+  ],
+  "source_files": [
+    "ThingLightSceneKit.xcframework/ios-arm64/ThingLightSceneKit.framework/Headers/*"
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "name": "TRCTScenePanelManager",
+  "version": "1.9.1",
+  "summary": "A short description of TRCTScenePanelManager.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://github.com/programming086/TuyaSimulatorFixed-Binaries/releases/download/TRCTScenePanelManager-1.9.1/TRCTScenePanelManager.xcframework.zip",
+    "type": "zip"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "dependencies": {
+    "ThingSmartSceneCoreKit": [],
+    "ThingBusinessService": [],
+    "ThingPanelContext": [],
+    "YYModel": [],
+    "ThingModuleManager": [],
+    "ThingUrlPredefined": []
+  },
+  "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "vendored_frameworks": [
+    "TRCTScenePanelManager.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

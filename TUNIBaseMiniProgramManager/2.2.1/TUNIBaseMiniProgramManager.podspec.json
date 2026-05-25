@@ -1,0 +1,40 @@
+{
+  "name": "TUNIBaseMiniProgramManager",
+  "version": "2.2.1",
+  "summary": "A short description of TUNIBaseMiniProgramManager.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://github.com/programming086/TuyaSimulatorFixed-Binaries/releases/download/TUNIBaseMiniProgramManager-2.2.1/TUNIBaseMiniProgramManager.xcframework.zip",
+    "type": "zip"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "resource_bundles": {
+    "TUNIBaseMiniProgramManager": [
+      "ios/tunibaseminiprogrammanager/Assets/*",
+      "js/dist/index.js"
+    ]
+  },
+  "dependencies": {
+    "TUNIAPIManagerKit": [],
+    "YYModel": [],
+    "GodzillaMiniPluginAPI": [],
+    "GodzillaMiniIService": [],
+    "GodzillaMiniBaseKit": []
+  },
+  "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "vendored_frameworks": [
+    "TUNIBaseMiniProgramManager.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

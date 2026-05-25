@@ -1,0 +1,43 @@
+{
+  "name": "ThingPanelSweeperUtil",
+  "version": "1.0.5",
+  "summary": "A short description of ThingPanelSweeperUtil.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://github.com/programming086/TuyaSimulatorFixed-Binaries/releases/download/ThingPanelSweeperUtil-1.0.5/ThingPanelSweeperUtil.xcframework.zip",
+    "type": "zip"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "resource_bundles": {
+    "ThingPanelSweeperUtil": [
+      "ThingPanelSweeperUtil/Assets/*.png"
+    ]
+  },
+  "dependencies": {
+    "YYModel": [],
+    "ThingEncryptImage": [],
+    "ThingFoundationKit": [],
+    "ThingLogMacro": [],
+    "ThingModuleManager": [],
+    "ThingModuleServices": [],
+    "ThingSmartEventPredefined_Public": []
+  },
+  "prefix_header_contents": "#import <ThingLogMacro/ThingLogMacro.h>\n\n#undef ThingLogDebug\n#define ThingLogDebug(...) ThingLogger(0, @\"ThingPanelSweeperUtil\", ##__VA_ARGS__)\n\n#undef ThingLogInfo\n#define ThingLogInfo(...)  ThingLogger(1,  @\"ThingPanelSweeperUtil\", ##__VA_ARGS__)\n\n#undef ThingLogWarn\n#define ThingLogWarn(...)  ThingLogger(2,  @\"ThingPanelSweeperUtil\", ##__VA_ARGS__)\n\n#undef ThingLogError\n#define ThingLogError(...) ThingLogger(3, @\"ThingPanelSweeperUtil\", ##__VA_ARGS__)",
+  "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "preserve_paths": [],
+  "vendored_frameworks": [
+    "ThingPanelSweeperUtil.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

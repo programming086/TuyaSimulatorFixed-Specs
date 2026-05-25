@@ -1,0 +1,33 @@
+{
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "cocoapods_version": ">= 1.10",
+  "dependencies": {
+    "ThingCamCaptureKit": [],
+    "ThingPanelContext": []
+  },
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "name": "TRCTCameraViewManager",
+  "platforms": {
+    "ios": "9.0"
+  },
+  "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64",
+    "THING_PRIVACY_USAGE_DESCRIPTION": "NSCameraUsageDescription"
+  },
+  "source": {
+    "http": "https://github.com/programming086/TuyaSimulatorFixed-Binaries/releases/download/TRCTCameraViewManager-1.0.5-anonymize.2/TRCTCameraViewManager.xcframework.zip",
+    "type": "zip"
+  },
+  "summary": "A short description of TRCTCameraViewManager.",
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "vendored_frameworks": [
+    "TRCTCameraViewManager.xcframework"
+  ],
+  "version": "1.0.5-anonymize.2"
+}

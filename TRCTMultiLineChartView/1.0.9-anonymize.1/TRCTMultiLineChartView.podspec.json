@@ -1,0 +1,31 @@
+{
+  "name": "TRCTMultiLineChartView",
+  "version": "1.0.9-anonymize.1",
+  "summary": "A short description of TRCTMultiLineChartView.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://github.com/programming086/TuyaSimulatorFixed-Binaries/releases/download/TRCTMultiLineChartView-1.0.9-anonymize.1/TRCTMultiLineChartView.xcframework.zip",
+    "type": "zip"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "dependencies": {
+    "ThingPanelContext": [],
+    "ThingUIKit": []
+  },
+  "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "vendored_frameworks": [
+    "TRCTMultiLineChartView.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

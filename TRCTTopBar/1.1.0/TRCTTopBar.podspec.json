@@ -1,0 +1,34 @@
+{
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "cocoapods_version": ">= 1.10",
+  "dependencies": {
+    "ThingNavigationController": [],
+    "ThingPanelContext": [],
+    "ThingSmartBusinessLibrary": [],
+    "ThingUIKit": []
+  },
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "name": "TRCTTopBar",
+  "platforms": {
+    "ios": "9.0"
+  },
+  "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "source": {
+    "http": "https://github.com/programming086/TuyaSimulatorFixed-Binaries/releases/download/TRCTTopBar-1.1.0/TRCTTopBar.xcframework.zip",
+    "type": "zip"
+  },
+  "summary": "A short description of TRCTTopBar.",
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "vendored_frameworks": [
+    "TRCTTopBar.xcframework"
+  ],
+  "version": "1.1.0"
+}

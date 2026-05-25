@@ -1,0 +1,21 @@
+{
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "name": "GodzillaMiniOpenAPI",
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source": {
+    "http": "https://github.com/programming086/TuyaSimulatorFixed-Binaries/releases/download/GodzillaMiniOpenAPI-3.13.0/GodzillaMiniOpenAPI.xcframework.zip",
+    "type": "zip"
+  },
+  "summary": "A short description of GodzillaMiniOpenAPI.",
+  "vendored_frameworks": [
+    "GodzillaMiniOpenAPI.xcframework"
+  ],
+  "version": "3.13.0"
+}

@@ -1,0 +1,36 @@
+{
+  "name": "TRCTPublicBLEBeaconManager",
+  "version": "1.4.1",
+  "summary": "A short description of TRCTPublicBLEBeaconManager.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://github.com/programming086/TuyaSimulatorFixed-Binaries/releases/download/TRCTPublicBLEBeaconManager-1.4.1/TRCTPublicBLEBeaconManager.xcframework.zip",
+    "type": "zip"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "dependencies": {
+    "ThingPanelContext": [],
+    "ThingBluetoothInterface": [],
+    "ThingSmartDeviceCoreKit": [],
+    "ThingKVStorageLibrary": [],
+    "ThingFoundationKit": [],
+    "ThingLogMacro": [],
+    "ThingSmartBeacon": []
+  },
+  "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "vendored_frameworks": [
+    "TRCTPublicBLEBeaconManager.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

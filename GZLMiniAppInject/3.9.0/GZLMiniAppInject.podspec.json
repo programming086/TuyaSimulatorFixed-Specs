@@ -1,0 +1,36 @@
+{
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "dependencies": {
+    "GZLMiniAppCore_iOS": [],
+    "GZLMiniAppWebView_iOS": [],
+    "GZLMiniApp_iOS": [],
+    "ThingModuleManager": [],
+    "ThingSmartNetworkKit": [],
+    "YYModel": []
+  },
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "name": "GZLMiniAppInject",
+  "platforms": {
+    "ios": "9.0"
+  },
+  "pod_target_xcconfig": {
+    "CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES": "YES",
+    "DEFINES_MODULE": "YES"
+  },
+  "resources": [
+    "GZLMiniAppInject.xcframework/ios-arm64_armv7/GZLMiniAppInject.framework/CustomResources/Assets/*"
+  ],
+  "source": {
+    "http": "https://github.com/programming086/TuyaSimulatorFixed-Binaries/releases/download/GZLMiniAppInject-3.9.0/GZLMiniAppInject.xcframework.zip",
+    "type": "zip"
+  },
+  "summary": "A short description of GZLMiniAppInject.",
+  "vendored_frameworks": [
+    "GZLMiniAppInject.xcframework"
+  ],
+  "version": "3.9.0"
+}

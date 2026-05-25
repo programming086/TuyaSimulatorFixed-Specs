@@ -1,0 +1,32 @@
+{
+  "name": "ThingContactAuthManager",
+  "version": "0.1.2-anonymize2.1",
+  "summary": "A short description of ThingContactAuthManager.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://github.com/programming086/TuyaSimulatorFixed-Binaries/releases/download/ThingContactAuthManager-0.1.2-anonymize2.1/ThingContactAuthManager.xcframework.zip",
+    "type": "zip"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "dependencies": {
+    "ThingModuleManager": [],
+    "ThingAuthorizationServices": []
+  },
+  "pod_target_xcconfig": {
+    "THING_PRIVACY_USAGE_DESCRIPTION": "NSContactsUsageDescription",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "vendored_frameworks": [
+    "ThingContactAuthManager.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

@@ -1,0 +1,44 @@
+{
+  "name": "TUNIDeviceControlManager",
+  "version": "6.6.9",
+  "summary": "A short description of TUNIDeviceControlManager.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://github.com/programming086/TuyaSimulatorFixed-Binaries/releases/download/TUNIDeviceControlManager-6.6.9/TUNIDeviceControlManager.xcframework.zip",
+    "type": "zip"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "resource_bundles": {
+    "TUNIDeviceControlManager": [
+      "ios/tunidevicecontrolmanager/Assets/*"
+    ]
+  },
+  "dependencies": {
+    "TUNIAPIManagerKit": [],
+    "YYModel": [],
+    "ThingUIKit": [],
+    "ThingFoundationKit": [],
+    "ThingSmartDeviceCoreKit": [],
+    "ThingBluetoothInterface": [],
+    "ThingBusinessService": [],
+    "ThingLogMacro": [],
+    "ThingModuleManager": [],
+    "ThingSettingsAPI": []
+  },
+  "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "vendored_frameworks": [
+    "TUNIDeviceControlManager.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

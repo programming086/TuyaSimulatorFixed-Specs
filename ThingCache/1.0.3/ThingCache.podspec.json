@@ -1,0 +1,31 @@
+{
+  "name": "ThingCache",
+  "version": "1.0.3",
+  "summary": "cacheTool",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://github.com/programming086/TuyaSimulatorFixed-Binaries/releases/download/ThingCache-1.0.3/ThingCache.xcframework.zip",
+    "type": "zip"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "exclude_files": [
+    "ThingCacheFramework/CacheBasic/Memory",
+    "ThingCacheFramework/CacheBusiness/MemoryCache"
+  ],
+  "frameworks": "Foundation",
+  "dependencies": {
+    "MMKV": [],
+    "YYModel": []
+  },
+  "preserve_paths": [],
+  "vendored_frameworks": [
+    "ThingCache.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

@@ -1,0 +1,41 @@
+{
+  "authors": {
+    "tuya": "https://developer.tuya.com/"
+  },
+  "cocoapods_version": ">= 1.10",
+  "dependencies": {
+    "TYFoundationKit": [],
+    "TYModuleManager": [],
+    "TYModuleServices": [],
+    "TYOEMConfig": [],
+    "TYSmartBusinessLibrary": [],
+    "TYThemeModule": [],
+    "TuyaSmartBaseKit": []
+  },
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "name": "TuyaSmartBizCore",
+  "platforms": {
+    "ios": "9.0"
+  },
+  "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "resources": [
+    "TuyaSmartBizCore/Assets/**/*.json",
+    "TuyaSmartBizCore/Assets/TuyaSmartBizCore.bundle"
+  ],
+  "source": {
+    "http": "https://github.com/programming086/TuyaSimulatorFixed-Binaries/releases/download/TuyaSmartBizCore-4.0.3/TuyaSmartBizCore.xcframework.zip",
+    "type": "zip"
+  },
+  "summary": "A short description of TuyaSmartBizCore.",
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "vendored_frameworks": [
+    "TuyaSmartBizCore.xcframework"
+  ],
+  "version": "4.0.3"
+}

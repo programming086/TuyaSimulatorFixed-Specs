@@ -1,0 +1,25 @@
+{
+  "name": "TUNIDiffSubRegisterManager",
+  "version": "3.0.2",
+  "summary": "A short description of TUNIDiffSubRegisterManager.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://github.com/programming086/TuyaSimulatorFixed-Binaries/releases/download/TUNIDiffSubRegisterManager-3.0.2/TUNIDiffSubRegisterManager.xcframework.zip",
+    "type": "zip"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "dependencies": {
+    "TUNIAPIManagerKit": [],
+    "GodzillaMiniBaseKit": []
+  },
+  "vendored_frameworks": [
+    "TUNIDiffSubRegisterManager.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

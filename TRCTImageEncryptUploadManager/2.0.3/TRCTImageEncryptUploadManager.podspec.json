@@ -1,0 +1,38 @@
+{
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "cocoapods_version": ">= 1.10",
+  "dependencies": {
+    "ThingEncryptImage": [],
+    "ThingFoundationKit": [],
+    "ThingKVStorageLibrary": [],
+    "ThingP2PAlbumBizKit": [],
+    "ThingPanelContext": [],
+    "ThingSmartBaseKit": [],
+    "YYModel": []
+  },
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "name": "TRCTImageEncryptUploadManager",
+  "platforms": {
+    "ios": "9.0"
+  },
+  "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64",
+    "THING_PRIVACY_USAGE_DESCRIPTION": "NSMicrophoneUsageDescription NSCameraUsageDescription"
+  },
+  "source": {
+    "http": "https://github.com/programming086/TuyaSimulatorFixed-Binaries/releases/download/TRCTImageEncryptUploadManager-2.0.3/TRCTImageEncryptUploadManager.xcframework.zip",
+    "type": "zip"
+  },
+  "summary": "A short description of TRCTImageEncryptUploadManager.",
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "vendored_frameworks": [
+    "TRCTImageEncryptUploadManager.xcframework"
+  ],
+  "version": "2.0.3"
+}

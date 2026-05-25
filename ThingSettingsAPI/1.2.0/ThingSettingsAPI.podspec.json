@@ -1,0 +1,21 @@
+{
+  "name": "ThingSettingsAPI",
+  "version": "1.2.0",
+  "summary": "A short description of ThingSettingsAPI.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://github.com/programming086/TuyaSimulatorFixed-Binaries/releases/download/ThingSettingsAPI-1.2.0/ThingSettingsAPI.xcframework.zip",
+    "type": "zip"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "vendored_frameworks": [
+    "ThingSettingsAPI.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

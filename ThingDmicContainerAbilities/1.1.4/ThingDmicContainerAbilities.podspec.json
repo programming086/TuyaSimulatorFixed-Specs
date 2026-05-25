@@ -1,0 +1,42 @@
+{
+  "name": "ThingDmicContainerAbilities",
+  "version": "1.1.4",
+  "summary": "跨端容器拓展能力集",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://github.com/programming086/TuyaSimulatorFixed-Binaries/releases/download/ThingDmicContainerAbilities-1.1.4/ThingDmicContainerAbilities.xcframework.zip",
+    "type": "zip"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "dependencies": {
+    "MMKV": [],
+    "YYModel": [],
+    "ThingLogMacro": [],
+    "ThingFamilyAPI": [],
+    "ThingOEMConfig": [],
+    "ThingConfigHub": [],
+    "ThingSmartBaseKit": [],
+    "ThingFoundationKit": [],
+    "ThingModuleManager": [],
+    "ThingModuleServices": [],
+    "ThingSmartDeviceKit": [],
+    "GodzillaMiniBaseKit": [],
+    "GodzillaMiniOpenAPI": [],
+    "GodzillaMiniIService": [],
+    "ThingSmartNetworkKit": [],
+    "ThingPanelBundleManager": [],
+    "ThingSmartDeviceCoreKit": [],
+    "ThingStorageGroupInterface": [],
+    "ThingDmicContainerAbilitiesAPI": []
+  },
+  "vendored_frameworks": [
+    "ThingDmicContainerAbilities.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

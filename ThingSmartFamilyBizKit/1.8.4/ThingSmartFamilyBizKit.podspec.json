@@ -1,0 +1,37 @@
+{
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "cocoapods_version": ">= 1.10",
+  "dependencies": {
+    "ThingFoundationKit": [],
+    "ThingKVStorageLibrary": [],
+    "ThingModuleManager": [],
+    "ThingSmartBaseKit": [],
+    "ThingSmartDeviceKit": [],
+    "ThingStorageGroupInterface": []
+  },
+  "frameworks": "Foundation",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "name": "ThingSmartFamilyBizKit",
+  "platforms": {
+    "ios": "11.0"
+  },
+  "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "prefix_header_file": "ThingSmartFamilyBizKit/Classes/PrefixHeader.pch",
+  "source": {
+    "http": "https://github.com/programming086/TuyaSimulatorFixed-Binaries/releases/download/ThingSmartFamilyBizKit-1.8.4/ThingSmartFamilyBizKit.xcframework.zip",
+    "type": "zip"
+  },
+  "summary": "涂鸦组件模板",
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "vendored_frameworks": [
+    "ThingSmartFamilyBizKit.xcframework"
+  ],
+  "version": "1.8.4"
+}

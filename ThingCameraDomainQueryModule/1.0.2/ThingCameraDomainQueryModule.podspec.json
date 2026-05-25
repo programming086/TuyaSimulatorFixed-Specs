@@ -1,0 +1,29 @@
+{
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "cocoapods_version": ">= 1.10",
+  "dependencies": {
+    "ThingFoundationKit": [],
+    "ThingLogMacro": [],
+    "ThingModuleManager": [],
+    "ThingModuleServices": [],
+    "YYModel": []
+  },
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "name": "ThingCameraDomainQueryModule",
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source": {
+    "http": "https://github.com/programming086/TuyaSimulatorFixed-Binaries/releases/download/ThingCameraDomainQueryModule-1.0.2/ThingCameraDomainQueryModule.xcframework.zip",
+    "type": "zip"
+  },
+  "summary": "A short description of ThingCameraDomainQueryModule.",
+  "vendored_frameworks": [
+    "ThingCameraDomainQueryModule.xcframework"
+  ],
+  "version": "1.0.2"
+}

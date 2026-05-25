@@ -1,0 +1,26 @@
+{
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "cocoapods_version": ">= 1.10",
+  "dependencies": {
+    "ThingSmartDeviceCoreKit": [],
+    "YYModel": []
+  },
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "name": "ThingOTAGeneralPlugAPI",
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source": {
+    "http": "https://github.com/programming086/TuyaSimulatorFixed-Binaries/releases/download/ThingOTAGeneralPlugAPI-1.0.2/ThingOTAGeneralPlugAPI.xcframework.zip",
+    "type": "zip"
+  },
+  "summary": "A short description of ThingOTAGeneralPlugAPI.",
+  "vendored_frameworks": [
+    "ThingOTAGeneralPlugAPI.xcframework"
+  ],
+  "version": "1.0.2"
+}

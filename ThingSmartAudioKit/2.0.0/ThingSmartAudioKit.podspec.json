@@ -1,0 +1,34 @@
+{
+  "name": "ThingSmartAudioKit",
+  "version": "2.0.0",
+  "summary": "A short description of ThingSmartAudioKit.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://github.com/programming086/TuyaSimulatorFixed-Binaries/releases/download/ThingSmartAudioKit-2.0.0/ThingSmartAudioKit.xcframework.zip",
+    "type": "zip"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "dependencies": {
+    "ThingFoundationKit": [],
+    "ThingKVStorageLibrary": [],
+    "ThingSmartBaseKit": [],
+    "ThingLogMacro": []
+  },
+  "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "preserve_paths": "weak_deps.json",
+  "vendored_frameworks": [
+    "ThingSmartAudioKit.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

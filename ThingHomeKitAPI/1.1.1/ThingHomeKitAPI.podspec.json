@@ -1,0 +1,22 @@
+{
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "cocoapods_version": ">= 1.10",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "name": "ThingHomeKitAPI",
+  "platforms": {
+    "ios": "11.0"
+  },
+  "source": {
+    "http": "https://github.com/programming086/TuyaSimulatorFixed-Binaries/releases/download/ThingHomeKitAPI-1.1.1/ThingHomeKitAPI.xcframework.zip",
+    "type": "zip"
+  },
+  "summary": "A short description of ThingHomeKitAPI.",
+  "vendored_frameworks": [
+    "ThingHomeKitAPI.xcframework"
+  ],
+  "version": "1.1.1"
+}

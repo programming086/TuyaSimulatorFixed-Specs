@@ -1,0 +1,30 @@
+{
+  "name": "ThingSmartMediaUIKit",
+  "version": "2.1.0",
+  "summary": "A short description of ThingSmartMediaUIKit.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://registry.code.thing-inc.top/thingIOS/Modules/IPC/ThingSmartMediaUIKit",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Tuya": "developer@tuya.com"
+  },
+  "source": {
+    "http": "https://github.com/programming086/TuyaSimulatorFixed-Binaries/releases/download/ThingSmartMediaUIKit-2.1.0/ThingSmartMediaUIKit.xcframework.zip",
+    "type": "zip"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "dependencies": {
+    "ThingSmartMediaServices": []
+  },
+  "vendored_frameworks": [
+    "ThingSmartMediaUIKit.xcframework"
+  ],
+  "source_files": [
+    "ThingSmartMediaUIKit.xcframework/ios-arm64/ThingSmartMediaUIKit.framework/Headers/*"
+  ]
+}

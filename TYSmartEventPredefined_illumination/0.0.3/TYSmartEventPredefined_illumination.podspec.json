@@ -1,0 +1,34 @@
+{
+  "authors": {
+    "tuya": "https://developer.tuya.com/"
+  },
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/tuya",
+  "ios": {
+    "vendored_libraries": "TYSmartEventPredefined_illumination-0.0.3/libTYSmartEventPredefined_illumination.a"
+  },
+  "license": "none",
+  "name": "TYSmartEventPredefined_illumination",
+  "platforms": {
+    "ios": "9.0",
+    "watchos": "2.0"
+  },
+  "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "source": {
+    "http": "https://github.com/programming086/TuyaSimulatorFixed-Binaries/releases/download/TYSmartEventPredefined_illumination-0.0.3/TYSmartEventPredefined_illumination.xcframework.zip",
+    "type": "zip"
+  },
+  "summary": "A short description of TYSmartEventPredefined_illumination.",
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "version": "0.0.3",
+  "watchos": {
+    "vendored_libraries": "TYSmartEventPredefined_illumination-0.0.3/watchos/libTYSmartEventPredefined_illumination.a"
+  },
+  "vendored_frameworks": [
+    "TYSmartEventPredefined_illumination.xcframework"
+  ]
+}

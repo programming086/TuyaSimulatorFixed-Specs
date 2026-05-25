@@ -1,0 +1,64 @@
+{
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "cocoapods_version": ">= 1.10",
+  "dependencies": {
+    "ThingAnnotationFoundation": [
+      "0.2.0"
+    ],
+    "ThingBLEHomeManager": [
+      "1.14.1"
+    ],
+    "ThingBLEInterfaceImpl": [
+      "~> 0.14.0"
+    ],
+    "ThingBLEMeshInterfaceImpl": [
+      "~> 0.2.0"
+    ],
+    "ThingBlockKit": [
+      "0.2.0"
+    ],
+    "ThingBluetoothInterface": [
+      "1.14.5"
+    ],
+    "ThingFamilyAPI": [
+      "1.4.0"
+    ],
+    "ThingFoundationKit": [
+      "1.20.3"
+    ],
+    "ThingModuleManager": [
+      "2.11.2-ci-event.2"
+    ],
+    "ThingSmartBLEKit": [],
+    "ThingSmartBLEMeshKit": [],
+    "ThingSmartBaseKit": [],
+    "ThingSmartDeviceCoreKit": [],
+    "ThingSmartDeviceKit": [],
+    "ThingSmartShareKit": [],
+    "ThingSmartUtil": []
+  },
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "name": "ThingSmartBusinessExtensionKitBLEExtra",
+  "platforms": {
+    "ios": "11.0"
+  },
+  "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "source": {
+    "http": "https://github.com/programming086/TuyaSimulatorFixed-Binaries/releases/download/ThingSmartBusinessExtensionKitBLEExtra-5.8.0.2/ThingSmartBusinessExtensionKitBLEExtra.xcframework.zip",
+    "type": "zip"
+  },
+  "summary": "A short description of ThingSmartBusinessExtensionKitBLEExtra.",
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "vendored_frameworks": [
+    "ThingSmartBusinessExtensionKitBLEExtra.xcframework"
+  ],
+  "version": "5.8.0.2"
+}

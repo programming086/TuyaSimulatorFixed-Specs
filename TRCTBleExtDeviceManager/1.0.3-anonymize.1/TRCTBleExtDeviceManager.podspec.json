@@ -1,0 +1,33 @@
+{
+  "name": "TRCTBleExtDeviceManager",
+  "version": "1.0.3-anonymize.1",
+  "summary": "A short description of TRCTBleExtDeviceManager.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://github.com/programming086/TuyaSimulatorFixed-Binaries/releases/download/TRCTBleExtDeviceManager-1.0.3-anonymize.1/TRCTBleExtDeviceManager.xcframework.zip",
+    "type": "zip"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "dependencies": {
+    "ThingPanelContext": [],
+    "ThingBluetoothInterface": [],
+    "ThingSmartDeviceCoreKit": [],
+    "ThingModuleServices": []
+  },
+  "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "vendored_frameworks": [
+    "TRCTBleExtDeviceManager.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

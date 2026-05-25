@@ -1,0 +1,59 @@
+{
+  "name": "ThingEncryptImage",
+  "version": "4.33.0",
+  "summary": "Asynchronous encrypt (optional) image downloader with cache support with an UIImageView category.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://github.com/programming086/TuyaSimulatorFixed-Binaries/releases/download/ThingEncryptImage-4.33.0/ThingEncryptImage.xcframework.zip",
+    "type": "zip"
+  },
+  "platforms": {
+    "ios": "9.0",
+    "watchos": "2.0"
+  },
+  "libraries": "z",
+  "ios": {
+    "frameworks": [
+      "UIKit",
+      "CoreFoundation",
+      "QuartzCore",
+      "ImageIO",
+      "Accelerate",
+      "MobileCoreServices"
+    ],
+    "source_files": [
+      "ThingEncryptImage.xcframework/ios-arm64/ThingEncryptImage.framework/Headers/*"
+    ]
+  },
+  "watchos": {
+    "frameworks": [
+      "UIKit",
+      "CoreFoundation",
+      "ImageIO",
+      "Accelerate",
+      "MobileCoreServices"
+    ],
+    "pod_target_xcconfig": {
+      "ENABLE_BITCODE": "NO",
+      "OTHER_CFLAGS": "-fembed-bitcode -Qunused-arguments",
+      "USER_HEADER_SEARCH_PATHS": "$(inherited) $(SRCROOT)/libwebp/src"
+    },
+    "source_files": [
+      "ThingEncryptImage.xcframework/watchos-arm64_arm64_32_armv7k/ThingEncryptImage.framework/Headers/*"
+    ]
+  },
+  "dependencies": {
+    "libwebp": [],
+    "ThingSmartUtil": []
+  },
+  "pod_target_xcconfig": {
+    "USER_HEADER_SEARCH_PATHS": "$(inherited) $(SRCROOT)/libwebp/src"
+  },
+  "vendored_frameworks": [
+    "ThingEncryptImage.xcframework"
+  ]
+}

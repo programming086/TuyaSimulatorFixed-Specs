@@ -1,0 +1,48 @@
+{
+  "name": "TuyaSmartHomeKit",
+  "version": "4.0.0",
+  "summary": "A short description of TuyaSmartHomeKit.",
+  "homepage": "https://tuya.com",
+  "license": {
+    "type": "MIT"
+  },
+  "authors": {
+    "Tuya": "developer@tuya.com"
+  },
+  "source": {
+    "http": "https://github.com/programming086/TuyaSimulatorFixed-Binaries/releases/download/TuyaSmartHomeKit-4.0.0/TuyaSmartHomeKit.xcframework.zip",
+    "type": "zip"
+  },
+  "platforms": {
+    "ios": "9.0",
+    "watchos": "2.0"
+  },
+  "dependencies": {
+    "TuyaSmartBaseKit": [],
+    "TuyaSmartDeviceKit": [],
+    "TuyaSmartSceneKit": [],
+    "TuyaSmartTimerKit": [],
+    "TuyaSmartMessageKit": [],
+    "TuyaSmartFeedbackKit": []
+  },
+  "ios": {
+    "dependencies": {
+      "TuyaSmartActivatorKit": [],
+      "TuyaSmartMQTTChannelKit": [],
+      "TuyaSmartSocketChannelKit": [],
+      "TuyaSmartBLEKit": [],
+      "TuyaSmartBLEMeshKit": []
+    },
+    "source_files": [
+      "TuyaSmartHomeKit.xcframework/ios-arm64_armv7/TuyaSmartHomeKit.framework/Headers/*"
+    ]
+  },
+  "watchos": {
+    "source_files": [
+      "TuyaSmartHomeKit.xcframework/watchos-arm64_32_armv7k/TuyaSmartHomeKit.framework/Headers/*"
+    ]
+  },
+  "vendored_frameworks": [
+    "TuyaSmartHomeKit.xcframework"
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "name": "TUNIImagePickerManager",
+  "version": "2.2.2",
+  "summary": "A short description of TUNIImagePickerManager.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://github.com/programming086/TuyaSimulatorFixed-Binaries/releases/download/TUNIImagePickerManager-2.2.2/TUNIImagePickerManager.xcframework.zip",
+    "type": "zip"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "resource_bundles": {
+    "TUNIImagePickerManager": [
+      "ios/TUNIImagePickerManager/Assets/*",
+      "js/dist/index.js"
+    ]
+  },
+  "frameworks": "CoreServices",
+  "dependencies": {
+    "TUNIAPIManagerKit": [],
+    "YYModel": [],
+    "ThingImagePickerController": [],
+    "ThingEncryptImage": [],
+    "ThingFoundationKit": [],
+    "ThingAlertView": [],
+    "ThingMediaKit": [],
+    "ThingSmartMediaKit": [],
+    "ThingAuthorizationServices": [],
+    "ThingModuleManager": [],
+    "ThingProgressHUD": []
+  },
+  "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "vendored_frameworks": [
+    "TUNIImagePickerManager.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

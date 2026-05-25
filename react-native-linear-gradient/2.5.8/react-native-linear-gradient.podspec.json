@@ -1,0 +1,35 @@
+{
+  "authors": {
+    "Brent Vatne": "brentvatne@gmail.com"
+  },
+  "cocoapods_version": ">= 1.10",
+  "dependencies": {
+    "React": []
+  },
+  "frameworks": [
+    "UIKit",
+    "QuartzCore",
+    "Foundation"
+  ],
+  "homepage": "https://www.tuya.com",
+  "license": "MIT",
+  "name": "react-native-linear-gradient",
+  "platforms": {
+    "ios": "9.0"
+  },
+  "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "source": {
+    "http": "https://github.com/programming086/TuyaSimulatorFixed-Binaries/releases/download/react-native-linear-gradient-2.5.8/react_native_linear_gradient.xcframework.zip",
+    "type": "zip"
+  },
+  "summary": "A <LinearGradient /> component for react-native",
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "vendored_frameworks": [
+    "react_native_linear_gradient.xcframework"
+  ],
+  "version": "2.5.8"
+}

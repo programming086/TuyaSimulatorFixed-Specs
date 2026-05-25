@@ -1,0 +1,41 @@
+{
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "cocoapods_version": ">= 1.10",
+  "dependencies": {
+    "ThingCameraFoundationKit": [],
+    "ThingCameraUIComponents": [],
+    "ThingCameraUtil": [],
+    "ThingModuleManager": [],
+    "ThingModuleServices": [],
+    "ThingPhotoLibraryBizKit": []
+  },
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "name": "ThingPhotoLibraryModule",
+  "platforms": {
+    "ios": "9.0"
+  },
+  "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "resource_bundles": {
+    "ThingPhotoLibraryModule": [
+      "ThingPhotoLibraryModule/Assets/*.png"
+    ]
+  },
+  "source": {
+    "http": "https://github.com/programming086/TuyaSimulatorFixed-Binaries/releases/download/ThingPhotoLibraryModule-4.5.0-rc.2/ThingPhotoLibraryModule.xcframework.zip",
+    "type": "zip"
+  },
+  "summary": "A short description of ThingPhotoLibraryModule.",
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "vendored_frameworks": [
+    "ThingPhotoLibraryModule.xcframework"
+  ],
+  "version": "4.5.0-rc.2"
+}

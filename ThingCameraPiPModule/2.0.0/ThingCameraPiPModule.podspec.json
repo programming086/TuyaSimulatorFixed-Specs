@@ -1,0 +1,29 @@
+{
+  "name": "ThingCameraPiPModule",
+  "version": "2.0.0",
+  "summary": "A short description of ThingCameraPiPModule.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://github.com/programming086/TuyaSimulatorFixed-Binaries/releases/download/ThingCameraPiPModule-2.0.0/ThingCameraPiPModule.xcframework.zip",
+    "type": "zip"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "dependencies": {
+    "ThingModuleManager": [],
+    "ThingModuleServices": [],
+    "ThingSmartPiPPlugAPI": [],
+    "ThingLogMacro": [],
+    "ThingSmartCameraBase": []
+  },
+  "preserve_paths": [],
+  "vendored_frameworks": [
+    "ThingCameraPiPModule.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

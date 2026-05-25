@@ -1,0 +1,29 @@
+{
+  "name": "GZLMiniAppCommonUI",
+  "version": "3.0.0",
+  "summary": "A short description of GZLMiniAppCommonUI.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://github.com/programming086/TuyaSimulatorFixed-Binaries/releases/download/GZLMiniAppCommonUI-3.0.0/GZLMiniAppCommonUI.xcframework.zip",
+    "type": "zip"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "dependencies": {
+    "GZLMiniProgramAdapterAPI_iOS": [],
+    "ThingEncryptImage": [],
+    "Masonry": [],
+    "GodzillaMiniBaseKit": []
+  },
+  "vendored_frameworks": [
+    "GZLMiniAppCommonUI.xcframework"
+  ],
+  "source_files": [
+    "GZLMiniAppCommonUI.xcframework/ios-arm64_armv7/GZLMiniAppCommonUI.framework/Headers/*"
+  ]
+}

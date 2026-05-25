@@ -1,0 +1,50 @@
+{
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "cocoapods_version": ">= 1.10",
+  "dependencies": {
+    "RNApi/Core": [],
+    "React": [],
+    "ThingFoundationKit": [],
+    "ThingLogMacro": [],
+    "ThingModuleManager": [],
+    "ThingModuleServices": [],
+    "ThingOEMConfig": [],
+    "ThingPanelBundleManager": [],
+    "ThingPanelContext": [],
+    "ThingSmartBusinessLibrary": [],
+    "ThingSmartEventPredefined": [],
+    "ThingSmartUtil": [],
+    "ThingUIKit": [],
+    "YYModel": []
+  },
+  "description": "TODO: Add long description of the pod here.",
+  "frameworks": "UIKit",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "name": "TRCTKit",
+  "platforms": {
+    "ios": "10.0"
+  },
+  "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "resource_bundles": {
+    "TRCTKit": [
+      "TRCTKit/Assets/*.png"
+    ]
+  },
+  "source": {
+    "http": "https://github.com/programming086/TuyaSimulatorFixed-Binaries/releases/download/TRCTKit-2.1.0/TRCTKit.xcframework.zip",
+    "type": "zip"
+  },
+  "summary": "A short description of TRCTKit.",
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "vendored_frameworks": [
+    "TRCTKit.xcframework"
+  ],
+  "version": "2.1.0"
+}

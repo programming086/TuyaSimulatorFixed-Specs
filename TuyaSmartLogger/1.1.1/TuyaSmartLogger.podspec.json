@@ -1,0 +1,31 @@
+{
+  "name": "TuyaSmartLogger",
+  "version": "1.1.1",
+  "summary": "A short description of TuyaSmartLogger.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/0xlan/TYLogLibrary",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Tuya": "developer@tuya.com"
+  },
+  "source": {
+    "http": "https://github.com/programming086/TuyaSimulatorFixed-Binaries/releases/download/TuyaSmartLogger-1.1.1/TuyaSmartLogger.xcframework.zip",
+    "type": "zip"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "dependencies": {
+    "CocoaLumberjack": []
+  },
+  "prefix_header_contents": "",
+  "vendored_frameworks": [
+    "TuyaSmartLogger.xcframework"
+  ],
+  "source_files": [
+    "TuyaSmartLogger.xcframework/ios-arm64/TuyaSmartLogger.framework/Headers/*"
+  ]
+}

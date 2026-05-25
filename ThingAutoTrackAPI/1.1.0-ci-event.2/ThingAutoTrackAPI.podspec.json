@@ -1,0 +1,22 @@
+{
+  "name": "ThingAutoTrackAPI",
+  "version": "1.1.0-ci-event.2",
+  "summary": "A short description of ThingAutoTrackAPI.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://github.com/programming086/TuyaSimulatorFixed-Binaries/releases/download/ThingAutoTrackAPI-1.1.0-ci-event.2/ThingAutoTrackAPI.xcframework.zip",
+    "type": "zip"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "vendored_frameworks": [
+    "ThingAutoTrackAPI.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10",
+  "preserve_paths": "weak_deps.json"
+}

@@ -1,0 +1,36 @@
+{
+  "name": "ThingBusinessDeviceCore",
+  "version": "1.8.0",
+  "summary": "A short description of ThingBusinessDeviceCore.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://github.com/programming086/TuyaSimulatorFixed-Binaries/releases/download/ThingBusinessDeviceCore-1.8.0/ThingBusinessDeviceCore.xcframework.zip",
+    "type": "zip"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "dependencies": {
+    "ThingSmartDeviceCoreKit": [],
+    "ThingSmartBusinessLibrary": [],
+    "ThingBluetoothInterface": [],
+    "ThingBusinessService": [],
+    "ThingModuleServices": [],
+    "ThingSmartNetworkKit": [],
+    "ThingSmartEventPredefined_Public": []
+  },
+  "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "vendored_frameworks": [
+    "ThingBusinessDeviceCore.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

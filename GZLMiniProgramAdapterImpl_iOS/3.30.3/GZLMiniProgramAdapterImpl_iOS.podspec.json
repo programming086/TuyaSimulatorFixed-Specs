@@ -1,0 +1,57 @@
+{
+  "name": "GZLMiniProgramAdapterImpl_iOS",
+  "version": "3.30.3",
+  "summary": "A short description of TuyaSmartMiniProgram.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://github.com/programming086/TuyaSimulatorFixed-Binaries/releases/download/GZLMiniProgramAdapterImpl_iOS-3.30.3/GZLMiniProgramAdapterImpl_iOS.xcframework.zip",
+    "type": "zip"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "dependencies": {
+    "GZLMiniAppCore_iOS": [],
+    "GodzillaMiniIService": [],
+    "GZLMiniAppTab_iOS": [],
+    "GZLMiniApp_iOS": [],
+    "GZLMiniProgramAdapterAPI_iOS": [],
+    "GodzillaMiniOpenAPI": [],
+    "GodzillaMiniWidgetKit": [],
+    "GZLMiniAppStorage": [],
+    "ThingFoundationKit": [],
+    "ThingModuleManager": [],
+    "ThingModuleServices": [],
+    "ThingSmartDeviceCoreKit": [],
+    "ThingMarketingBoothAPI": [],
+    "ThingSmartBaseKit": [],
+    "ThingConfigHub": [],
+    "ThingDomainQueryAPI": [],
+    "ThingDmicContainerAbilitiesAPI": [],
+    "ThingSmartBusinessLibrary": [],
+    "ThingBusinessService": [],
+    "ThingAPMService": [],
+    "ThingOEMConfig": [],
+    "ThingDPCContainer": [],
+    "YYModel": []
+  },
+  "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "vendored_frameworks": [
+    "GZLMiniProgramAdapterImpl_iOS.xcframework"
+  ],
+  "source_files": [
+    "GZLMiniProgramAdapterImpl_iOS.xcframework/ios-arm64/GZLMiniProgramAdapterImpl_iOS.framework/Headers/*"
+  ],
+  "resources": [
+    "GZLMiniProgramAdapterImpl_iOS.xcframework/ios-arm64/GZLMiniProgramAdapterImpl_iOS.framework/CustomResources/Bundles/*"
+  ]
+}

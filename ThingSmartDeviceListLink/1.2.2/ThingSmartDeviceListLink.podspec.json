@@ -1,0 +1,37 @@
+{
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "cocoapods_version": ">= 1.10",
+  "dependencies": {
+    "ThingBusinessService": [],
+    "ThingHomeDataManager": [],
+    "ThingSceneEditPlugAPI": [],
+    "ThingSmartBusinessLibrary": [],
+    "ThingSmartDeviceKit": [],
+    "ThingSmartHouse": [],
+    "ThingUIKit": []
+  },
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "name": "ThingSmartDeviceListLink",
+  "platforms": {
+    "ios": "9.0"
+  },
+  "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "source": {
+    "http": "https://github.com/programming086/TuyaSimulatorFixed-Binaries/releases/download/ThingSmartDeviceListLink-1.2.2/ThingSmartDeviceListLink.xcframework.zip",
+    "type": "zip"
+  },
+  "summary": "A short description of ThingSmartDeviceListLink.",
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "vendored_frameworks": [
+    "ThingSmartDeviceListLink.xcframework"
+  ],
+  "version": "1.2.2"
+}

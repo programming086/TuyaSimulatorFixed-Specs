@@ -1,0 +1,48 @@
+{
+  "name": "TUNIOpenPageManager",
+  "version": "2.6.3",
+  "summary": "A short description of TUNIOpenPageManager.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://github.com/programming086/TuyaSimulatorFixed-Binaries/releases/download/TUNIOpenPageManager-2.6.3/TUNIOpenPageManager.xcframework.zip",
+    "type": "zip"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "resource_bundles": {
+    "TUNIOpenPageManager": [
+      "ios/TUNIOpenPageManager/Assets/*",
+      "js/dist/index.js"
+    ]
+  },
+  "dependencies": {
+    "TUNIAPIManagerKit": [],
+    "YYModel": [],
+    "MMKV": [],
+    "ThingFoundationKit": [],
+    "ThingSmartDeviceCoreKit": [],
+    "ThingPanelModulePlugAPI": [],
+    "ThingNetworkAreaInterceptorAPI": [],
+    "ThingPanelBundleManager": [],
+    "ThingUIKit": [],
+    "ThingModuleManager": [],
+    "ThingSmartNetworkKit": [],
+    "GodzillaMiniPluginAPI": [],
+    "GodzillaMiniIService": []
+  },
+  "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "vendored_frameworks": [
+    "TUNIOpenPageManager.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

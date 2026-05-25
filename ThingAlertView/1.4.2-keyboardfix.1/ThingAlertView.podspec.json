@@ -1,0 +1,38 @@
+{
+  "name": "ThingAlertView",
+  "version": "1.4.2-keyboardfix.1",
+  "summary": "A short description of ThingAlertView.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://github.com/programming086/TuyaSimulatorFixed-Binaries/releases/download/ThingAlertView-1.4.2-keyboardfix.1/ThingAlertView.xcframework.zip",
+    "type": "zip"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "frameworks": "UIKit",
+  "dependencies": {
+    "ThingFoundationKit": [],
+    "ThingUIKit": [],
+    "Masonry": [],
+    "ThingOEMConfig": [],
+    "ThingRealClass": []
+  },
+  "resource_bundles": {
+    "ThingAlertView": [
+      "ThingAlertView/Assets/**/*.png"
+    ]
+  },
+  "pod_target_xcconfig": {
+    "DEFINES_MODULE": "YES"
+  },
+  "preserve_paths": [],
+  "vendored_frameworks": [
+    "ThingAlertView.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

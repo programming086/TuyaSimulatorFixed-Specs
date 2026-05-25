@@ -1,0 +1,45 @@
+{
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "cocoapods_version": ">= 1.10",
+  "dependencies": {
+    "ThingAuthorizationServices": [],
+    "ThingBlockKit": [],
+    "ThingCommonAnimation": [],
+    "ThingCommonUI": [],
+    "ThingFoundationKit": [],
+    "ThingKVStorageLibrary": [],
+    "ThingModuleManager": [],
+    "ThingOEMConfig": [],
+    "ThingSmartBusinessLibrary": [],
+    "ThingStatisticsKit": []
+  },
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "name": "ThingPrivacyAuthCheck",
+  "platforms": {
+    "ios": "9.0"
+  },
+  "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "resource_bundles": {
+    "ThingPrivacyAuthCheck": [
+      "ThingPrivacyAuthCheck/Assets/**/*"
+    ]
+  },
+  "source": {
+    "http": "https://github.com/programming086/TuyaSimulatorFixed-Binaries/releases/download/ThingPrivacyAuthCheck-1.1.0/ThingPrivacyAuthCheck.xcframework.zip",
+    "type": "zip"
+  },
+  "summary": "A short description of ThingPrivacyAuthCheck.",
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "vendored_frameworks": [
+    "ThingPrivacyAuthCheck.xcframework"
+  ],
+  "version": "1.1.0"
+}

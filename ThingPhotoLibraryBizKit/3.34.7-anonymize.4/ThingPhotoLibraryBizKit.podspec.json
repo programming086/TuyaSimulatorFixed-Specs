@@ -1,0 +1,33 @@
+{
+  "name": "ThingPhotoLibraryBizKit",
+  "version": "3.34.7-anonymize.4",
+  "summary": "A short description of ThingPhotoLibraryBizKit.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://github.com/programming086/TuyaSimulatorFixed-Binaries/releases/download/ThingPhotoLibraryBizKit-3.34.7-anonymize.4/ThingPhotoLibraryBizKit.xcframework.zip",
+    "type": "zip"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "dependencies": {
+    "ThingSmartDeviceCoreKit": [],
+    "ThingLogMacro": [],
+    "ThingSmartCameraM": []
+  },
+  "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "preserve_paths": "weak_deps.json",
+  "vendored_frameworks": [
+    "ThingPhotoLibraryBizKit.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

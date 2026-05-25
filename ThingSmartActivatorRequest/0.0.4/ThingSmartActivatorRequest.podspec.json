@@ -1,0 +1,25 @@
+{
+  "name": "ThingSmartActivatorRequest",
+  "version": "0.0.4",
+  "summary": "A short description of ThingSmartActivatorRequest.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://github.com/programming086/TuyaSimulatorFixed-Binaries/releases/download/ThingSmartActivatorRequest-0.0.4/ThingSmartActivatorRequest.xcframework.zip",
+    "type": "zip"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "dependencies": {
+    "ThingSmartActivatorDiscoveryManager": [],
+    "ThingModuleManager": []
+  },
+  "vendored_frameworks": [
+    "ThingSmartActivatorRequest.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

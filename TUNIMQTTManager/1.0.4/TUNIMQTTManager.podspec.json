@@ -1,0 +1,38 @@
+{
+  "name": "TUNIMQTTManager",
+  "version": "1.0.4",
+  "summary": "A short description of TUNIMQTTManager.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://github.com/programming086/TuyaSimulatorFixed-Binaries/releases/download/TUNIMQTTManager-1.0.4/TUNIMQTTManager.xcframework.zip",
+    "type": "zip"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "resource_bundles": {
+    "TUNIMQTTManager": [
+      "ios/TUNIMQTTManager/Assets/*",
+      "js/dist/index.js"
+    ]
+  },
+  "dependencies": {
+    "ThingSmartMQTTChannelKit": [],
+    "TUNIAPIManagerKit": [],
+    "YYModel": []
+  },
+  "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "vendored_frameworks": [
+    "TUNIMQTTManager.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

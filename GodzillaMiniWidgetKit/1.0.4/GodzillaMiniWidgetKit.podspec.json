@@ -1,0 +1,25 @@
+{
+  "authors": {
+    "tuya": "https://developer.tuya.com/"
+  },
+  "dependencies": {
+    "GZLMiniAppCore_iOS": [],
+    "GodzillaMiniBaseKit": []
+  },
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "name": "GodzillaMiniWidgetKit",
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source": {
+    "http": "https://github.com/programming086/TuyaSimulatorFixed-Binaries/releases/download/GodzillaMiniWidgetKit-1.0.4/GodzillaMiniWidgetKit.xcframework.zip",
+    "type": "zip"
+  },
+  "summary": "A short description of GodzillaMiniWidgetKit.",
+  "vendored_frameworks": [
+    "GodzillaMiniWidgetKit.xcframework"
+  ],
+  "version": "1.0.4"
+}

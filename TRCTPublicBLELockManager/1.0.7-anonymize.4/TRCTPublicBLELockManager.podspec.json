@@ -1,0 +1,31 @@
+{
+  "name": "TRCTPublicBLELockManager",
+  "version": "1.0.7-anonymize.4",
+  "summary": "A short description of TRCTPublicBLELockManager.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://github.com/programming086/TuyaSimulatorFixed-Binaries/releases/download/TRCTPublicBLELockManager-1.0.7-anonymize.4/TRCTPublicBLELockManager.xcframework.zip",
+    "type": "zip"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "prefix_header_file": "ios/trctpublicblelockmanager/Classes/TRCTPublicPrefixHeader.pch",
+  "dependencies": {
+    "ThingPublicBLELockIOSKit": []
+  },
+  "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "vendored_frameworks": [
+    "TRCTPublicBLELockManager.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

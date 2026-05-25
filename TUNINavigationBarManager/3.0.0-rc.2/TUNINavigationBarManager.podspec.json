@@ -1,0 +1,37 @@
+{
+  "name": "TUNINavigationBarManager",
+  "version": "3.0.0-rc.2",
+  "summary": "A short description of TUNINavigationBarManager.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://github.com/programming086/TuyaSimulatorFixed-Binaries/releases/download/TUNINavigationBarManager-3.0.0-rc.2/TUNINavigationBarManager.xcframework.zip",
+    "type": "zip"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "frameworks": [
+    "WebKit",
+    "JavaScriptCore"
+  ],
+  "dependencies": {
+    "YYModel": [],
+    "TUNIAPIManagerKit": [],
+    "GodzillaMiniIService": [],
+    "GodzillaMiniPluginAPI": []
+  },
+  "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "vendored_frameworks": [
+    "TUNINavigationBarManager.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

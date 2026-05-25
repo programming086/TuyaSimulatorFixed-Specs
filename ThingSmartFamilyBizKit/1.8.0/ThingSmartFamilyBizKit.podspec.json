@@ -1,0 +1,50 @@
+{
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "cocoapods_version": ">= 1.10",
+  "dependencies": {
+    "ThingAlertView": [],
+    "ThingFoundationKit": [],
+    "ThingKVStorageLibrary": [],
+    "ThingModuleManager": [],
+    "ThingModuleServices": [],
+    "ThingSmartBaseKit": [],
+    "ThingSmartBusinessLibrary": [],
+    "ThingSmartDeviceKit": [],
+    "ThingSmartEventPredefined": [],
+    "ThingSmartEventPredefined_Public": [],
+    "ThingStorageGroupInterface": [],
+    "ThingUIKit": [],
+    "ThingUrlPredefined": []
+  },
+  "frameworks": [
+    "UIKit",
+    "Foundation"
+  ],
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "name": "ThingSmartFamilyBizKit",
+  "platforms": {
+    "ios": "11.0"
+  },
+  "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "prefix_header_file": "ThingSmartFamilyBizKit/Classes/PrefixHeader.pch",
+  "resources": [
+    "ThingSmartFamilyBizKit/Assets/*.{png,xib,plist,xcassets,bundle}"
+  ],
+  "source": {
+    "http": "https://github.com/programming086/TuyaSimulatorFixed-Binaries/releases/download/ThingSmartFamilyBizKit-1.8.0/ThingSmartFamilyBizKit.xcframework.zip",
+    "type": "zip"
+  },
+  "summary": "涂鸦组件模板",
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "vendored_frameworks": [
+    "ThingSmartFamilyBizKit.xcframework"
+  ],
+  "version": "1.8.0"
+}

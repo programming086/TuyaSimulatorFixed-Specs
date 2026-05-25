@@ -1,0 +1,32 @@
+{
+  "name": "ThingIntentKit",
+  "version": "1.1.5",
+  "summary": "涂鸦科技组件模板组件",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://github.com/programming086/TuyaSimulatorFixed-Binaries/releases/download/ThingIntentKit-1.1.5/ThingIntentKit.xcframework.zip",
+    "type": "zip"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "resources": [
+    "ThingIntentKit/Assets/*.{png,xib,plist,xcassets,bundle,intentdefinition,lproj}"
+  ],
+  "frameworks": [
+    "UIKit",
+    "Foundation"
+  ],
+  "weak_frameworks": [
+    "Intents",
+    "IntentsUI"
+  ],
+  "vendored_frameworks": [
+    "ThingIntentKit.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

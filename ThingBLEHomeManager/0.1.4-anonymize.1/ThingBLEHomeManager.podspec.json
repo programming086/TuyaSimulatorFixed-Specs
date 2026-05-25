@@ -1,0 +1,33 @@
+{
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "cocoapods_version": ">= 1.10",
+  "dependencies": {
+    "ThingBluetoothInterface": [],
+    "ThingModuleManager": [],
+    "ThingModuleServices": [],
+    "ThingSmartDeviceKit": []
+  },
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "name": "ThingBLEHomeManager",
+  "platforms": {
+    "ios": "9.0"
+  },
+  "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "source": {
+    "http": "https://github.com/programming086/TuyaSimulatorFixed-Binaries/releases/download/ThingBLEHomeManager-0.1.4-anonymize.1/ThingBLEHomeManager.xcframework.zip",
+    "type": "zip"
+  },
+  "summary": "Bluetooth Home ID Manager.",
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "vendored_frameworks": [
+    "ThingBLEHomeManager.xcframework"
+  ],
+  "version": "0.1.4-anonymize.1"
+}

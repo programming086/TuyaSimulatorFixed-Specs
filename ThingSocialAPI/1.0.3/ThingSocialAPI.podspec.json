@@ -1,0 +1,22 @@
+{
+  "name": "ThingSocialAPI",
+  "version": "1.0.3",
+  "summary": "A short description of ThingSocialAPI.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://github.com/programming086/TuyaSimulatorFixed-Binaries/releases/download/ThingSocialAPI-1.0.3/ThingSocialAPI.xcframework.zip",
+    "type": "zip"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "preserve_paths": "weak_deps.json",
+  "vendored_frameworks": [
+    "ThingSocialAPI.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

@@ -1,0 +1,36 @@
+{
+  "authors": "tuya",
+  "cocoapods_version": ">= 1.10",
+  "dependencies": {
+    "React": [],
+    "TYAudioSpectrum": []
+  },
+  "frameworks": [
+    "UIKit",
+    "AVFoundation",
+    "AVKit",
+    "MediaAccessibility",
+    "CoreMedia"
+  ],
+  "homepage": "https://github.com/brentvatne/react-native-video",
+  "license": "MIT",
+  "name": "react-native-video",
+  "platforms": {
+    "ios": "8.0"
+  },
+  "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "source": {
+    "http": "https://github.com/programming086/TuyaSimulatorFixed-Binaries/releases/download/react-native-video-3.2.3/react_native_video.xcframework.zip",
+    "type": "zip"
+  },
+  "summary": "A <Video /> element for react-native",
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "vendored_frameworks": [
+    "react_native_video.xcframework"
+  ],
+  "version": "3.2.3"
+}

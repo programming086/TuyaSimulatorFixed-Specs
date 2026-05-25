@@ -1,0 +1,30 @@
+{
+  "name": "ThingCameraUIKit",
+  "version": "5.0.3",
+  "summary": "A short description of ThingCameraUIKit.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://registry.code.thing-inc.top/thingIOS/ThingCameraUIKit",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Tuya": "developer@tuya.com"
+  },
+  "source": {
+    "http": "https://github.com/programming086/TuyaSimulatorFixed-Binaries/releases/download/ThingCameraUIKit-5.0.3/ThingCameraUIKit.xcframework.zip",
+    "type": "zip"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "dependencies": {
+    "ThingSmartMediaUIKit": []
+  },
+  "vendored_frameworks": [
+    "ThingCameraUIKit.xcframework"
+  ],
+  "source_files": [
+    "ThingCameraUIKit.xcframework/ios-arm64/ThingCameraUIKit.framework/Headers/*"
+  ]
+}

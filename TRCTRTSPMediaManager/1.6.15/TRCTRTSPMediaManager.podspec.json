@@ -1,0 +1,43 @@
+{
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "cocoapods_version": ">= 1.10",
+  "dependencies": {
+    "ThingCameraUIKit": [],
+    "ThingFoundationKit": [],
+    "ThingKVStorageLibrary": [],
+    "ThingLogMacro": [],
+    "ThingMediaPlayerSDK": [],
+    "ThingModuleManager": [],
+    "ThingModuleServices": [],
+    "ThingPanelContext": [],
+    "ThingPhotoLibraryBizKit": [],
+    "ThingPhotoLibraryModule": [],
+    "ThingSmartBaseKit": [],
+    "ThingSmartDeviceCoreKit": [],
+    "ThingSmartUtil": []
+  },
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "name": "TRCTRTSPMediaManager",
+  "platforms": {
+    "ios": "9.0"
+  },
+  "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "source": {
+    "http": "https://github.com/programming086/TuyaSimulatorFixed-Binaries/releases/download/TRCTRTSPMediaManager-1.6.15/TRCTRTSPMediaManager.xcframework.zip",
+    "type": "zip"
+  },
+  "summary": "A short description of TRCTRTSPMediaManager.",
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "vendored_frameworks": [
+    "TRCTRTSPMediaManager.xcframework"
+  ],
+  "version": "1.6.15"
+}

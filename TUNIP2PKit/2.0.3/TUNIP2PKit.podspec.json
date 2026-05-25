@@ -1,0 +1,32 @@
+{
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "cocoapods_version": ">= 1.10",
+  "dependencies": {
+    "TUNIP2pFileManager": [
+      "1.0.9"
+    ]
+  },
+  "description": "涂鸦TTT(Tuya Tied Things ) group 插件集合",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "name": "TUNIP2PKit",
+  "platforms": {
+    "ios": "10.0"
+  },
+  "resource_bundles": {
+    "TUNIP2PKit": [
+      "ios/TUNIP2PKit/Assets/*"
+    ]
+  },
+  "source": {
+    "http": "https://github.com/programming086/TuyaSimulatorFixed-Binaries/releases/download/TUNIP2PKit-2.0.3/TUNIP2PKit.xcframework.zip",
+    "type": "zip"
+  },
+  "summary": "涂鸦TTT(Tuya Tied Things ) group 插件集合",
+  "vendored_frameworks": [
+    "TUNIP2PKit.xcframework"
+  ],
+  "version": "2.0.3"
+}

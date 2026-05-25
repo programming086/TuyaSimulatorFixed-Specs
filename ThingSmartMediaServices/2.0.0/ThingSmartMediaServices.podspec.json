@@ -1,0 +1,23 @@
+{
+  "name": "ThingSmartMediaServices",
+  "version": "2.0.0",
+  "summary": "A short description of ThingSmartMediaServices.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://github.com/programming086/TuyaSimulatorFixed-Binaries/releases/download/ThingSmartMediaServices-2.0.0/ThingSmartMediaServices.xcframework.zip",
+    "type": "zip"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "vendored_frameworks": [
+    "ThingSmartMediaServices.xcframework"
+  ],
+  "source_files": [
+    "ThingSmartMediaServices.xcframework/ios-arm64/ThingSmartMediaServices.framework/Headers/*"
+  ]
+}

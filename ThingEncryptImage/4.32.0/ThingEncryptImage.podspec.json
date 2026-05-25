@@ -1,0 +1,63 @@
+{
+  "name": "ThingEncryptImage",
+  "version": "4.32.0",
+  "summary": "Asynchronous encrypt (optional) image downloader with cache support with an UIImageView category.",
+  "description": "This library provides a category for UIImageView with support for remote encrypt images coming from the web. It provides an UIImageView category adding web encrypt image and cache management to the Cocoa Touch framework, an asynchronous image downloader, an asynchronous memory + disk image caching with automatic cache expiration handling, a guarantee that the same URL won't be downloaded several times, a guarantee that bogus URLs won't be retried again and again, and performances!",
+  "homepage": "https://www.tuya.com",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Tuya": "developer@tuya.com"
+  },
+  "source": {
+    "http": "https://github.com/programming086/TuyaSimulatorFixed-Binaries/releases/download/ThingEncryptImage-4.32.0/ThingEncryptImage.xcframework.zip",
+    "type": "zip"
+  },
+  "platforms": {
+    "ios": "9.0",
+    "watchos": "2.0"
+  },
+  "libraries": "z",
+  "ios": {
+    "frameworks": [
+      "UIKit",
+      "CoreFoundation",
+      "QuartzCore",
+      "ImageIO",
+      "Accelerate",
+      "MobileCoreServices"
+    ],
+    "source_files": [
+      "ThingEncryptImage.xcframework/ios-arm64/ThingEncryptImage.framework/Headers/*"
+    ]
+  },
+  "watchos": {
+    "frameworks": [
+      "UIKit",
+      "CoreFoundation",
+      "ImageIO",
+      "Accelerate",
+      "MobileCoreServices"
+    ],
+    "pod_target_xcconfig": {
+      "ENABLE_BITCODE": "NO",
+      "OTHER_CFLAGS": "-fembed-bitcode -Qunused-arguments",
+      "USER_HEADER_SEARCH_PATHS": "$(inherited) $(SRCROOT)/libwebp/src"
+    },
+    "source_files": [
+      "ThingEncryptImage.xcframework/watchos-arm64_arm64_32_armv7k/ThingEncryptImage.framework/Headers/*"
+    ]
+  },
+  "dependencies": {
+    "libwebp": [],
+    "ThingSmartUtil": []
+  },
+  "pod_target_xcconfig": {
+    "USER_HEADER_SEARCH_PATHS": "$(inherited) $(SRCROOT)/libwebp/src"
+  },
+  "vendored_frameworks": [
+    "ThingEncryptImage.xcframework"
+  ]
+}

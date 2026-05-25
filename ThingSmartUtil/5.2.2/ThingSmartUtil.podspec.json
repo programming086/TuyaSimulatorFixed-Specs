@@ -1,0 +1,52 @@
+{
+  "name": "ThingSmartUtil",
+  "version": "5.2.2",
+  "summary": "A short description of ThingSmartUtil.",
+  "license": {
+    "type": "MIT"
+  },
+  "authors": {
+    "Tuya SDK": "developer@thing.com"
+  },
+  "homepage": "https://developer.thing.com/",
+  "source": {
+    "http": "https://github.com/programming086/TuyaSimulatorFixed-Binaries/releases/download/ThingSmartUtil-5.2.2/ThingSmartUtil.xcframework.zip",
+    "type": "zip"
+  },
+  "platforms": {
+    "ios": "9.0",
+    "watchos": "2.0"
+  },
+  "ios": {
+    "frameworks": [
+      "CoreTelephony",
+      "Foundation",
+      "SystemConfiguration",
+      "UIKit"
+    ],
+    "resources": "ThingSmartUtil.xcframework/**/*.bundle",
+    "dependencies": {
+      "ThingMbedtls": [
+        "3.3.0"
+      ],
+      "ThingOpenSSLSDK": [
+        "~> 1.1.1-t.0"
+      ]
+    }
+  },
+  "watchos": {
+    "frameworks": "WatchKit",
+    "resources": "ThingSmartUtil.xcframework/**/*.bundle"
+  },
+  "vendored_frameworks": [
+    "ThingSmartUtil.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10",
+  "user_target_xcconfig": {
+    "CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES": "YES"
+  },
+  "pod_target_xcconfig": {
+    "CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES": "YES",
+    "DEFINES_MODULE": "YES"
+  }
+}

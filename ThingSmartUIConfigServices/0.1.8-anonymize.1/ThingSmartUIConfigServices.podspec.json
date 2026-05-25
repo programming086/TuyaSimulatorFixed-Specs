@@ -1,0 +1,32 @@
+{
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "cocoapods_version": ">= 1.10",
+  "description": "TODO: Add long description of the pod here.",
+  "frameworks": [
+    "UIKit",
+    "MapKit"
+  ],
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "name": "ThingSmartUIConfigServices",
+  "platforms": {
+    "ios": "8.0"
+  },
+  "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "source": {
+    "http": "https://github.com/programming086/TuyaSimulatorFixed-Binaries/releases/download/ThingSmartUIConfigServices-0.1.8-anonymize.1/ThingSmartUIConfigServices.xcframework.zip",
+    "type": "zip"
+  },
+  "summary": "UI配置服务",
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "vendored_frameworks": [
+    "ThingSmartUIConfigServices.xcframework"
+  ],
+  "version": "0.1.8-anonymize.1"
+}

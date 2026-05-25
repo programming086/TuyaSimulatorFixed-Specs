@@ -1,0 +1,39 @@
+{
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "cocoapods_version": ">= 1.10",
+  "dependencies": {
+    "TUNIAPIManagerKit": [],
+    "ThingFoundationKit": [],
+    "ThingSmartNetworkKit": [],
+    "YYModel": []
+  },
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "name": "TUNIAPIRequestManager",
+  "platforms": {
+    "ios": "10.0"
+  },
+  "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "resource_bundles": {
+    "TUNIAPIRequestManager": [
+      "ios/tuniapirequestmanager/Assets/*"
+    ]
+  },
+  "source": {
+    "http": "https://github.com/programming086/TuyaSimulatorFixed-Binaries/releases/download/TUNIAPIRequestManager-1.5.1/TUNIAPIRequestManager.xcframework.zip",
+    "type": "zip"
+  },
+  "summary": "A short description of TUNIAPIRequestManager.",
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "vendored_frameworks": [
+    "TUNIAPIRequestManager.xcframework"
+  ],
+  "version": "1.5.1"
+}

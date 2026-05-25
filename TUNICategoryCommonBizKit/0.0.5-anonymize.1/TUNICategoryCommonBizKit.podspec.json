@@ -1,0 +1,35 @@
+{
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "cocoapods_version": ">= 1.10",
+  "dependencies": {
+    "TUNIAppleHealthManager": [
+      "1.0.3-anonymize.1"
+    ],
+    "TUNIWatchManager": [
+      "1.0.0-anonymize.1"
+    ]
+  },
+  "description": "涂鸦TTT(Tuya Tied Things ) group 插件集合",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "name": "TUNICategoryCommonBizKit",
+  "platforms": {
+    "ios": "10.0"
+  },
+  "resource_bundles": {
+    "TUNICategoryCommonBizKit": [
+      "ios/TUNICategoryCommonBizKit/Assets/*"
+    ]
+  },
+  "source": {
+    "http": "https://github.com/programming086/TuyaSimulatorFixed-Binaries/releases/download/TUNICategoryCommonBizKit-0.0.5-anonymize.1/TUNICategoryCommonBizKit.xcframework.zip",
+    "type": "zip"
+  },
+  "summary": "涂鸦TTT(Tuya Tied Things ) group 插件集合",
+  "vendored_frameworks": [
+    "TUNICategoryCommonBizKit.xcframework"
+  ],
+  "version": "0.0.5-anonymize.1"
+}

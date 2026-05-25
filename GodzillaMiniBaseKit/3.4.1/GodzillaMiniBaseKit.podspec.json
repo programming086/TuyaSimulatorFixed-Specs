@@ -1,0 +1,27 @@
+{
+  "name": "GodzillaMiniBaseKit",
+  "version": "3.4.1",
+  "summary": "A short description of GodzillaMiniBaseKit.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://github.com/programming086/TuyaSimulatorFixed-Binaries/releases/download/GodzillaMiniBaseKit-3.4.1/GodzillaMiniBaseKit.xcframework.zip",
+    "type": "zip"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "frameworks": "CoreTelephony",
+  "dependencies": {
+    "YYModel": []
+  },
+  "vendored_frameworks": [
+    "GodzillaMiniBaseKit.xcframework"
+  ],
+  "source_files": [
+    "GodzillaMiniBaseKit.xcframework/ios-arm64/GodzillaMiniBaseKit.framework/Headers/*"
+  ]
+}

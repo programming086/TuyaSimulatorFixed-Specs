@@ -1,0 +1,26 @@
+{
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "cocoapods_version": ">= 1.10",
+  "dependencies": {
+    "ThingFoundationKit": [],
+    "ThingKVStorageLibrary": [],
+    "ThingLogMacro": []
+  },
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "name": "ThingMachRegister",
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source": {
+    "http": "https://github.com/programming086/TuyaSimulatorFixed-Binaries/releases/download/ThingMachRegister-0.4.2/ThingMachRegister.xcframework.zip",
+    "type": "zip"
+  },
+  "summary": "Hot registration.",
+  "vendored_frameworks": [
+    "ThingMachRegister.xcframework"
+  ],
+  "version": "0.4.2"
+}

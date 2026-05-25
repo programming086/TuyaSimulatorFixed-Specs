@@ -1,0 +1,35 @@
+{
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "cocoapods_version": ">= 1.10",
+  "dependencies": {
+    "ThingFoundationKit": [],
+    "ThingUIKit": []
+  },
+  "frameworks": "UIKit",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "name": "ThingNavigationController",
+  "platforms": {
+    "ios": "9.0"
+  },
+  "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "resources": [
+    "ThingNavigationController/Assets/*.{png,xib,plist,xcassets,bundle}"
+  ],
+  "source": {
+    "http": "https://github.com/programming086/TuyaSimulatorFixed-Binaries/releases/download/ThingNavigationController-1.16.2/ThingNavigationController.xcframework.zip",
+    "type": "zip"
+  },
+  "summary": "A NavigationController component from ThingInc",
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "vendored_frameworks": [
+    "ThingNavigationController.xcframework"
+  ],
+  "version": "1.16.2"
+}

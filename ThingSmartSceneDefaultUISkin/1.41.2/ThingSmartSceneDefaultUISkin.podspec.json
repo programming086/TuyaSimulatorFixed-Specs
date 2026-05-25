@@ -1,0 +1,65 @@
+{
+  "name": "ThingSmartSceneDefaultUISkin",
+  "version": "1.41.2",
+  "summary": "Smart scene default Skin",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://github.com/programming086/TuyaSimulatorFixed-Binaries/releases/download/ThingSmartSceneDefaultUISkin-1.41.2/ThingSmartSceneDefaultUISkin.xcframework.zip",
+    "type": "zip"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "resource_bundles": {
+    "ThingSmartSceneDefaultUISkin": [
+      "ThingSmartSceneDefaultUISkin/Assets/*"
+    ]
+  },
+  "prefix_header_file": "ThingSmartSceneDefaultUISkin/Classes/PrefixHeader.pch",
+  "dependencies": {
+    "ThingSmartSceneBizKit": [],
+    "Masonry": [],
+    "ThingEncryptImage": [],
+    "ThingNavigationController": [],
+    "ThingUIKit": [],
+    "ThingFoundationKit": [],
+    "ThingSmartBusinessLibrary": [],
+    "ThingTabPagingView": [],
+    "ThingAnimationKit": [],
+    "ThingUrlPredefined": [],
+    "ThingSmartSecurityModuleService": [],
+    "ThingSmartEventPredefined": [],
+    "ThingSmartEventPredefined_Public": [],
+    "ThingOEMConfig": [],
+    "ThingSmartDeviceCoreKit": [],
+    "ThingHybridContainer": [],
+    "ThingModuleManager": [],
+    "ThingModuleServices": [],
+    "ThingRealClass": [],
+    "ThingSpaceInfoSktAPI": [],
+    "ThingSceneListPlugAPI": [],
+    "ThingDIYHomeInterface": [],
+    "ThingSmartSceneKit": [],
+    "ThingSmartSceneCoreKit": [],
+    "ThingSmartFamilyBizKit": [],
+    "ThingRoomManagerInterface": [],
+    "GodzillaMiniOpenAPI": [],
+    "GodzillaMiniIService": [],
+    "ThingPanelDynamicContainerAPI": []
+  },
+  "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "preserve_paths": [],
+  "vendored_frameworks": [
+    "ThingSmartSceneDefaultUISkin.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

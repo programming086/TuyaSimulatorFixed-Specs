@@ -1,0 +1,30 @@
+{
+  "name": "ThingCameraCommonSktModule",
+  "version": "1.0.2-anonymize.2",
+  "summary": "A short description of ThingCameraCommonSktModule.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://github.com/programming086/TuyaSimulatorFixed-Binaries/releases/download/ThingCameraCommonSktModule-1.0.2-anonymize.2/ThingCameraCommonSktModule.xcframework.zip",
+    "type": "zip"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "dependencies": {
+    "ThingCameraSktAPI": [],
+    "ThingModuleManager": [],
+    "ThingKVStorageLibrary": [],
+    "ThingAlertView": [],
+    "ThingUIKit": [],
+    "ThingProgressHUD": []
+  },
+  "vendored_frameworks": [
+    "ThingCameraCommonSktModule.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10",
+  "preserve_paths": "weak_deps.json"
+}

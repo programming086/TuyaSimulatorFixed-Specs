@@ -1,0 +1,24 @@
+{
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "dependencies": {
+    "ThingUIKit": []
+  },
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "name": "ThingCommonAnimation",
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source": {
+    "http": "https://github.com/programming086/TuyaSimulatorFixed-Binaries/releases/download/ThingCommonAnimation-0.1.2-anonymize.1/ThingCommonAnimation.xcframework.zip",
+    "type": "zip"
+  },
+  "summary": "A short description of ThingCommonAnimation.",
+  "vendored_frameworks": [
+    "ThingCommonAnimation.xcframework"
+  ],
+  "version": "0.1.2-anonymize.1"
+}

@@ -1,0 +1,32 @@
+{
+  "name": "TRCTQQWebView",
+  "version": "1.0.0-anonymize.1",
+  "summary": "A short description of TRCTQQWebView.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://github.com/programming086/TuyaSimulatorFixed-Binaries/releases/download/TRCTQQWebView-1.0.0-anonymize.1/TRCTQQWebView.xcframework.zip",
+    "type": "zip"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "dependencies": {
+    "ThingPanelContext": [],
+    "DingDangSDK": [],
+    "Masonry": []
+  },
+  "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "vendored_frameworks": [
+    "TRCTQQWebView.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

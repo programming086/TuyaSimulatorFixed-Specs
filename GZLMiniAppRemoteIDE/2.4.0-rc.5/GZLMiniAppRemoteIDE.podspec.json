@@ -1,0 +1,40 @@
+{
+  "authors": {
+    "tuya": "https://developer.tuya.com/"
+  },
+  "dependencies": {
+    "GZLMiniAppCore_iOS": [],
+    "GZLMiniApp_iOS": [],
+    "TYAlertView": [],
+    "TYFoundationKit": [],
+    "TYLogMacro": [],
+    "TYModuleManager": [],
+    "TYModuleServices": [],
+    "TYOEMConfig": [],
+    "TYUIKit": [],
+    "TuyaSmartDeviceCoreKit": [],
+    "TuyaSmartMQTTChannelKit": [],
+    "TuyaSmartNetworkKit": [],
+    "YYModel": []
+  },
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "name": "GZLMiniAppRemoteIDE",
+  "platforms": {
+    "ios": "9.0"
+  },
+  "pod_target_xcconfig": {},
+  "resources": [
+    "GZLMiniAppRemoteIDE.xcframework/ios-arm64_armv7/GZLMiniAppRemoteIDE.framework/CustomResources/Assets/*"
+  ],
+  "source": {
+    "http": "https://github.com/programming086/TuyaSimulatorFixed-Binaries/releases/download/GZLMiniAppRemoteIDE-2.4.0-rc.5/GZLMiniAppRemoteIDE.xcframework.zip",
+    "type": "zip"
+  },
+  "summary": "A short description of GZLMiniAppRemoteIDE.",
+  "vendored_frameworks": [
+    "GZLMiniAppRemoteIDE.xcframework"
+  ],
+  "version": "2.4.0-rc.5"
+}

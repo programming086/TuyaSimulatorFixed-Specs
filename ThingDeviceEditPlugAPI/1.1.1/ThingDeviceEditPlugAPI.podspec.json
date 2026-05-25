@@ -1,0 +1,22 @@
+{
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "cocoapods_version": ">= 1.10",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "name": "ThingDeviceEditPlugAPI",
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source": {
+    "http": "https://github.com/programming086/TuyaSimulatorFixed-Binaries/releases/download/ThingDeviceEditPlugAPI-1.1.1/ThingDeviceEditPlugAPI.xcframework.zip",
+    "type": "zip"
+  },
+  "summary": "A short description of ThingDeviceEditPlugAPI.",
+  "vendored_frameworks": [
+    "ThingDeviceEditPlugAPI.xcframework"
+  ],
+  "version": "1.1.1"
+}

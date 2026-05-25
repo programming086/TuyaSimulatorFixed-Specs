@@ -1,0 +1,32 @@
+{
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "cocoapods_version": ">= 1.10",
+  "dependencies": {
+    "ThingSmartBusinessLibrary": [],
+    "ThingTemplateSkeleton": [],
+    "ThingUIKit": []
+  },
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "name": "ThingSmartHouseUISkeleton",
+  "platforms": {
+    "ios": "9.0"
+  },
+  "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "source": {
+    "http": "https://github.com/programming086/TuyaSimulatorFixed-Binaries/releases/download/ThingSmartHouseUISkeleton-1.7.0/ThingSmartHouseUISkeleton.xcframework.zip",
+    "type": "zip"
+  },
+  "summary": "涂鸦 ODM 皮肤定制 - 首页皮肤视图定义",
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "vendored_frameworks": [
+    "ThingSmartHouseUISkeleton.xcframework"
+  ],
+  "version": "1.7.0"
+}
