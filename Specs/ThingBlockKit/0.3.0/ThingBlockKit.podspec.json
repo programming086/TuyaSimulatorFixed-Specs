@@ -1,0 +1,30 @@
+{
+  "name": "ThingBlockKit",
+  "version": "0.3.0",
+  "summary": "A short description of ThingBlockKit.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://github.com/programming086/TuyaSimulatorFixed-Binaries/releases/download/ThingBlockKit-0.3.0/BlocksKit.xcframework.zip",
+    "type": "zip"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "module_name": "BlocksKit",
+  "header_dir": "BlocksKit",
+  "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "preserve_paths": [],
+  "vendored_frameworks": [
+    "BlocksKit.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

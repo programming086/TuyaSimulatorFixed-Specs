@@ -1,0 +1,32 @@
+{
+  "name": "ThingLottie",
+  "version": "2.6.0",
+  "summary": "Used to natively render vector animations exported from After Effects.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://github.com/programming086/TuyaSimulatorFixed-Binaries/releases/download/ThingLottie-2.6.0/ThingLottie.xcframework.zip",
+    "type": "zip"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "module_name": "ThingLottie",
+  "ios": {
+    "frameworks": "UIKit"
+  },
+  "osx": {
+    "frameworks": [
+      "AppKit",
+      "CoreVideo"
+    ]
+  },
+  "preserve_paths": "weak_deps.json",
+  "vendored_frameworks": [
+    "ThingLottie.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

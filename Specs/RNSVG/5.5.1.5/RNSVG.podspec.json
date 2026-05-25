@@ -1,0 +1,30 @@
+{
+  "name": "RNSVG",
+  "version": "5.5.1.5",
+  "summary": "SVG library for react-native",
+  "license": "none",
+  "homepage": "https://github.com/tuya",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://github.com/programming086/TuyaSimulatorFixed-Binaries/releases/download/RNSVG-5.5.1.5/RNSVG.xcframework.zip",
+    "type": "zip"
+  },
+  "requires_arc": true,
+  "platforms": {
+    "ios": "10.0"
+  },
+  "frameworks": [
+    "UIKit",
+    "CoreText"
+  ],
+  "dependencies": {
+    "React": []
+  },
+  "preserve_paths": "weak_deps.json",
+  "vendored_frameworks": [
+    "RNSVG.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

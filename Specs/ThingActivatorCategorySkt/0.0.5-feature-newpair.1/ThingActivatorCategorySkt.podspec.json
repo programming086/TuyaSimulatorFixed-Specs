@@ -1,0 +1,32 @@
+{
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "cocoapods_version": ">= 1.10",
+  "dependencies": {
+    "ThingActivatorSktAPI": [],
+    "ThingFoundationKit": [],
+    "ThingKVStorageLibrary": [],
+    "ThingLogMacro": [],
+    "ThingModuleManager": [],
+    "ThingSmartBaseKit": [],
+    "ThingSmartUtil": [],
+    "YYModel": []
+  },
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "name": "ThingActivatorCategorySkt",
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source": {
+    "http": "https://github.com/programming086/TuyaSimulatorFixed-Binaries/releases/download/ThingActivatorCategorySkt-0.0.5-feature-newpair.1/ThingActivatorCategorySkt.xcframework.zip",
+    "type": "zip"
+  },
+  "summary": "A short description of ThingActivatorCategorySkt.",
+  "vendored_frameworks": [
+    "ThingActivatorCategorySkt.xcframework"
+  ],
+  "version": "0.0.5-feature-newpair.1"
+}

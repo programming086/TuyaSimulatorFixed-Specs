@@ -1,0 +1,26 @@
+{
+  "name": "ThingCommonAnimation",
+  "version": "0.1.4",
+  "summary": "A short description of ThingCommonAnimation.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://github.com/programming086/TuyaSimulatorFixed-Binaries/releases/download/ThingCommonAnimation-0.1.4/ThingCommonAnimation.xcframework.zip",
+    "type": "zip"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "dependencies": {
+    "ThingUIKit": []
+  },
+  "vendored_frameworks": [
+    "ThingCommonAnimation.xcframework"
+  ],
+  "source_files": [
+    "ThingCommonAnimation.xcframework/ios-arm64/ThingCommonAnimation.framework/Headers/*"
+  ]
+}

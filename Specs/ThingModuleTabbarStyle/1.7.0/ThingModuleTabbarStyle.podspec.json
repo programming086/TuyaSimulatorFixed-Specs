@@ -1,0 +1,41 @@
+{
+  "name": "ThingModuleTabbarStyle",
+  "version": "1.7.0",
+  "summary": "ThingModuleTabbar\u81ea\u5b9a\u4e49\u6837\u5f0f",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://github.com/programming086/TuyaSimulatorFixed-Binaries/releases/download/ThingModuleTabbarStyle-1.7.0/ThingModuleTabbarStyle.xcframework.zip",
+    "type": "zip"
+  },
+  "platforms": {
+    "ios": "12.0"
+  },
+  "frameworks": [
+    "UIKit",
+    "Foundation"
+  ],
+  "dependencies": {
+    "ThingModuleManager": [],
+    "ThingUIKit": [],
+    "ThingRealClass": [],
+    "ThingFoundationKit": [],
+    "ThingEncryptImage": [],
+    "ThingAnnotationFoundation": [],
+    "ThingSmartFamilyBizKit": [],
+    "ThingFamilyAPI": []
+  },
+  "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "vendored_frameworks": [
+    "ThingModuleTabbarStyle.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

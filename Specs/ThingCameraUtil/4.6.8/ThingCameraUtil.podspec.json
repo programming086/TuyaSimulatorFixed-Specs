@@ -1,0 +1,36 @@
+{
+  "name": "ThingCameraUtil",
+  "version": "4.6.8",
+  "summary": "A short description of ThingCameraUtil.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://github.com/programming086/TuyaSimulatorFixed-Binaries/releases/download/ThingCameraUtil-4.6.8/ThingCameraUtil.xcframework.zip",
+    "type": "zip"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "dependencies": {
+    "Masonry": [],
+    "ThingModuleManager": [],
+    "ThingUIKit": [],
+    "ThingAlertView": [],
+    "ThingPhotosAuthManager": [],
+    "ThingMicrophoneAuthManager": [],
+    "ThingCameraAuthManager": [],
+    "ThingEncryptImage": [],
+    "ThingCameraSktAPI": [],
+    "ThingCameraFoundationKit": []
+  },
+  "preserve_paths": [
+    "weak_deps.json"
+  ],
+  "vendored_frameworks": [
+    "ThingCameraUtil.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

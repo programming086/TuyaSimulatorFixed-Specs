@@ -1,0 +1,32 @@
+{
+  "name": "ThingSmartOutdoorPlugAPI",
+  "version": "0.6.3",
+  "summary": "A short description of ThingSmartOutdoorPlugAPI.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://github.com/programming086/TuyaSimulatorFixed-Binaries/releases/download/ThingSmartOutdoorPlugAPI-0.6.3/ThingSmartOutdoorPlugAPI.xcframework.zip",
+    "type": "zip"
+  },
+  "swift_versions": "5.0",
+  "platforms": {
+    "ios": "11.0"
+  },
+  "pod_target_xcconfig": {
+    "CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES": "YES",
+    "DEFINES_MODULE": "YES"
+  },
+  "dependencies": {
+    "YYModel": [],
+    "ThingSmartOutdoorKit": []
+  },
+  "preserve_paths": [],
+  "vendored_frameworks": [
+    "ThingSmartOutdoorPlugAPI.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10",
+  "swift_version": "5.0"
+}

@@ -1,0 +1,41 @@
+{
+  "name": "ThingCallModule",
+  "version": "1.0.4",
+  "summary": "A short description of ThingCallModule.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://github.com/programming086/TuyaSimulatorFixed-Binaries/releases/download/ThingCallModule-1.0.4/ThingCallModule.xcframework.zip",
+    "type": "zip"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "resource_bundles": {
+    "ThingCallModule": [
+      "ThingCallModule/Assets/*"
+    ]
+  },
+  "dependencies": {
+    "ThingFoundationKit": [],
+    "ThingTacticsManager": [],
+    "ThingSmartAVBaseKit": [],
+    "ThingSmartUtil": [],
+    "ThingSmartNetworkKit": [],
+    "ThingSmartBaseKit": [],
+    "ThingCallMaintainModule": [],
+    "ThingModuleManager": [],
+    "ThingModuleServices": [],
+    "ThingUIKit": [],
+    "ThingSmartCallChannelKit": [],
+    "ThingProgressHUD": []
+  },
+  "preserve_paths": [],
+  "vendored_frameworks": [
+    "ThingCallModule.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

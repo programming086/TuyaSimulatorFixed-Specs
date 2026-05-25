@@ -1,0 +1,26 @@
+{
+  "authors": {
+    "tuya": "https://developer.tuya.com/"
+  },
+  "cocoapods_version": ">= 1.10",
+  "dependencies": {
+    "MMKV": [],
+    "TuyaSmartUtil": []
+  },
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "name": "TYKVStorageCoreLibrary",
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source": {
+    "http": "https://github.com/programming086/TuyaSimulatorFixed-Binaries/releases/download/TYKVStorageCoreLibrary-0.1.8/TYKVStorageCoreLibrary.xcframework.zip",
+    "type": "zip"
+  },
+  "summary": "A short description of TYKVStorageCoreLibrary.",
+  "vendored_frameworks": [
+    "TYKVStorageCoreLibrary.xcframework"
+  ],
+  "version": "0.1.8"
+}

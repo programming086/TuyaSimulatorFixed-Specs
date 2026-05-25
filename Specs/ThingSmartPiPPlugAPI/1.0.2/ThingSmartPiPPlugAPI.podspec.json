@@ -1,0 +1,21 @@
+{
+  "name": "ThingSmartPiPPlugAPI",
+  "version": "1.0.2",
+  "summary": "A short description of ThingSmartPiPPlugAPI.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://github.com/programming086/TuyaSimulatorFixed-Binaries/releases/download/ThingSmartPiPPlugAPI-1.0.2/ThingSmartPiPPlugAPI.xcframework.zip",
+    "type": "zip"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "vendored_frameworks": [
+    "ThingSmartPiPPlugAPI.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

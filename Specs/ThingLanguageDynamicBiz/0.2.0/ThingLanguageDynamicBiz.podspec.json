@@ -1,0 +1,38 @@
+{
+  "name": "ThingLanguageDynamicBiz",
+  "version": "0.2.0",
+  "summary": "A short description of ThingLanguageDynamicBiz.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://github.com/programming086/TuyaSimulatorFixed-Binaries/releases/download/ThingLanguageDynamicBiz-0.2.0/ThingLanguageDynamicBiz.xcframework.zip",
+    "type": "zip"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "dependencies": {
+    "ThingSmartBaseKit": [],
+    "ThingFoundationKit": [],
+    "ThingTarKit": [],
+    "ThingKVStorageLibrary": [],
+    "ThingOEMConfig": [],
+    "ThingStorageGroupInterface": [],
+    "ThingModuleManager": [],
+    "ThingLanguageGroupInterface": []
+  },
+  "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "preserve_paths": [],
+  "vendored_frameworks": [
+    "ThingLanguageDynamicBiz.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

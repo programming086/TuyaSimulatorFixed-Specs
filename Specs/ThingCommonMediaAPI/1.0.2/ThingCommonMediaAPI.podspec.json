@@ -1,0 +1,23 @@
+{
+  "name": "ThingCommonMediaAPI",
+  "version": "1.0.2",
+  "summary": "A short description of ThingCommonMediaAPI.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://github.com/programming086/TuyaSimulatorFixed-Binaries/releases/download/ThingCommonMediaAPI-1.0.2/ThingCommonMediaAPI.xcframework.zip",
+    "type": "zip"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "vendored_frameworks": [
+    "ThingCommonMediaAPI.xcframework"
+  ],
+  "source_files": [
+    "ThingCommonMediaAPI.xcframework/ios-arm64/ThingCommonMediaAPI.framework/Headers/*"
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "name": "ThingUrlPredefinedExternal",
+  "version": "0.4.2",
+  "summary": "\u6d82\u9e26\u516c\u5f00\u77ed\u94fe\u7ec4\u4ef6",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://github.com/programming086/TuyaSimulatorFixed-Binaries/releases/download/ThingUrlPredefinedExternal-0.4.2/ThingUrlPredefinedExternal.xcframework.zip",
+    "type": "zip"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "preserve_paths": [
+    "weak_deps.json"
+  ],
+  "vendored_frameworks": [
+    "ThingUrlPredefinedExternal.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

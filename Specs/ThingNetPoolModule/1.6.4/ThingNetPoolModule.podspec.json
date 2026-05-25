@@ -1,0 +1,55 @@
+{
+  "name": "ThingNetPoolModule",
+  "version": "1.6.4",
+  "summary": "A short description of ThingNetPoolModule.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://github.com/programming086/TuyaSimulatorFixed-Binaries/releases/download/ThingNetPoolModule-1.6.4/ThingNetPoolModule.xcframework.zip",
+    "type": "zip"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "prefix_header_file": "ThingNetPoolModule/Classes/PrefixHeader.pch",
+  "resource_bundles": {
+    "ThingNetPoolModule": [
+      "ThingNetPoolModule/Assets/*"
+    ]
+  },
+  "frameworks": [
+    "UIKit",
+    "Foundation"
+  ],
+  "dependencies": {
+    "ThingUIKit": [],
+    "ThingNavigationController": [],
+    "ThingSmartBaseKit": [],
+    "ThingFoundationKit": [],
+    "ThingUrlPredefined": [],
+    "ThingUrlPredefinedExternal": [],
+    "ThingAlertView": [],
+    "ThingSmartBusinessLibrary": [],
+    "ThingModuleManager": [],
+    "ThingOEMConfig": [],
+    "ThingSmartDeviceCoreKit": [],
+    "ThingDeviceNetworkSettingPlugAPI": [],
+    "ThingLocationAuthManager": [],
+    "ThingSmartUtil": [],
+    "ThingDeviceDetailKit": []
+  },
+  "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "preserve_paths": [],
+  "vendored_frameworks": [
+    "ThingNetPoolModule.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

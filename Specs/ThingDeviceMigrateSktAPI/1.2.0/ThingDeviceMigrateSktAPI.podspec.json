@@ -1,0 +1,27 @@
+{
+  "name": "ThingDeviceMigrateSktAPI",
+  "version": "1.2.0",
+  "summary": "A short description of ThingDeviceMigrateSktAPI.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://github.com/programming086/TuyaSimulatorFixed-Binaries/releases/download/ThingDeviceMigrateSktAPI-1.2.0/ThingDeviceMigrateSktAPI.xcframework.zip",
+    "type": "zip"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "vendored_frameworks": [
+    "ThingDeviceMigrateSktAPI.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}

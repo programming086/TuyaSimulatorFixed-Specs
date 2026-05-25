@@ -1,0 +1,28 @@
+{
+  "name": "ThingDeviceDetailPlugAPI",
+  "version": "1.2.2",
+  "summary": "A short description of ThingDeviceDetailPlugAPI.",
+  "homepage": "https://github.com/tuya",
+  "license": "none",
+  "authors": {
+    "TuyaInc": "https://developer.tuya.com/"
+  },
+  "source": {
+    "http": "https://github.com/programming086/TuyaSimulatorFixed-Binaries/releases/download/ThingDeviceDetailPlugAPI-1.2.2/ThingDeviceDetailPlugAPI.xcframework.zip",
+    "type": "zip"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "preserve_paths": [],
+  "vendored_frameworks": [
+    "ThingDeviceDetailPlugAPI.xcframework"
+  ],
+  "cocoapods_version": ">= 1.10"
+}
