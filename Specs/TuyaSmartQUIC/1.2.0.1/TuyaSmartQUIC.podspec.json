@@ -25,12 +25,10 @@
   },
   "cocoapods_version": ">= 1.10",
   "user_target_xcconfig": {
-    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
     "LD_RUNPATH_SEARCH_PATHS": "$(inherited) @executable_path/Frameworks"
   },
   "pod_target_xcconfig": {
     "DEFINES_MODULE": "YES",
-    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
     "LD_RUNPATH_SEARCH_PATHS": "$(inherited) @executable_path/Frameworks"
   },
   "vendored_frameworks": [
